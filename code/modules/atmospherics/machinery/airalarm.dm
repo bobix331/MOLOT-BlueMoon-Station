@@ -78,6 +78,8 @@
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 100, BOMB = 0, BIO = 100, RAD = 100, FIRE = 90, ACID = 30)
 	resistance_flags = FIRE_PROOF
 
+	COOLDOWN_DECLARE(decomp_alarm)
+
 	var/danger_level = 0
 	var/mode = AALARM_MODE_SCRUBBING
 
@@ -192,6 +194,9 @@
 
 /obj/machinery/airalarm/syndicate //general syndicate access
 	req_access = list(ACCESS_SYNDICATE)
+
+/obj/machinery/airalarm/inteq //general inteq access
+	req_access = list(ACCESS_INTEQ)
 
 /obj/machinery/airalarm/directional/north //Pixel offsets get overwritten on New()
 	dir = SOUTH
@@ -488,7 +493,7 @@
 
 
 /obj/machinery/airalarm/proc/shock(mob/user, prb)
-	if((stat & (NOPOWER)))		// unpowered, no shock
+	if((machine_stat & (NOPOWER)))		// unpowered, no shock
 		return FALSE
 	if(!prob(prb))
 		return FALSE //you lucked out, no shock for you
@@ -683,11 +688,11 @@
 				))
 
 /obj/machinery/airalarm/update_icon_state()
-	if(stat & NOPOWER)
+	if(machine_stat & NOPOWER)
 		icon_state = "alarm0"
 		return
 
-	if(stat & BROKEN)
+	if(machine_stat & BROKEN)
 		icon_state = "alarm_broken"
 		return
 
@@ -730,7 +735,7 @@
 	update_light()
 
 /obj/machinery/airalarm/process()
-	if((stat & (NOPOWER|BROKEN)) || shorted)
+	if((machine_stat & (NOPOWER|BROKEN)) || shorted)
 		return
 
 	var/turf/location = get_turf(src)
@@ -791,7 +796,7 @@
 	var/area/A = get_base_area(src)
 	var/new_area_danger_level = 0
 	for(var/obj/machinery/airalarm/AA in A)
-		if (!(AA.stat & (NOPOWER|BROKEN)) && !AA.shorted)
+		if (!(AA.machine_stat & (NOPOWER|BROKEN)) && !AA.shorted)
 			new_area_danger_level = clamp(max(new_area_danger_level, AA.danger_level), 0, 1)
 
 	var/did_anything_happen
@@ -909,7 +914,7 @@
 	return TRUE
 
 /obj/machinery/airalarm/proc/togglelock(mob/living/user)
-	if(stat & (NOPOWER|BROKEN))
+	if(machine_stat & (NOPOWER|BROKEN))
 		to_chat(user, "<span class='warning'>It does nothing!</span>")
 	else
 		if(src.allowed(usr) && !wires.is_cut(WIRE_IDSCAN))
@@ -922,7 +927,7 @@
 
 /obj/machinery/airalarm/power_change()
 	..()
-	if(stat & NOPOWER)
+	if(machine_stat & NOPOWER)
 		set_light(0)
 	update_icon()
 
@@ -949,6 +954,14 @@
 			I.obj_integrity = I.max_integrity * 0.5
 		new /obj/item/stack/cable_coil(loc, 3)
 	qdel(src)
+
+/obj/machinery/airalarm/proc/handle_decomp_alarm()
+	if(!is_operational() || !COOLDOWN_FINISHED(src, decomp_alarm))
+		return
+	var/area/A = get_base_area(src)
+	A.firealert(src)
+	playsound(loc, 'goon/sound/machinery/FireAlarm.ogg', 75)
+	COOLDOWN_START(src, decomp_alarm, 1 SECONDS)
 
 #undef AALARM_MODE_SCRUBBING
 #undef AALARM_MODE_VENTING

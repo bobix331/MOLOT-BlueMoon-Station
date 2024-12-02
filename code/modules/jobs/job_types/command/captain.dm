@@ -11,7 +11,7 @@
 	selection_color = "#aac1ee"
 	req_admin_notify = 1
 	minimal_player_age = 36
-	exp_requirements = 180
+	exp_requirements = 300
 	exp_type = EXP_TYPE_COMMAND
 	exp_type_department = EXP_TYPE_COMMAND
 	considered_combat_role = TRUE
@@ -50,7 +50,10 @@
 
 /datum/job/captain/announce(mob/living/carbon/human/H)
 	..()
-	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(minor_announce), "Капитан [H.nameless ? "" : "[H.real_name] "] прибывает на [station_name()]!"))
+	var/displayed_rank = H.client?.prefs?.alt_titles_preferences[title]
+	if(!displayed_rank)	//Default to Captain
+		displayed_rank = "Капитан"
+	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(minor_announce), "[displayed_rank] [H.nameless ? "" : "[H.real_name] "] прибывает на [station_name()]!"))
 
 /datum/outfit/job/captain
 	name = "Captain"

@@ -379,7 +379,7 @@
 		/obj/item/ammo_box/magazine/recharge = 4,\
 		/obj/item/storage/barricade=1)
 
-/datum/outfit/ert/sol_soldier/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
+/datum/outfit/ert/sol_soldier_support/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)
 	..()
 
 	if(visualsOnly)
@@ -496,8 +496,6 @@
 	l_pocket = /obj/item/clothing/accessory/lawyers_badge
 	backpack_contents = list(/obj/item/storage/box/survival/centcom=1,\
 		/obj/item/storage/box/ert_commander=1,
-		/obj/item/pda/heads=1,
-		/obj/item/stamp/chameleon=1,
 		/obj/item/storage/firstaid/regular=1,)
 
 // BLUEMOON ADD START - командная коробочка для командира

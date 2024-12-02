@@ -115,6 +115,7 @@
 	force = 18
 	throwforce = 15
 	w_class = WEIGHT_CLASS_BULKY
+	block_chance = 50
 	armour_penetration = 75
 	sharpness = WOUND_SLASH
 	attack_verb = list("slashed", "cut")
@@ -167,6 +168,14 @@
 	if(parry_efficiency >= 90)		// perfect parry
 		block_return[BLOCK_RETURN_REDIRECT_METHOD] = REDIRECT_METHOD_DEFLECT
 		. |= BLOCK_SHOULD_REDIRECT
+
+/obj/item/melee/sabre/run_block(mob/living/owner, atom/object, damage, attack_text, attack_type, armour_penetration, mob/attacker, def_zone, final_block_chance, list/block_return)
+	if(!is_energy_reflectable_projectile(object) && (attack_type & ATTACK_TYPE_PROJECTILE))
+		block_return[BLOCK_RETURN_REDIRECT_METHOD] = REDIRECT_METHOD_RETURN_TO_SENDER			//no you
+		owner.visible_message("<span class='danger'>Ranged attacks just make [owner] angrier!</span>")
+		playsound(src, pick('sound/weapons/bulletflyby.ogg', 'sound/weapons/bulletflyby2.ogg', 'sound/weapons/bulletflyby3.ogg'), 75, 1)
+		return BLOCK_SHOULD_REDIRECT | BLOCK_SUCCESS | BLOCK_REDIRECTED
+	return ..()
 
 /obj/item/melee/sabre/Initialize(mapload)
 	. = ..()
@@ -354,6 +363,8 @@
 	var/weight_class_on // What is the new size class when turned on
 	var/sword_point = TRUE
 
+	var/full_effect_on_superheavy_characters = FALSE // BLUEMOON ADD - если включено, то оглушение и падение от удара этим оружием работает в полную силу.
+
 	wound_bonus = 5
 
 /obj/item/melee/classic_baton/Initialize(mapload)
@@ -453,11 +464,12 @@
 			// BLUEMOON ADD START - больших и тяжёлых существ проблематично нормально оглушить
 			var/final_stun_damage = stam_dmg
 			if(HAS_TRAIT(target, TRAIT_BLUEMOON_HEAVY_SUPER))
-				var/target_size_mod = 1
-				if(get_size(target) > 1)
-					target_size_mod = 1 / get_size(target) // я за час не придумал, как из 1 получить 1 и из 2 получить 0.5 - сделайте вы
-				final_stun_damage *= target_size_mod
-				countered = target_size_mod <= 0.6 ? 1 : 0 // если модификатор стана 0.6 или менее, то считается законтренным от падения
+				if(!full_effect_on_superheavy_characters)
+					var/target_size_mod = 1
+					if(get_size(target) > 1)
+						target_size_mod = 1 / get_size(target) // я за час не придумал, как из 1 получить 1 и из 2 получить 0.5 - сделайте вы
+					final_stun_damage *= target_size_mod
+					countered = target_size_mod <= 0.6 ? 1 : 0 // если модификатор стана 0.6 или менее, то считается законтренным от падения
 			// BLUEMOON ADD END
 			target.DefaultCombatKnockdown(softstun_ds, TRUE, FALSE, countered? 0 : hardstun_ds, final_stun_damage, !countered) // BLUEMOON EDIT - заменено stam_dmg на final_stun_damage
 			additional_effects_carbon(target, user)
@@ -611,6 +623,7 @@
 	force_off = 5
 	weight_class_on = WEIGHT_CLASS_NORMAL
 	silent = TRUE
+	full_effect_on_superheavy_characters = TRUE // BLUEMOON ADD - дубинка контрактника работает на сверхтяжей в полную силу
 
 /obj/item/melee/classic_baton/telescopic/contractor_baton/get_wait_description()
 	return "<span class='danger'>The baton is still charging!</span>"

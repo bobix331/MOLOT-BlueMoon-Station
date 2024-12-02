@@ -15,7 +15,7 @@
 
 /datum/pipeline/Destroy()
 	SSair.networks -= src
-	if(air && air.return_volume())
+	if(air?.return_volume())  //	BLUEMOON EDIT: TODO:runtime
 		temporarily_store_air()
 	for(var/obj/machinery/atmospherics/pipe/P in members)
 		P.parent = null
@@ -24,12 +24,15 @@
 	return ..()
 
 /datum/pipeline/process()
-	if(update)
-		update = FALSE
-		reconcile_air()
+	if(!update)	//	BLUEMOON EDIT: TODO:runtime
+		return	//	BLUEMOON EDIT: TODO:runtime
+	update = FALSE
+	reconcile_air()
 	update = air.react(src)
 
 /datum/pipeline/proc/build_pipeline(obj/machinery/atmospherics/base)
+	if(QDELETED(base))	//	BLUEMOON EDIT: TODO:runtime
+		return	//	BLUEMOON EDIT: TODO:runtime
 	var/volume = 0
 	if(istype(base, /obj/machinery/atmospherics/pipe))
 		var/obj/machinery/atmospherics/pipe/E = base
@@ -205,8 +208,8 @@
 /datum/pipeline/proc/return_air()
 	. = other_airs + air
 	if(null in .)
-		stack_trace("[src]([REF(src)]) has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().")
 		listclearnulls(.)
+		stack_trace("[src]([REF(src)]) has one or more null gas mixtures, which may cause bugs. Null mixtures will not be considered in reconcile_air().")
 
 /datum/pipeline/proc/empty()
 	for(var/datum/gas_mixture/GM in get_all_connected_airs())

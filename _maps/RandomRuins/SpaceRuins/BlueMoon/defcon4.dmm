@@ -661,7 +661,7 @@
 	name = "Port Tarkoff";
 	roundstart_template = /datum/map_template/shuttle/ruin/tarkon_driver;
 	width = 14;
-	id = "port_tarkoff"
+	shuttle_id = "port_tarkoff"
 	},
 /turf/open/space/basic,
 /area/template_noop)
@@ -1462,7 +1462,7 @@
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer3,
 /obj/machinery/door/firedoor/solid,
 /obj/effect/mapping_helpers/network_builder/power_cable/auto,
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/trauma)
 "iC" = (
@@ -4124,7 +4124,7 @@
 /area/ruin/space/has_grav/bluemoon/port_tarkon/starboardhall)
 "zR" = (
 /obj/machinery/door/firedoor/solid,
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/garden)
 "zW" = (

@@ -497,7 +497,7 @@
 
 /obj/machinery/door/airlock/cult/obj_break(damage_flag)
 	if(!(flags_1 & BROKEN) && !(flags_1 & NODECONSTRUCT_1))
-		stat |= BROKEN
+		machine_stat |= BROKEN
 		if(!panel_open)
 			panel_open = TRUE
 		update_icon()
@@ -699,7 +699,7 @@
 /*
 	Misc Airlocks
 */
-
+/*	BLUEMOON OVERRIDE - ModernTG Wide Airlocks.
 /obj/machinery/door/airlock/glass_large
 	name = "large glass airlock"
 	icon = 'icons/obj/doors/airlocks/glass_large/glass_large.dmi'
@@ -710,7 +710,7 @@
 	bound_width = 64 // 2x1
 
 /obj/machinery/door/airlock/glass_large/narsie_act()
-	return
+	return	*/
 
 //////////////////////////////////
 /*

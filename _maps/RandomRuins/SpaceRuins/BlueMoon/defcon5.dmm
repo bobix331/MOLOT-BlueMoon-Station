@@ -3208,7 +3208,7 @@
 /area/ruin/space/has_grav/bluemoon/port_tarkon/dorms)
 "sA" = (
 /obj/machinery/door/firedoor/solid,
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/bluemoon/port_tarkon/garden)
 "sD" = (
@@ -6565,7 +6565,7 @@
 	name = "Port Tarkoff";
 	roundstart_template = /datum/map_template/shuttle/ruin/tarkon_driver;
 	width = 16;
-	id = "port_tarkoff"
+	shuttle_id = "port_tarkoff"
 	},
 /turf/open/space/basic,
 /area/template_noop)

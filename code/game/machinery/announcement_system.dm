@@ -48,7 +48,7 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 	if(newheadToggle)
 		. += pinklight
 
-	if(stat & BROKEN)
+	if(machine_stat & BROKEN)
 		. += errorlight
 
 /obj/machinery/announcement_system/Destroy()
@@ -64,32 +64,37 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 		update_icon()
 	else if(default_deconstruction_crowbar(P))
 		return
-	else if(P.tool_behaviour == TOOL_MULTITOOL && panel_open && (stat & BROKEN))
+	else if(P.tool_behaviour == TOOL_MULTITOOL && panel_open && (machine_stat & BROKEN))
 		to_chat(user, "<span class='notice'>You reset [src]'s firmware.</span>")
-		stat &= ~BROKEN
+		machine_stat &= ~BROKEN
 		update_icon()
 	else
 		return ..()
 
-/obj/machinery/announcement_system/proc/CompileText(str, user, rank) //replaces user-given variables with actual thingies.
+/obj/machinery/announcement_system/proc/CompileText(str, user, rank, displayed_rank) //replaces user-given variables with actual thingies.
 	str = replacetext(str, "%PERSON", "[user]")
 	str = replacetext(str, "%RANK", "[rank]")
+	str = replacetext(str, "%DISP_RANK", "[displayed_rank]")
 	return str
 
-/obj/machinery/announcement_system/proc/announce(message_type, user, rank, list/channels)
+/obj/machinery/announcement_system/proc/announce(message_type, user, rank, displayed_rank, list/channels)
 	if(!is_operational())
 		return
 
 	var/message
 
+	// Assign unknown rank if rank is empty
+	if (isnull(rank) || trim(rank) == "")
+		rank = "Unknown"
+
 	if(message_type == "ARRIVAL" && arrivalToggle)
-		message = CompileText(arrival, user, rank)
+		message = CompileText(arrival, user, rank, displayed_rank)
 	else if(message_type == "NEWHEAD" && newheadToggle)
-		message = CompileText(newhead, user, rank)
+		message = CompileText(newhead, user, rank, displayed_rank)
 	else if(message_type == "CRYOSTORAGE")
-		message = CompileText(cryostorage, user, rank)
+		message = CompileText(cryostorage, user, rank, displayed_rank)
 	else if(message_type == "CRYOSTORAGE_TELE")
-		message = CompileText(cryostorage_tele, user, rank)
+		message = CompileText(cryostorage_tele, user, rank, displayed_rank)
 	else if(message_type == "ARRIVALS_BROKEN")
 		message = "The arrivals shuttle has been damaged. Docking for repairs..."
 
@@ -119,7 +124,7 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 		return
 	if(!usr.canUseTopic(src, !hasSiliconAccessInArea(usr)))
 		return
-	if(stat & BROKEN)
+	if(machine_stat & BROKEN)
 		visible_message("<span class='warning'>[src] buzzes.</span>", "<span class='hear'>You hear a faint buzz.</span>")
 		playsound(src.loc, 'sound/machines/buzz-two.ogg', 50, TRUE)
 		return
@@ -152,7 +157,7 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 /obj/machinery/announcement_system/attack_ai(mob/user)
 	if(!user.canUseTopic(src, !hasSiliconAccessInArea(user)))
 		return
-	if(stat & BROKEN)
+	if(machine_stat & BROKEN)
 		to_chat(user, "<span class='warning'>[src]'s firmware appears to be malfunctioning!</span>")
 		return
 	interact(user)
@@ -166,7 +171,7 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 
 /obj/machinery/announcement_system/emp_act(severity)
 	. = ..()
-	if(!(stat & (NOPOWER|BROKEN)) && !(. & EMP_PROTECT_SELF) && severity >= 30)
+	if(!(machine_stat & (NOPOWER|BROKEN)) && !(. & EMP_PROTECT_SELF) && severity >= 30)
 		act_up()
 
 /obj/machinery/announcement_system/emag_act()
