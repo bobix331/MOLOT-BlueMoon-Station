@@ -7,7 +7,7 @@
 
 /obj/structure/inflatable
 	name = "inflatable wall"
-	desc = "An inflated membrane. Do not puncture. Alt+Click to deflate."
+	desc = "An inflated membrane. Do not puncture."
 	CanAtmosPass = ATMOS_PASS_DENSITY
 	density = TRUE
 	anchored = TRUE
@@ -21,13 +21,25 @@
 	/// The hitsound made when we're... hit...
 	var/hit_sound = 'sound/effects/Glasshit.ogg'
 	/// How quickly we deflate when manually deflated.
-	var/manual_deflation_time = 3 SECONDS
-	/// Whether or not the inflatable has been deflated
 	var/has_been_deflated = FALSE
 
 /obj/structure/inflatable/Initialize(mapload)
 	. = ..()
 	air_update_turf(TRUE, !density)
+	if (!armor)
+		armor = list(MELEE = 0, BULLET =30, LASER = 20, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 50, ACID = 50)
+	. = ..()
+	if(smooth)
+		queue_smooth(src)
+		queue_smooth_neighbors(src)
+		icon_state = ""
+	GLOB.cameranet.updateVisibility(src)
+
+/obj/structure/Destroy()
+	GLOB.cameranet.updateVisibility(src)
+	if(smooth)
+		queue_smooth_neighbors(src)
+	return ..()
 
 /obj/structure/inflatable/ex_act(severity)
 	switch(severity)
@@ -54,27 +66,15 @@
 
 // Deflates the airbag and drops a deflated airbag item. If violent, drops a broken item instantly.
 /obj/structure/inflatable/proc/deflate(violent)
-	if(has_been_deflated) // We do not ever want to deflate more than once.
+	if(has_been_deflated)
 		return
 
 	has_been_deflated = TRUE
-
-	playsound(src, 'sound/effects/hiss.ogg', 75, 1)
-	if(!violent)
-		balloon_alert_to_viewers("slowly deflates!")
-		addtimer(CALLBACK(src, PROC_REF(slow_deflate_finish)), manual_deflation_time)
-		return
 
 	var/turf/inflatable_loc = get_turf(src)
 	inflatable_loc.balloon_alert_to_viewers("[src] rapidly deflates!") // just so we don't balloon alert from the qdeleted inflatable object
 	if(torn_type)
 		new torn_type(get_turf(src))
-	qdel(src)
-
-// Called when the airbag is calmly deflated, drops a non-broken item.
-/obj/structure/inflatable/proc/slow_deflate_finish()
-	if(deflated_type)
-		new deflated_type(get_turf(src))
 	qdel(src)
 
 /obj/structure/inflatable/verb/hand_deflate()
