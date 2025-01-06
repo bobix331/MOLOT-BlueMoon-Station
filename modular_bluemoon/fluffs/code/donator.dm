@@ -321,7 +321,7 @@
 	name = "Tratch Patch"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/accessory/tratch_patch
-	ckeywhitelist = list("fryktik", "hazzi", "targon38", "ghos7ik")
+	ckeywhitelist = list("fryktik", "hazzi", "targon38", "ghos7ik", "devildeadspace", "trora", "happycrab")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/SH_jacket
@@ -1083,3 +1083,31 @@
     path = /obj/item/clothing/suit/donator/bm/agentcape
     ckeywhitelist = list("sosnovskii")
     subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/kladmen_panties
+    name = "Panties"
+    slot = ITEM_SLOT_OCLOTHING
+    path = /obj/item/clothing/underwear/briefs/kladmen_panties
+    ckeywhitelist = list("kladmenuwu")
+    subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/kladmen_bra
+    name = "Bra - A bra"
+    slot = ITEM_SLOT_OCLOTHING
+    path = /obj/item/clothing/underwear/shirt/bra/kladmen_bra
+    ckeywhitelist = list("kladmenuwu")
+    subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/f_haori
+	name = "Flaming Haori"
+	slot = ITEM_SLOT_NECK
+	path = /obj/item/clothing/neck/tie/f_haori
+	ckeywhitelist = list ("romontesque")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/SMART_fabric_boatcloak
+	name = "SMART-fabric boatcloak"
+	slot = ITEM_SLOT_NECK
+	path = /obj/item/clothing/neck/SMART_fabric_boatcloak
+	ckeywhitelist = list("kijoking")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02

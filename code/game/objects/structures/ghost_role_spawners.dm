@@ -232,7 +232,7 @@
 	flavour_text = "В своей бесконечной и божественной мудрости Освободитель освободил ваш клан, чтобы \
 	путешествовать по звездам с одним единственным заявлением: \ 'Да, делай что хочешь.'\ Хотя вы связаны с тем, кто вас создал, в вашем обществе принято повторять эти же слова новорожденным \
 	големам, чтобы ни один голем никогда не был вынужден служить снова."
-	important_info = "Вы не Антагонист."
+	important_info = "Вы не антагонист."
 
 /obj/effect/mob_spawn/human/golem/Initialize(mapload, datum/species/golem/species = null, mob/creator = null)
 	if(species) //spawners list uses object name to register so this goes before ..()
@@ -373,7 +373,7 @@
 	flavour_text = "Что...? Где вы? Где остальные? Это все еще больница для животных - вы должны знать, вы были здесь интерном в течение нескольких недель - но \
 	вы видите, что очутились где-то в неизвестном месте прямо сейчас. Так где же \
 	все? Куда они делись? Что случилось с больницей? И этот запах дыма? Вам нужно найти кого-нибудь еще. Может быть, они думают, что все ушли. Одна из кошек поцарапала тебя всего несколько минут назад. Поэтому вы и были в капсуле - чтобы залечить царапину. Струпья еще свежие..."
-	important_info = "Вы не Антагонист."
+	important_info = "Вы не антагонист."
 	assignedrole = "Translocated Vet"
 	can_load_appearance = TRUE
 
@@ -1034,6 +1034,7 @@
 	can_load_appearance = TRUE
 	loadout_enabled = TRUE
 	computer_area = /area/ruin/space/has_grav/bluemoon/port_tarkon/centerhall
+	make_bank_account = TRUE
 
 	give_cooler_to_mob_if_synth = TRUE
 
@@ -1063,7 +1064,6 @@
 	target_radio.set_frequency(FREQ_TARKOFF)
 	target_radio.recalculateChannels()
 
-	handlebank(tarkoff)
 	return ..()
 
 /obj/effect/mob_spawn/human/tarkon/sci
@@ -1138,14 +1138,6 @@
 	l_pocket = /obj/item/melee/classic_baton/telescopic
 	r_pocket = /obj/item/grenade/barrier
 
-/datum/outfit/proc/handlebank(mob/living/carbon/human/owner)
-	var/datum/bank_account/offstation_bank_account = new(owner.real_name)
-	owner.account_id = offstation_bank_account.account_id
-	if(owner.wear_id)
-		var/obj/item/card/id/id_card = owner.wear_id
-		id_card.registered_account = offstation_bank_account
-	return
-
 /obj/item/radio/headset/tarkoff
 	name = "Tarkov Headset"
 	freerange = TRUE
@@ -1216,7 +1208,7 @@
 	icon_state = "sleeper_s"
 	short_desc = "Вы Интерн-Специалист, взятый на работу Центральным Командованием в качестве очередной рабочей единицы."
 	flavour_text = "Не так давно вы были взяты на работу в качестве дежурного на Аванпосту Центрального Командования. Ваша задача проста - следить за факсом и отвечать на сообщения, полученные через факс. Помните, что часть сообщений поступает из иного пласта Вселенной, потому не пугайтесь, если вдруг окажется, что где-то там вызывают Кровавого Бога. Просто выполняйте свою работу и отправляйте инструкции."
-	important_info = "Вы не Антагонист. Вы гид-помощник. Отвечайте на Факсы и создавайте ролевую ценность в идущем раунде с использованием своих возможностей. Bы можете выдавать около-шуточные требования и указания в Эксту. Ни в коем случае не оказывайте прямое влияние на станцию в Динамику."
+	important_info = "Вы не антагонист. Вы гид-помощник. Отвечайте на Факсы и создавайте ролевую ценность в идущем раунде с использованием своих возможностей. Bы можете выдавать около-шуточные требования и указания в Эксту. Ни в коем случае не оказывайте прямое влияние на станцию в Динамику."
 	outfit = /datum/outfit/centcom_syndicate
 	computer_area = /area/ruin/space/has_grav/bluemoon/deepspacetwo/service/dorms
 	assignedrole = "Centcom Intern"
@@ -1271,7 +1263,7 @@
 	icon_state = "sleeper_s"
 	short_desc = "Вы Интерн-Специалист, взятый на работу Центральным Командованием в качестве очередной рабочей единицы."
 	flavour_text = "Не так давно вы были взяты на работу в качестве дежурного на Аванпосту Центрального Командования. Ваша задача проста - следить за факсом и отвечать на сообщения, полученные через факс. Помните, что часть сообщений поступает из иного пласта Вселенной, потому не пугайтесь, если вдруг окажется, что где-то там вызывают Кровавого Бога. Просто выполняйте свою работу и отправляйте инструкции."
-	important_info = "Вы не Антагонист. Вы гид-помощник. Отвечайте на Факсы и создавайте ролевую ценность в идущем раунде с использованием своих возможностей. Bы можете выдавать около-шуточные требования и указания в Эксту. Ни в коем случае не оказывайте прямое влияние на станцию в Динамику."
+	important_info = "Вы не антагонист. Вы гид-помощник. Отвечайте на Факсы и создавайте ролевую ценность в идущем раунде с использованием своих возможностей. Bы можете выдавать около-шуточные требования и указания в Эксту. Ни в коем случае не оказывайте прямое влияние на станцию в Динамику."
 	outfit = /datum/outfit/centcom_nanotrasen
 	computer_area = /area/ruin/space/has_grav/bluemoon/deepspacetwo/service/dorms
 	assignedrole = "Centcom Intern"
@@ -1322,7 +1314,7 @@
 	mob_name = "DS-2 personnel"
 	short_desc = "Вы Специалист Синдиката, работающий на Общем Корабле Синдиката из ячейки 'Глубокий Космос Два' под названием 'Благославлённый' под Начальством Адмирала одной из Сторон и изучающий аномальное поле Системы Синих Лун."
 	flavour_text = "Синдикат счел нужным направить передовую оперативную базу в Сектор Тринадцать для наблюдения за операциями NT и Кордоном. Ваш приказ - поддерживать целостность корабля и по возможности не высовываться."
-	important_info = "Вы не Антагонист. Вы можете отправиться на станцию в Эксту. В Динамик вам следует быть ниже травы и тише воды."
+	important_info = "Вы не антагонист."
 	roundstart = FALSE
 	death = FALSE
 	random = TRUE
@@ -1331,6 +1323,7 @@
 	use_outfit_name = TRUE
 	computer_area = /area/ruin/space/has_grav/bluemoon/deepspacetwo/service/dorms
 	antagonist_type = /datum/antagonist/ghost_role/ds2
+	make_bank_account = TRUE // BLUEMOON ADD
 
 /obj/effect/mob_spawn/human/ds2/prisoner
 	name = "Syndicate Prisoner"
@@ -1349,7 +1342,7 @@
 	icon_state = "sleeper_s"
 	short_desc = "Вы Специалист Синдиката, работающий на Оперативной Базе Синдиката из формирования 'Глубокий Космос Два' под названием 'Благославлённый' под Начальством Адмирала одной из Сторон и изучающий аномальное поле Системы Синих Лун."
 	flavour_text = "Синдикат счел нужным направить передовую оперативную базу в Сектор Тринадцать для наблюдения за операциями NT и Кордоном. Ваш приказ - поддерживать целостность корабля и по возможности не высовываться."
-	important_info = "Вы не Антагонист. Вы можете отправиться на станцию в Эксту. В Динамик вам следует быть ниже травы и тише воды."
+	important_info = "Вы не антагонист."
 	outfit = /datum/outfit/ds2/syndicate
 
 /obj/effect/mob_spawn/human/ds2/syndicate_command
@@ -1359,7 +1352,7 @@
 	icon_state = "sleeper_s"
 	short_desc = "Вы Адмирал одной из ячеек Синдиката, работающий на Корабле Синдиката из ячейки 'Глубокий Космос Два' под названием 'Благославлённый'. Приведите Объект под вашей ответственностью к успеху, который планировался, либо умрите - стараясь."
 	flavour_text = "Синдикат счел нужным направить передовую оперативную базу в Сектор Тринадцать для наблюдения за операциями NT и Кордоном. Ваш приказ - поддерживать целостность корабля и по возможности не высовываться."
-	important_info = "Вы не Антагонист. Вы можете отправиться на станцию в Эксту. В Динамик вам следует быть ниже травы и тише воды."
+	important_info = "Вы не антагонист."
 	outfit = /datum/outfit/ds2/syndicate_command
 
 /obj/effect/mob_spawn/human/ds2/syndicate/special(mob/living/carbon/human/new_spawn)
@@ -1417,10 +1410,12 @@
 /obj/effect/mob_spawn/human/ds2/syndicate/enginetech/special(mob/living/carbon/human/new_spawn)
 	. = ..()
 	ADD_TRAIT(new_spawn.mind, TRAIT_KNOW_ENGI_WIRES, GHOSTROLE_TRAIT)
+	new_spawn.mind.add_skill_modifier(list(/datum/skill_modifier/job/level/wiring/expert, /datum/skill_modifier/job/affinity/wiring))
 
 /obj/effect/mob_spawn/human/ds2/syndicate/researcher/special(mob/living/carbon/human/new_spawn)
 	. = ..()
 	ADD_TRAIT(new_spawn.mind, TRAIT_KNOW_CYBORG_WIRES, GHOSTROLE_TRAIT)
+	new_spawn.mind.add_skill_modifier(list(/datum/skill_modifier/job/level/wiring/trained, /datum/skill_modifier/job/affinity/wiring))
 
 // BLUEMOON ADD END
 
@@ -1434,7 +1429,6 @@
 		id_card.update_label()
 		id_card.update_icon()
 
-	handlebank(syndicate)
 	return ..()
 
 //DS-2 Hostage
@@ -1502,6 +1496,8 @@
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		)
+	l_pocket = /obj/item/storage/bag/material
+	r_pocket = /obj/item/storage/bag/construction
 	glasses = /obj/item/clothing/glasses/welding
 	belt = /obj/item/storage/belt/utility/syndicate
 	gloves = /obj/item/clothing/gloves/combat
