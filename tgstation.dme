@@ -4546,7 +4546,6 @@
 #include "modular_bluemoon\nopeingeener\code\donator.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\ghost_spawners.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\hecuglasses.dm"
-#include "modular_bluemoon\olgachan\blackmesafromnova\code\lockedgate.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\spawners.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\bullsquid.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\houndeye.dm"
