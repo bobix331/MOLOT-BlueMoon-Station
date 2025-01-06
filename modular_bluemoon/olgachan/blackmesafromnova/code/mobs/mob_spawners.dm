@@ -16,4 +16,3 @@
 			alert_cooldown_time = world.time + alert_cooldown
 
 #define MOB_PLACER_RANGE 16 // One more tile than the biggest viewrange we have.
-
