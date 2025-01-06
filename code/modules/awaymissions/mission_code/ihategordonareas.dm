@@ -1,4 +1,3 @@
-
 /area/awaymission/ihategordon
 	name = "Main sector H complex"
 	shipambience ='modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/main_complex_ambient_ihategordon.ogg'

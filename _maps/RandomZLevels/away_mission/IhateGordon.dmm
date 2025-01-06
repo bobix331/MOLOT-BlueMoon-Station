@@ -11620,13 +11620,6 @@
 /obj/structure/salvage/computer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
-"qsT" = (
-/turf/open/floor/plating/ironsand{
-	icon_state = "ironsand1"
-	},
-/area/awaymission/wildwest/mines{
-	name = "Outside of underground mesa"
-	})
 "qtE" = (
 /obj/machinery/door/airlock/external{
 	name = "E.V.A. Gear Storage";
@@ -40289,7 +40282,7 @@ jTV
 jTV
 jTV
 jTV
-qsT
+jTV
 muY
 fIf
 kGq
