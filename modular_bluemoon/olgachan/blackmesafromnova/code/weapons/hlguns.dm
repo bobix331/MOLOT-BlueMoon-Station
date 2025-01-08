@@ -94,7 +94,7 @@
 	ammo_type = /obj/item/ammo_casing/c10mm
 	max_ammo = 30
 
-/obj/item/ammo_box/magazine/sniper_rounds/m4oa1/update_icon()
+/obj/item/ammo_box/magazine/mp5/update_icon()
 	. = ..()
 	if(ammo_count())
 		icon_state = "[initial(icon_state)]-ammo"
