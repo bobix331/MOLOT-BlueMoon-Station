@@ -99,8 +99,8 @@
 	name = "restrooms"
 	icon_state = "awaycontent6"
 
-/area/awaymission/outsideofmesa
+/area/awaymission/ihategordon/outside/night
 	name = "Outside of facility"
-	icon_state = "awaycontent6"
+	lighting
 	shipambience ='modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/outside of sector h.ogg'
 	ambientsounds = list('modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/outside of sector h.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/sector h outside ambience.ogg')

@@ -9,13 +9,9 @@
 	short_desc = "Ты являешься одним из немногих выживших после инцидента в чёрной мезе"
 	flavour_text = "Ты старший научный научный сотрудник сектора H. Недавно тебя повысили в должности, перенаправив в этот сектор, но что-то пошло не так. Исходя из оповещений BMAS, По всему сектору начались портальные штормы. По этому вы, засев в одном из кабинетов, ждёте помощи."
 	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
-	mob_species = /datum/species/human
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
-	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
-
-
 
 /datum/outfit/science_team
 	name = "science team member"
@@ -30,16 +26,15 @@
 
 /datum/id_trim/science_team
 	assignment = "Учёный Чёрной Мезы"
-	trim_state = "retro"
+	trim_state = "trim_scientist"
 
 /obj/effect/mob_spawn/human/black_mesa/guard
 	name = "Black mesa guard"
 	outfit = /datum/outfit/security_guard
 	short_desc = "Ты являешься выжившим охранником чёрной мезы"
 	flavour_text = "Ты один из охранников Чёрной Мезы, а конкретно Сектора H. Твоя работа была размеренной и спокойной, но что-то пошло не так. Теперь ты, оставшись со своим напарником, лежишь без сознания в чудом уцелевшем КПП охраны"
-/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+/obj/effect/mob_spawn/human/black_mesa/guard/special(mob/living/carbon/human/spawned_human)
 	. = ..()
-	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /datum/outfit/security_guard
@@ -57,7 +52,6 @@
 /datum/id_trim/security_guard
 	assignment = "Охранник Чёрной Мезы"
 	access = list(ACCESS_BRIG, ACCESS_SECURITY, ACCESS_AWAY_SEC)
-	trim_state = "retro"
 
 /obj/item/clothing/under/rank/rnd/scientist/halflife
 	name = "science team costume"
@@ -75,11 +69,9 @@
 	outfit = /datum/outfit/hecu
 	short_desc = "Ты являешься, скорее всего, одним из немногих обычных пехотинцев, оставшихся в секторе H без какой либо поддержки со стороны правительства."
 	flavour_text = "Ваш отряд был направлен в Чёрную Мезу для оказания медицинской, инженерной и боевой помощи основным отрядам HECU. Но, к сожалению, с каждым часом ситуация становилась всё хуже. Ведь правительство, поняв, что посланные пехотинцы не справляются, решили их всех предательски убить. Всё, что вы смутно знаете о миссии, так это только то, что основная задача отрядов, которым вы помогали - устранять всех свидетелей? Но имеет ли это вес, когда вас бросили? Теперь ваша задача сейчас - окопаться в этом клятом лагере и или ждать помощи, или попытаться следовать приказу основных отрядов."
-	important_info = "Не пытайтесь исследовать карту далее основного атриума, ангара с автобусами и вашего палаточного медицинского отдела ( не ломайте стены в комнаты, закрытые ключ картами). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
-
-/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+	important_info = "Не пытайтесь исследовать карту далее основного атриума и небольшого медицинского отдела ( не ломайте стены в комнату, закрытой ключ картой). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
+/obj/effect/mob_spawn/human/black_mesa/hecu/special(mob/living/carbon/human/spawned_human)
 	. = ..()
-	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /obj/effect/mob_spawn/human/black_mesa/hecu/breacher
@@ -95,10 +87,10 @@
 	name = "HECU engineer"
 	outfit = /datum/outfit/hecu_engineer
 	short_desc = "Ты являешься профессиональным инженером небольшого отряда поддержки HECU."
-/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+/obj/effect/mob_spawn/human/black_mesa/hecu/special(mob/living/carbon/human/spawned_human)
 	. = ..()
-	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
+
 /datum/outfit/hecu
 	name = "HECU grunt"
 
@@ -218,4 +210,3 @@
 		/obj/item/gun/ballistic/automatic/pistol/deagle,
 		/obj/item/ammo_box/magazine/m50,
 	)
-

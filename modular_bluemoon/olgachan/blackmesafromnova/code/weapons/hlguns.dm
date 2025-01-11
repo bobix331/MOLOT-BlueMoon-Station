@@ -111,8 +111,8 @@
 	item_state = "spas"
 	fire_sound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/weapons/shotgun.ogg'
 	w_class = WEIGHT_CLASS_BULKY
-	recoil = 5
-	force = 35
+	recoil = 4
+	force = 20
 	fire_delay = 20
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/spas
 	pumpsound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/weapons/shotgun_rack.ogg'
