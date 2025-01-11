@@ -11,6 +11,7 @@
 	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
+	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /datum/outfit/science_team
@@ -33,8 +34,9 @@
 	outfit = /datum/outfit/security_guard
 	short_desc = "Ты являешься выжившим охранником чёрной мезы"
 	flavour_text = "Ты один из охранников Чёрной Мезы, а конкретно Сектора H. Твоя работа была размеренной и спокойной, но что-то пошло не так. Теперь ты, оставшись со своим напарником, лежишь без сознания в чудом уцелевшем КПП охраны"
-/obj/effect/mob_spawn/human/black_mesa/guard/special(mob/living/carbon/human/spawned_human)
+/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
+	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /datum/outfit/security_guard
@@ -69,9 +71,10 @@
 	outfit = /datum/outfit/hecu
 	short_desc = "Ты являешься, скорее всего, одним из немногих обычных пехотинцев, оставшихся в секторе H без какой либо поддержки со стороны правительства."
 	flavour_text = "Ваш отряд был направлен в Чёрную Мезу для оказания медицинской, инженерной и боевой помощи основным отрядам HECU. Но, к сожалению, с каждым часом ситуация становилась всё хуже. Ведь правительство, поняв, что посланные пехотинцы не справляются, решили их всех предательски убить. Всё, что вы смутно знаете о миссии, так это только то, что основная задача отрядов, которым вы помогали - устранять всех свидетелей? Но имеет ли это вес, когда вас бросили? Теперь ваша задача сейчас - окопаться в этом клятом лагере и или ждать помощи, или попытаться следовать приказу основных отрядов."
-	important_info = "Не пытайтесь исследовать карту далее основного атриума и небольшого медицинского отдела ( не ломайте стены в комнату, закрытой ключ картой). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
-/obj/effect/mob_spawn/human/black_mesa/hecu/special(mob/living/carbon/human/spawned_human)
+	important_info = "Не пытайтесь исследовать карту далее основного атриума, ангара с автобусами и вашего палаточного медицинского отдела ( не ломайте стены в комнаты, закрытые ключ картами). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
+/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
+	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /obj/effect/mob_spawn/human/black_mesa/hecu/breacher
@@ -143,6 +146,7 @@
 
 	uniform = /obj/item/clothing/under/rank/security/officer/urban_camo
 	mask = /obj/item/clothing/mask/balaclava
+	head = /obj/item/clothing/head/helmet/hecu
 	glasses = /obj/item/clothing/glasses/hud/security/hecu_ski
 	suit = /obj/item/clothing/suit/armor/hecu
 	gloves = /obj/item/clothing/gloves/combat
