@@ -2,7 +2,7 @@
 "aaD" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "abb" = (
@@ -335,16 +335,15 @@
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
 "atT" = (
-/obj/machinery/door/airlock/vault,
-/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/fluff/broken_flooring,
 /turf/open/indestructible{
-	icon_state = "dark_large"
+	icon_state = "platingdmg3"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon/big_offices)
 "aut" = (
 /obj/structure/table/optable,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "plaswhite_traction"
 	},
 /area/awaymission/ihategordon/big_offices)
 "auC" = (
@@ -372,9 +371,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/lethalshots{
-	req_access = 0
-	},
+/obj/structure/closet/secure_closet/lethalshots,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/sec_armory)
 "avN" = (
@@ -580,6 +577,12 @@
 	icon_state = "ironsand1"
 	},
 /area/awaymission/outsideofmesa)
+"aHa" = (
+/obj/structure/salvage/computer{
+	dir = 4
+	},
+/turf/open/indestructible,
+/area/awaymission/ihategordon/server_rooms)
 "aHt" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/indestructible{
@@ -624,10 +627,10 @@
 	},
 /area/awaymission/ihategordon/dining_room)
 "aKb" = (
-/turf/open/indestructible{
-	icon_state = "platingdmg1"
+/turf/open/floor/iron{
+	icon_state = "damaged1"
 	},
-/area/awaymission/ihategordon/hecu_camp_bus_stop)
+/area/awaymission/ihategordon/faciluty_hallway)
 "aLa" = (
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/emitter_chambers)
@@ -745,11 +748,10 @@
 	},
 /area/awaymission/ihategordon/dorm_offices)
 "aQB" = (
-/obj/structure/flora/rock/pile,
-/turf/open/indestructible{
-	icon_state = "showroomfloor"
+/turf/open/floor/iron{
+	icon_state = "damaged4"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/faciluty_hallway)
 "aRv" = (
 /obj/structure/mopbucket,
 /turf/open/indestructible{
@@ -916,13 +918,13 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/underground_tunnels)
 "bbh" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "singular"
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
 	},
-/turf/open/indestructible{
-	icon_state = "plating"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/structure/flora/biolumi,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/dorm_offices)
 "bbJ" = (
 /obj/structure/table/reinforced,
 /obj/structure/fluff/paper/stack,
@@ -1028,9 +1030,11 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/big_offices)
 "bhq" = (
-/obj/structure/window/shuttle,
+/obj/structure/fluff/paper/stack{
+	dir = 10
+	},
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "bhy" = (
@@ -1120,6 +1124,12 @@
 	icon_state = "showroomfloor"
 	},
 /area/awaymission/ihategordon/dorm_rooms)
+"bjq" = (
+/obj/structure/flora/rock/pile,
+/turf/open/indestructible{
+	icon_state = "showroomfloor"
+	},
+/area/awaymission/ihategordon/big_offices)
 "bju" = (
 /turf/open/indestructible{
 	icon_state = "plating"
@@ -1222,6 +1232,11 @@
 	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/dining_room)
+"bon" = (
+/turf/open/indestructible{
+	icon_state = "ironsand1"
+	},
+/area/awaymission/ihategordon/hecu_camp)
 "bop" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
@@ -1550,6 +1565,12 @@
 	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
+"bHr" = (
+/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
+/turf/open/indestructible{
+	icon_state = "plaswhite_traction"
+	},
+/area/awaymission/ihategordon/big_offices)
 "bHB" = (
 /obj/machinery/computer,
 /turf/open/indestructible,
@@ -1638,11 +1659,9 @@
 	},
 /area/awaymission/ihategordon/turret_lockdown_hall)
 "bMq" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "side"
-	},
+/obj/structure/fluff/broken_flooring,
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "foam_plating"
 	},
 /area/awaymission/ihategordon/big_offices)
 "bMv" = (
@@ -2076,9 +2095,13 @@
 	},
 /area/awaymission/ihategordon/hyperlaser_chamber)
 "cnx" = (
-/obj/effect/decal/cleanable/blood/gibs/xeno,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/hecu_camp_hall)
+/obj/machinery/power/emitter/energycannon{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "plating"
+	},
+/area/awaymission/ihategordon/emitter_chambers)
 "cnH" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 1
@@ -2110,11 +2133,13 @@
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/cryo_room)
 "coo" = (
-/obj/structure/fluff/broken_flooring,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/ammo_box/magazine/m50,
 /turf/open/indestructible{
-	icon_state = "platingdmg3"
+	icon_state = "basaltstone"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/hecu_abandoned_camp)
 "cpl" = (
 /obj/structure/lattice,
 /turf/open/indestructible{
@@ -2150,11 +2175,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "cqX" = (
-/obj/structure/flora/rock/pile,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "ironsand1"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/hecu_camp)
 "crc" = (
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/sec_armory)
@@ -2221,9 +2246,13 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
 "cvB" = (
-/obj/structure/chair/sofa/corp,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/faciluty_hallway)
+/obj/structure/fluff/paper/stack{
+	dir = 9
+	},
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
+	},
+/area/awaymission/ihategordon/big_offices)
 "cwk" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -2341,13 +2370,14 @@
 	},
 /area/awaymission/ihategordon/hecu_camp)
 "cCk" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
 	},
 /turf/open/indestructible{
-	icon_state = "plastitanium"
+	icon_state = "chapel_alt"
 	},
-/area/awaymission/ihategordon)
+/area/awaymission/ihategordon/big_offices)
 "cCU" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/machinery/light{
@@ -2473,11 +2503,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/faciluty_hallway)
 "cIA" = (
-/mob/living/simple_animal/hostile/headcrab,
+/obj/structure/lattice,
 /turf/open/indestructible{
-	icon_state = "platingdmg1"
+	icon_state = "wasteland12"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon)
 "cIU" = (
 /obj/structure/fluff/paper/stack,
 /turf/open/indestructible,
@@ -2541,10 +2571,11 @@
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/hyperlaser_chamber)
 "cPa" = (
+/obj/structure/rack/shelf,
 /turf/open/indestructible{
-	icon_state = "white"
+	icon_state = "textured"
 	},
-/area/awaymission/ihategordon/dorm_rooms)
+/area/awaymission/ihategordon/big_offices)
 "cPm" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -2684,12 +2715,6 @@
 "cXG" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/tram_tunnel)
-"cYc" = (
-/obj/structure/fluff/broken_flooring,
-/turf/open/indestructible{
-	icon_state = "foam_plating"
-	},
-/area/awaymission/ihategordon/big_offices)
 "cYj" = (
 /obj/machinery/vending/snack/orange,
 /turf/open/indestructible{
@@ -3050,11 +3075,6 @@
 	icon_state = "hallway_floor"
 	},
 /area/awaymission/ihategordon/big_offices)
-"dtD" = (
-/obj/machinery/door/airlock/research,
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/big_offices)
 "dul" = (
 /obj/structure/fluff/broken_flooring{
 	icon_state = "pile"
@@ -3138,9 +3158,11 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/emitter_chambers)
 "dxI" = (
-/obj/structure/fluff/broken_flooring,
+/obj/effect/spawner/structure/window/hollow/reinforced/middle{
+	dir = 4
+	},
 /turf/open/indestructible{
-	icon_state = "platingdmg1"
+	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/big_offices)
 "dxT" = (
@@ -3299,11 +3321,13 @@
 	},
 /area/awaymission/ihategordon/hecu_camp_hall)
 "dHk" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/structure/door_assembly/multi_tile/metal{
+	dir = 1
+	},
 /turf/open/indestructible{
 	icon_state = "plating"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "dHl" = (
 /obj/structure/flora/rock,
 /turf/open/indestructible{
@@ -3571,13 +3595,13 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "dXj" = (
+/obj/machinery/door/airlock/research,
+/obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
 	},
-/turf/open/floor/iron{
-	icon_state = "damaged4"
-	},
+/turf/open/indestructible,
 /area/awaymission/ihategordon/dorm_offices)
 "dXI" = (
 /turf/open/indestructible{
@@ -3637,11 +3661,11 @@
 	},
 /area/awaymission/ihategordon/hecu_abandoned_camp)
 "eaz" = (
-/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/chair/sofa/corp/right,
 /turf/open/indestructible{
-	icon_state = "ironsand1"
+	icon_state = "chapel_alt"
 	},
-/area/awaymission/ihategordon/hecu_camp)
+/area/awaymission/ihategordon/big_offices)
 "eaX" = (
 /obj/structure/chair/office,
 /turf/open/indestructible{
@@ -3678,6 +3702,14 @@
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
+"ecm" = (
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular"
+	},
+/turf/open/indestructible{
+	icon_state = "platingdmg1"
+	},
+/area/awaymission/ihategordon/big_offices)
 "ecx" = (
 /obj/structure/table/reinforced,
 /obj/item/modular_computer/laptop{
@@ -3822,15 +3854,6 @@
 	icon_state = "showroomfloor"
 	},
 /area/awaymission/ihategordon/big_offices)
-"ehZ" = (
-/obj/machinery/door/airlock/research,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/turf/open/indestructible,
-/area/awaymission/ihategordon/dorm_offices)
 "eic" = (
 /obj/item/reagent_containers/food/drinks/coffee,
 /turf/open/indestructible{
@@ -3842,11 +3865,12 @@
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/outsideofmesa)
 "eil" = (
-/obj/structure/fluff/paper/stack{
-	dir = 10
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/open/indestructible{
+	icon_state = "textured"
 	},
-/turf/open/indestructible,
-/area/awaymission/ihategordon/server_rooms)
+/area/awaymission/ihategordon/big_offices)
 "eiy" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -3862,7 +3886,6 @@
 	},
 /area/awaymission/ihategordon/emitter_chambers)
 "ejC" = (
-/obj/structure/table/glass,
 /turf/open/indestructible{
 	icon_state = "plaswhite_traction"
 	},
@@ -4059,11 +4082,11 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "ewP" = (
-/obj/machinery/vending/coffee,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
 	icon_state = "textured_dark"
 	},
-/area/awaymission/ihategordon/hecu_camp)
+/area/awaymission/ihategordon/tram_room)
 "ewZ" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/structure/window/reinforced/spawner/north,
@@ -4142,6 +4165,13 @@
 /obj/structure/salvage/metal_frame,
 /turf/open/water/safe/electric,
 /area/awaymission/ihategordon/dorm_offices)
+"eBJ" = (
+/obj/structure/table,
+/obj/machinery/coffeemaker/impressa,
+/turf/open/indestructible{
+	icon_state = "textured_dark"
+	},
+/area/awaymission/ihategordon/hecu_camp)
 "eBP" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -4161,6 +4191,12 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/indestructible,
 /area/awaymission/ihategordon/cryo_room)
+"eCi" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/indestructible{
+	icon_state = "textured_dark"
+	},
+/area/awaymission/ihategordon)
 "eCR" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = -31
@@ -4374,10 +4410,6 @@
 	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"ePq" = (
-/obj/structure/lattice,
-/turf/open/floor/festive/cobblestone/safe/mesafcobble,
-/area/awaymission/ihategordon/hecu_camp)
 "eQn" = (
 /obj/structure/lattice,
 /obj/machinery/light/red{
@@ -4595,7 +4627,7 @@
 	},
 /mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "fjm" = (
@@ -4941,12 +4973,6 @@
 	icon_state = "ironsand1"
 	},
 /area/awaymission/outsideofmesa)
-"fGD" = (
-/obj/structure/lattice,
-/turf/open/indestructible{
-	icon_state = "damaged2"
-	},
-/area/awaymission/ihategordon/big_offices)
 "fGS" = (
 /obj/structure/flora/rock/pile,
 /obj/machinery/light/red{
@@ -4964,9 +4990,9 @@
 /area/awaymission/ihategordon/dining_room)
 "fIA" = (
 /turf/open/indestructible{
-	icon_state = "plaswhite_traction"
+	icon_state = "platingdmg2"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon)
 "fJM" = (
 /obj/effect/festive/street/streetlinesouth,
 /obj/structure/flora/rock/pile,
@@ -5178,11 +5204,11 @@
 /turf/open/floor/iron/smooth,
 /area/awaymission/ihategordon/tram_tunnel)
 "fVu" = (
-/obj/structure/fluff/paper/stack{
-	dir = 9
+/obj/machinery/light/red{
+	dir = 4
 	},
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "plaswhite_traction"
 	},
 /area/awaymission/ihategordon/big_offices)
 "fVO" = (
@@ -5258,11 +5284,11 @@
 	},
 /area/awaymission/ihategordon/dining_room)
 "fXL" = (
-/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "white"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/dorm_rooms)
 "fYp" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
@@ -5427,12 +5453,6 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon)
-"ghz" = (
-/mob/living/simple_animal/hostile/headcrab,
-/turf/open/indestructible{
-	icon_state = "textured"
-	},
-/area/awaymission/ihategordon/tram_room)
 "gjn" = (
 /obj/machinery/door/airlock/research,
 /obj/structure/alien/weeds{
@@ -5548,9 +5568,9 @@
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/turret_lockdown_hall)
 "gpE" = (
-/obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/door/airlock/vault,
 /turf/open/indestructible{
-	icon_state = "wasteland4"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "gra" = (
@@ -5656,11 +5676,10 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "gxz" = (
-/obj/machinery/door/poddoor/preopen,
 /turf/open/indestructible{
-	icon_state = "dark_large"
+	icon_state = "textured"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon/tram_room)
 "gxH" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/blue,
@@ -5668,16 +5687,6 @@
 	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"gxT" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/open/indestructible{
-	icon_state = "chapel_alt"
-	},
-/area/awaymission/ihategordon/big_offices)
 "gyd" = (
 /mob/living/simple_animal/hostile/headcrab,
 /turf/open/indestructible{
@@ -5762,11 +5771,11 @@
 	},
 /area/awaymission/ihategordon)
 "gCj" = (
-/obj/effect/spawner/structure/window/plastitanium,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "dark_large"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "gCA" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/closet/crate/large,
@@ -5789,11 +5798,11 @@
 	},
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
 "gDu" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "pile"
+/obj/structure/fluff/paper/stack{
+	dir = 6
 	},
 /turf/open/indestructible{
-	icon_state = "platingdmg2"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "gDX" = (
@@ -5909,11 +5918,11 @@
 	},
 /area/awaymission/ihategordon/tram_room)
 "gLp" = (
-/obj/machinery/door/airlock/vault,
+/obj/machinery/door/airlock/research,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "dark_large"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "gLx" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/machinery/photocopier,
@@ -5922,13 +5931,14 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "gLy" = (
-/obj/machinery/door/airlock/research,
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
-/turf/open/indestructible,
-/area/awaymission/ihategordon/dorm_offices)
+/obj/item/ammo_box/magazine/mp5,
+/turf/open/indestructible{
+	icon_state = "plastitanium"
+	},
+/area/awaymission/ihategordon)
 "gMo" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible{
@@ -6021,9 +6031,10 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "gRf" = (
-/obj/structure/chair/sofa/corp/right,
+/obj/machinery/door/airlock/research,
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/open/indestructible,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/big_offices)
 "gRh" = (
 /obj/machinery/portable_atmospherics/canister/water_vapor,
 /obj/structure/window/reinforced/spawner,
@@ -6168,11 +6179,9 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "haZ" = (
-/mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
-/turf/open/indestructible{
-	icon_state = "chapel_alt"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/structure/flora/rock/pile,
+/turf/open/floor/festive/cobblestone/safe/mesafcobble,
+/area/awaymission/ihategordon/hecu_camp)
 "hbe" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -6294,9 +6303,9 @@
 /turf/open/floor/circuit/red,
 /area/awaymission/ihategordon/emitter_chambers)
 "hfS" = (
-/obj/structure/closet/crate/freezer/blood,
+/obj/structure/table/glass,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "hhh" = (
@@ -6471,9 +6480,11 @@
 	},
 /area/awaymission/ihategordon/hecu_abandoned_camp)
 "hqP" = (
-/obj/item/clothing/suit/apron/surgical,
+/obj/machinery/computer{
+	dir = 1
+	},
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "hqQ" = (
@@ -6597,11 +6608,6 @@
 "hyH" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/dorm_offices)
-"hyX" = (
-/turf/open/indestructible{
-	icon_state = "textured_dark"
-	},
-/area/awaymission/ihategordon)
 "hyZ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/iron,
@@ -6668,6 +6674,14 @@
 	icon_state = "showroomfloor"
 	},
 /area/awaymission/ihategordon/dining_room)
+"hCN" = (
+/obj/machinery/door/airlock/research,
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
+	},
+/turf/open/indestructible,
+/area/awaymission/ihategordon/dorm_offices)
 "hDV" = (
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/ihategordon/tram_room)
@@ -6723,10 +6737,7 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "hHQ" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
 	icon_state = "chapel_alt"
 	},
@@ -6927,13 +6938,11 @@
 	},
 /area/awaymission/outsideofmesa)
 "hWK" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
+/obj/machinery/vending/coffee,
+/turf/open/indestructible{
+	icon_state = "textured_dark"
 	},
-/obj/structure/flora/biolumi,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/dorm_offices)
+/area/awaymission/ihategordon/hecu_camp)
 "hWX" = (
 /obj/machinery/light{
 	dir = 8
@@ -7005,11 +7014,25 @@
 /mob/living/simple_animal/hostile/headcrab,
 /turf/open/indestructible,
 /area/awaymission/ihategordon/cryo_room)
+"iaQ" = (
+/obj/structure/table/glass,
+/obj/item/pen,
+/turf/open/indestructible{
+	icon_state = "textured"
+	},
+/area/awaymission/ihategordon/big_offices)
 "iaT" = (
 /obj/effect/festive/street/streetlineeast,
 /obj/structure/flora/rock/pile,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
+"ibE" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/chair/sofa/corp,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/faciluty_hallway)
 "ibF" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/festive/sidewalk/mesawalk,
@@ -7028,13 +7051,9 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "icv" = (
-/obj/structure/salvage/computer{
-	dir = 4
-	},
-/turf/open/indestructible{
-	icon_state = "dark_large"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
+/obj/structure/chair/sofa/corp,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/faciluty_hallway)
 "icx" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible{
@@ -7122,13 +7141,11 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "igC" = (
-/obj/machinery/light/red{
-	dir = 4
-	},
+/obj/machinery/door/airlock/research,
 /turf/open/indestructible{
-	icon_state = "plaswhite_traction"
+	icon_state = "textured"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/science_tunnel)
 "igU" = (
 /obj/structure/fluff/paper/stack{
 	dir = 6
@@ -7416,13 +7433,13 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "ivn" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "singular"
+/obj/structure/fluff/paper/stack{
+	dir = 8
 	},
 /turf/open/indestructible{
-	icon_state = "platingdmg1"
+	icon_state = "dark_large"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "ivI" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible{
@@ -7478,11 +7495,9 @@
 	},
 /area/awaymission/outsideofmesa)
 "iyv" = (
-/obj/machinery/door/airlock/research,
-/turf/open/indestructible{
-	icon_state = "textured"
-	},
-/area/awaymission/ihategordon/science_tunnel)
+/obj/structure/chair/sofa/corp/right,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/faciluty_hallway)
 "iyC" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = -31
@@ -7557,13 +7572,13 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "iDe" = (
-/obj/structure/fluff/paper/stack{
-	dir = 10
+/obj/item/shard{
+	icon_state = "tiny"
 	},
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured_dark"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon)
 "iDp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/coffeemaker/impressa,
@@ -7620,9 +7635,7 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "iFV" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle{
-	dir = 4
-	},
+/obj/effect/spawner/structure/window/plastitanium,
 /turf/open/indestructible{
 	icon_state = "plating"
 	},
@@ -7761,16 +7774,10 @@
 /turf/open/floor/spooktime/snow,
 /area/awaymission/ihategordon/cryo_room)
 "iNV" = (
-/obj/structure/rack/shelf,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "damaged2"
 	},
-/area/awaymission/ihategordon/big_offices)
-"iOf" = (
-/turf/open/indestructible{
-	icon_state = "platingdmg2"
-	},
-/area/awaymission/ihategordon)
+/area/awaymission/ihategordon/hecu_camp_hall)
 "iOg" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /turf/open/indestructible{
@@ -8067,12 +8074,18 @@
 	icon_state = "damaged5"
 	},
 /area/awaymission/ihategordon/big_offices)
-"jex" = (
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_x = 32
+"jeo" = (
+/obj/machinery/computer{
+	dir = 1
 	},
 /turf/open/indestructible{
-	icon_state = "plaswhite_traction"
+	icon_state = "dark_large"
+	},
+/area/awaymission/ihategordon/emitter_chambers)
+"jex" = (
+/obj/structure/flora/rock/pile,
+/turf/open/indestructible{
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "jeJ" = (
@@ -8089,11 +8102,9 @@
 	},
 /area/awaymission/ihategordon/dorm_rooms)
 "jeM" = (
-/obj/structure/table/reinforced,
-/turf/open/indestructible{
-	icon_state = "chapel_alt"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/dorm_offices)
 "jfs" = (
 /obj/machinery/light{
 	dir = 1
@@ -8154,11 +8165,15 @@
 	},
 /area/awaymission/ihategordon/tram_room)
 "jhj" = (
-/obj/structure/table/reinforced,
-/turf/open/indestructible{
-	icon_state = "textured_dark"
+/obj/machinery/door/airlock/vault,
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
 	},
-/area/awaymission/ihategordon)
+/turf/open/indestructible{
+	icon_state = "textured"
+	},
+/area/awaymission/ihategordon/big_offices)
 "jia" = (
 /obj/structure/rack/shelf,
 /turf/open/indestructible{
@@ -8533,10 +8548,11 @@
 	},
 /area/awaymission/outsideofmesa)
 "jBM" = (
-/turf/open/floor/iron{
-	icon_state = "damaged1"
+/obj/effect/spawner/structure/window/plasma/reinforced,
+/turf/open/indestructible{
+	icon_state = "plating"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/big_offices)
 "jCc" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/chair/sofa/corp,
@@ -8567,7 +8583,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/item/ammo_box/magazine/mp5,
 /turf/open/indestructible{
 	icon_state = "plastitanium"
 	},
@@ -8616,12 +8631,6 @@
 	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/dining_room)
-"jEf" = (
-/obj/effect/decal/cleanable/blood,
-/turf/open/indestructible{
-	icon_state = "white"
-	},
-/area/awaymission/ihategordon/hecu_camp_medbay)
 "jEL" = (
 /obj/machinery/photocopier,
 /turf/open/indestructible{
@@ -8650,7 +8659,7 @@
 "jFu" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/indestructible{
-	icon_state = "wasteland4"
+	icon_state = "wasteland2"
 	},
 /area/awaymission/ihategordon/big_offices)
 "jFC" = (
@@ -8675,7 +8684,7 @@
 "jGI" = (
 /obj/structure/rack/shelf,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "jHi" = (
@@ -9140,6 +9149,16 @@
 	icon_state = "white"
 	},
 /area/awaymission/ihategordon/big_offices)
+"kcy" = (
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
+	},
+/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
+/turf/open/indestructible{
+	icon_state = "textured"
+	},
+/area/awaymission/ihategordon/big_offices)
 "kcJ" = (
 /obj/machinery/door/airlock/research,
 /turf/open/indestructible,
@@ -9252,11 +9271,11 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "kig" = (
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/open/indestructible{
-	icon_state = "textured_dark"
-	},
-/area/awaymission/ihategordon/tram_room)
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen,
+/obj/item/ammo_box/magazine/mp5,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/big_offices)
 "kiw" = (
 /turf/open/indestructible{
 	icon_state = "platingdmg3"
@@ -9369,9 +9388,9 @@
 /area/awaymission/ihategordon/big_offices)
 "kon" = (
 /turf/open/indestructible{
-	icon_state = "wasteland10"
+	icon_state = "plating"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "koV" = (
 /obj/item/crowbar/freeman/ultimate,
 /turf/open/floor/plasteel/white,
@@ -9691,12 +9710,10 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/dorm_offices)
 "kGc" = (
-/obj/structure/table/glass,
-/obj/item/paper_bin,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "textured_dark"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon)
 "kGq" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/blue,
@@ -9760,6 +9777,13 @@
 	pixel_y = 32
 	},
 /turf/open/indestructible,
+/area/awaymission/ihategordon/big_offices)
+"kJK" = (
+/obj/machinery/door/airlock/vault,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/indestructible{
+	icon_state = "textured"
+	},
 /area/awaymission/ihategordon/big_offices)
 "kJS" = (
 /obj/structure/flora/junglebush,
@@ -9837,9 +9861,11 @@
 	},
 /area/awaymission/ihategordon)
 "kQu" = (
-/obj/structure/chair/sofa/corp/left,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/faciluty_hallway)
+/obj/machinery/door/airlock/research,
+/turf/open/indestructible{
+	icon_state = "plaswhite"
+	},
+/area/awaymission/ihategordon/big_offices)
 "kQG" = (
 /obj/structure/salvage/server,
 /turf/open/water/safe/electric,
@@ -10026,13 +10052,9 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "laU" = (
-/obj/machinery/door/airlock/vault,
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
+/mob/living/simple_animal/hostile/headcrab,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "platingdmg1"
 	},
 /area/awaymission/ihategordon/big_offices)
 "lbk" = (
@@ -10043,11 +10065,10 @@
 /turf/open/floor/circuit/red,
 /area/awaymission/ihategordon/emitter_chambers)
 "lbQ" = (
-/obj/structure/girder,
 /turf/open/indestructible{
-	icon_state = "platingdmg2"
+	icon_state = "platingdmg1"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon)
 "lch" = (
 /obj/structure/fluff/bus/passable/seat{
 	icon_state = "backseat"
@@ -10179,9 +10200,8 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "llf" = (
-/obj/structure/chair/office/light,
 /turf/open/indestructible{
-	icon_state = "white"
+	icon_state = "wasteland7"
 	},
 /area/awaymission/ihategordon/big_offices)
 "llt" = (
@@ -10241,6 +10261,11 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
+"lnQ" = (
+/turf/open/indestructible{
+	icon_state = "wasteland2"
+	},
+/area/awaymission/ihategordon/big_offices)
 "loc" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -10696,13 +10721,9 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "lJR" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 4
-	},
-/turf/open/indestructible{
-	icon_state = "white"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/effect/decal/cleanable/blood,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/hecu_camp_hall)
 "lJV" = (
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/indestructible{
@@ -10879,12 +10900,10 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "lUB" = (
-/obj/machinery/light{
-	dir = 1
+/turf/open/indestructible{
+	icon_state = "plating_rust"
 	},
-/obj/structure/chair/sofa/corp,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/dorm_rooms)
 "lUY" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -11131,10 +11150,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/emitter_chambers)
 "mgU" = (
+/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
 /turf/open/indestructible{
-	icon_state = "damaged2"
+	icon_state = "chapel_alt"
 	},
-/area/awaymission/ihategordon/hecu_camp_hall)
+/area/awaymission/ihategordon/big_offices)
 "mhm" = (
 /turf/open/water/safe/electric,
 /area/awaymission/ihategordon/dorm_offices)
@@ -11157,6 +11177,12 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/big_offices)
+"miE" = (
+/obj/structure/fluff/broken_flooring,
+/turf/open/indestructible{
+	icon_state = "platingdmg1"
+	},
 /area/awaymission/ihategordon/big_offices)
 "miL" = (
 /turf/open/floor/circuit/red,
@@ -11338,14 +11364,6 @@
 	icon_state = "damaged3"
 	},
 /area/awaymission/ihategordon/cryo_room)
-"mpl" = (
-/obj/structure/door_assembly/multi_tile/metal{
-	dir = 1
-	},
-/turf/open/indestructible{
-	icon_state = "plating"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
 "mpA" = (
 /obj/effect/festive/street/streetlinewest,
 /mob/living/simple_animal/hostile/headcrab,
@@ -11359,13 +11377,6 @@
 	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"mpT" = (
-/obj/structure/table,
-/obj/machinery/coffeemaker/impressa,
-/turf/open/indestructible{
-	icon_state = "textured_dark"
-	},
-/area/awaymission/ihategordon/hecu_camp)
 "mql" = (
 /obj/machinery/vending/snack/random,
 /obj/machinery/light/red{
@@ -11993,11 +12004,6 @@
 	},
 /turf/open/floor/iron/herringbone,
 /area/awaymission/ihategordon/big_offices)
-"ncR" = (
-/turf/open/indestructible{
-	icon_state = "platingdmg1"
-	},
-/area/awaymission/ihategordon/tram_tunnel)
 "ndh" = (
 /obj/structure/closet/l3closet/scientist,
 /turf/open/indestructible,
@@ -12493,9 +12499,11 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
 "nEO" = (
-/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "pile"
+	},
 /turf/open/indestructible{
-	icon_state = "wasteland"
+	icon_state = "platingdmg2"
 	},
 /area/awaymission/ihategordon/big_offices)
 "nEW" = (
@@ -12532,16 +12540,15 @@
 /obj/structure/closet/crate/large,
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/big_offices)
-"nGY" = (
-/obj/effect/decal/cleanable/generic,
-/turf/open/indestructible{
-	icon_state = "textured_dark"
-	},
-/area/awaymission/ihategordon)
 "nHc" = (
-/obj/structure/table/reinforced,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/server_rooms)
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
+	},
+/turf/open/floor/iron{
+	icon_state = "damaged4"
+	},
+/area/awaymission/ihategordon/dorm_offices)
 "nHs" = (
 /obj/structure/barricade/sandbags,
 /obj/effect/festive/street/streetlinesouth,
@@ -12556,9 +12563,9 @@
 	},
 /area/awaymission/ihategordon)
 "nHM" = (
-/obj/structure/flora/rock/pile,
+/obj/structure/chair/office,
 /turf/open/indestructible{
-	icon_state = "ironsand1"
+	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon/hecu_camp)
 "nHP" = (
@@ -12616,11 +12623,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "nNq" = (
-/obj/structure/lattice,
+/obj/structure/table/glass,
 /turf/open/indestructible{
-	icon_state = "ironsand1"
+	icon_state = "plaswhite_traction"
 	},
-/area/awaymission/ihategordon/hecu_camp)
+/area/awaymission/ihategordon/big_offices)
 "nNP" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/indestructible{
@@ -12635,9 +12642,11 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "nOi" = (
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/dorm_offices)
+/mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
+/turf/open/indestructible{
+	icon_state = "white"
+	},
+/area/awaymission/ihategordon/big_offices)
 "nOj" = (
 /obj/structure/table/reinforced,
 /obj/item/sharpener{
@@ -13014,10 +13023,9 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "okl" = (
-/obj/structure/table/glass,
-/obj/item/folder/blue,
+/obj/structure/girder,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/big_offices)
 "okW" = (
@@ -13209,13 +13217,9 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/dorm_offices)
 "osC" = (
-/obj/machinery/computer{
-	dir = 1
-	},
-/turf/open/indestructible{
-	icon_state = "textured"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/structure/lattice,
+/turf/open/floor/festive/cobblestone/safe/mesafcobble,
+/area/awaymission/ihategordon/hecu_camp)
 "osY" = (
 /obj/structure/frame/computer,
 /turf/open/indestructible,
@@ -13325,10 +13329,8 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "ozY" = (
-/obj/structure/table/reinforced,
-/obj/item/gun/ballistic/automatic/pistol/deagle/camo,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "wasteland10"
 	},
 /area/awaymission/ihategordon/big_offices)
 "oAt" = (
@@ -13599,27 +13601,22 @@
 	},
 /area/awaymission/ihategordon/hyperlaser_chamber)
 "oPj" = (
-/obj/structure/closet/secure_closet/security/science,
-/turf/open/indestructible{
-	icon_state = "dark_large"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
-"oPv" = (
-/obj/effect/mob_spawn/human/scientist,
+/obj/structure/rack/shelf,
+/obj/item/ammo_box/magazine/pistolm9mm,
 /turf/open/indestructible{
 	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
+"oPv" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/turf/open/indestructible{
+	icon_state = "plating"
+	},
+/area/awaymission/ihategordon/emitter_chambers)
 "oPU" = (
 /obj/machinery/vending/snack/random,
 /turf/open/indestructible{
 	icon_state = "white"
-	},
-/area/awaymission/ihategordon/big_offices)
-"oQj" = (
-/obj/effect/decal/cleanable/blood/gibs,
-/turf/open/indestructible{
-	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "oQn" = (
@@ -13670,10 +13667,13 @@
 	},
 /area/awaymission/outsideofmesa)
 "oSA" = (
-/turf/open/floor/iron{
-	icon_state = "damaged4"
+/obj/structure/salvage/computer{
+	dir = 4
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/turf/open/indestructible{
+	icon_state = "dark_large"
+	},
+/area/awaymission/ihategordon/emitter_chambers)
 "oSR" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -13705,14 +13705,16 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "oVF" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen,
-/obj/item/ammo_box/magazine/mp5,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/big_offices)
-"oVR" = (
+/obj/structure/flora/rock/pile,
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "ironsand1"
+	},
+/area/awaymission/ihategordon/hecu_camp)
+"oVR" = (
+/obj/machinery/door/airlock/vault,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/indestructible{
+	icon_state = "dark_large"
 	},
 /area/awaymission/ihategordon/emitter_chambers)
 "oVZ" = (
@@ -13772,12 +13774,6 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
-"oZL" = (
-/obj/structure/table/glass,
-/turf/open/indestructible{
-	icon_state = "chapel_alt"
-	},
-/area/awaymission/ihategordon/big_offices)
 "paw" = (
 /obj/structure/window/reinforced/spawner/north{
 	dir = 8
@@ -13826,13 +13822,9 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "pbQ" = (
-/obj/machinery/computer{
-	dir = 1
-	},
-/turf/open/indestructible{
-	icon_state = "dark_large"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
+/obj/structure/chair/sofa/corp/left,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/faciluty_hallway)
 "pbT" = (
 /obj/machinery/computer{
 	dir = 1
@@ -14019,10 +14011,11 @@
 	},
 /area/awaymission/outsideofmesa)
 "pnN" = (
-/obj/structure/rack/shelf,
-/obj/item/ammo_box/magazine/pistolm9mm,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "side"
+	},
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/big_offices)
 "poj" = (
@@ -14215,12 +14208,6 @@
 /obj/effect/festive/street/streetlinewest,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"pvc" = (
-/mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
-/turf/open/indestructible{
-	icon_state = "white"
-	},
-/area/awaymission/ihategordon/big_offices)
 "pvk" = (
 /obj/item/shard{
 	icon_state = "tiny"
@@ -14279,6 +14266,12 @@
 	icon_state = "damaged5"
 	},
 /area/awaymission/ihategordon/faciluty_hallway)
+"pzt" = (
+/mob/living/simple_animal/hostile/headcrab,
+/turf/open/indestructible{
+	icon_state = "textured"
+	},
+/area/awaymission/ihategordon/tram_room)
 "pzJ" = (
 /obj/structure/salvage/remains,
 /turf/open/indestructible{
@@ -14393,7 +14386,7 @@
 "pFO" = (
 /obj/structure/chair/office/light,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "white"
 	},
 /area/awaymission/ihategordon/big_offices)
 "pGD" = (
@@ -14412,7 +14405,9 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "pGS" = (
-/obj/structure/girder,
+/obj/structure/fluff/broken_flooring{
+	icon_state = "singular"
+	},
 /turf/open/indestructible{
 	icon_state = "plating"
 	},
@@ -14584,6 +14579,12 @@
 	icon_state = "plating"
 	},
 /area/awaymission/ihategordon)
+"pQT" = (
+/obj/structure/table/reinforced,
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
+	},
+/area/awaymission/ihategordon/big_offices)
 "pRg" = (
 /obj/structure/table,
 /obj/item/flashlight,
@@ -14672,10 +14673,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "pWS" = (
+/obj/structure/table/reinforced,
 /turf/open/indestructible{
-	icon_state = "platingdmg3"
+	icon_state = "textured_dark"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon)
 "pWV" = (
 /obj/machinery/door/airlock/research,
 /turf/open/indestructible,
@@ -15403,13 +15405,10 @@
 	},
 /area/awaymission/ihategordon/dorm_offices)
 "qVK" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/ammo_box/magazine/m50,
 /turf/open/indestructible{
-	icon_state = "basaltstone"
+	icon_state = "platingdmg1"
 	},
-/area/awaymission/ihategordon/hecu_abandoned_camp)
+/area/awaymission/ihategordon/tram_tunnel)
 "qWi" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/machinery/smartfridge,
@@ -15499,7 +15498,7 @@
 	pixel_x = 32
 	},
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "plaswhite_traction"
 	},
 /area/awaymission/ihategordon/big_offices)
 "qZC" = (
@@ -16320,6 +16319,7 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/hyperlaser_chamber)
 "rTE" = (
+/obj/structure/lattice,
 /turf/open/indestructible{
 	icon_state = "ironsand1"
 	},
@@ -16453,6 +16453,12 @@
 	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon/big_offices)
+"sby" = (
+/obj/structure/chair/office/light,
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
+	},
+/area/awaymission/ihategordon/big_offices)
 "scc" = (
 /obj/machinery/light{
 	dir = 8
@@ -16548,8 +16554,11 @@
 	},
 /area/awaymission/outsideofmesa)
 "siA" = (
+/obj/structure/fluff/paper/stack{
+	dir = 8
+	},
 /turf/open/indestructible{
-	icon_state = "wasteland2"
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "siE" = (
@@ -16595,7 +16604,6 @@
 	},
 /area/awaymission/outsideofmesa)
 "skX" = (
-/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
 	icon_state = "white"
 	},
@@ -16636,12 +16644,6 @@
 	icon_state = "textured_large"
 	},
 /area/awaymission/ihategordon/dining_room)
-"snc" = (
-/obj/effect/decal/cleanable/generic,
-/turf/open/indestructible{
-	icon_state = "wasteland2"
-	},
-/area/awaymission/ihategordon/big_offices)
 "snk" = (
 /obj/structure/closet/crate/large,
 /obj/effect/turf_decal/stripes/white/box,
@@ -16805,10 +16807,6 @@
 	icon_state = "dark_large"
 	},
 /area/awaymission/ihategordon/emitter_chambers)
-"suD" = (
-/obj/structure/flora/rock/pile,
-/turf/open/floor/festive/cobblestone/safe/mesafcobble,
-/area/awaymission/ihategordon/hecu_camp)
 "suF" = (
 /obj/machinery/light/floor,
 /turf/open/indestructible{
@@ -16828,9 +16826,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "svA" = (
-/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
 /turf/open/indestructible{
-	icon_state = "plaswhite_traction"
+	icon_state = "white"
 	},
 /area/awaymission/ihategordon/big_offices)
 "svB" = (
@@ -16889,7 +16889,7 @@
 "syC" = (
 /obj/structure/table/glass,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "syO" = (
@@ -16902,6 +16902,12 @@
 /obj/structure/lattice,
 /turf/open/indestructible{
 	icon_state = "damaged3"
+	},
+/area/awaymission/ihategordon/big_offices)
+"szW" = (
+/obj/item/clothing/suit/apron/surgical,
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
 "sBz" = (
@@ -17001,12 +17007,6 @@
 	icon_state = "plating"
 	},
 /area/awaymission/ihategordon/emitter_chambers)
-"sHM" = (
-/obj/effect/decal/cleanable/blood/gibs/xeno,
-/turf/open/indestructible{
-	icon_state = "white"
-	},
-/area/awaymission/ihategordon/hecu_camp_medbay)
 "sIb" = (
 /obj/item/gun/ballistic/automatic/m16a4/stock,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
@@ -17113,7 +17113,7 @@
 "sRb" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "sRJ" = (
@@ -17149,6 +17149,11 @@
 	icon_state = "darkfull_whole"
 	},
 /area/awaymission/ihategordon/science_tunnel)
+"sUg" = (
+/turf/open/indestructible{
+	icon_state = "platingdmg1"
+	},
+/area/awaymission/ihategordon/hecu_camp_bus_stop)
 "sVe" = (
 /obj/machinery/computer,
 /turf/open/indestructible{
@@ -17421,6 +17426,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"tkM" = (
+/obj/structure/closet/secure_closet/security/science,
+/turf/open/indestructible{
+	icon_state = "dark_large"
+	},
+/area/awaymission/ihategordon/emitter_chambers)
 "tkT" = (
 /obj/structure/rack/shelf,
 /turf/open/indestructible{
@@ -17502,12 +17513,9 @@
 	},
 /area/awaymission/ihategordon/dorm_rooms)
 "tsQ" = (
-/obj/structure/grille,
-/obj/structure/window/plastitanium,
-/turf/open/indestructible{
-	icon_state = "plastitanium"
-	},
-/area/awaymission/ihategordon)
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/hecu_camp_hall)
 "ttf" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/lattice,
@@ -17595,9 +17603,7 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "tyw" = (
-/obj/structure/fluff/paper/stack{
-	dir = 8
-	},
+/obj/structure/closet/crate/freezer/blood,
 /turf/open/indestructible{
 	icon_state = "chapel_alt"
 	},
@@ -17911,11 +17917,11 @@
 	},
 /area/awaymission/ihategordon/server_rooms)
 "tSI" = (
-/obj/structure/lattice,
+/obj/structure/window/shuttle,
 /turf/open/indestructible{
-	icon_state = "wasteland12"
+	icon_state = "plating"
 	},
-/area/awaymission/ihategordon)
+/area/awaymission/ihategordon/big_offices)
 "tTc" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -18025,6 +18031,12 @@
 	icon_state = "textured_large"
 	},
 /area/awaymission/ihategordon/dining_room)
+"uaw" = (
+/obj/structure/table/optable,
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
+	},
+/area/awaymission/ihategordon/big_offices)
 "uaK" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/west,
@@ -18147,13 +18159,11 @@
 	},
 /area/awaymission/ihategordon/emitter_chambers)
 "ugW" = (
-/obj/item/shard{
-	icon_state = "tiny"
+/obj/structure/fluff/paper/stack{
+	dir = 10
 	},
-/turf/open/indestructible{
-	icon_state = "textured_dark"
-	},
-/area/awaymission/ihategordon)
+/turf/open/indestructible,
+/area/awaymission/ihategordon/server_rooms)
 "uhp" = (
 /turf/open/indestructible{
 	icon_state = "damaged1"
@@ -18260,9 +18270,7 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "uld" = (
-/obj/structure/closet/secure_closet/lethalshots{
-	req_access = 0
-	},
+/obj/structure/closet/secure_closet/lethalshots,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/sec_armory)
 "ule" = (
@@ -18374,12 +18382,11 @@
 /turf/open/floor/iron/herringbone,
 /area/awaymission/ihategordon/dining_room)
 "usa" = (
-/obj/machinery/door/airlock/vault,
-/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/decal/cleanable/blood,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "white"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/hecu_camp_medbay)
 "usd" = (
 /obj/structure/filingcabinet,
 /obj/machinery/light{
@@ -18525,13 +18532,10 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "uAG" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
+/obj/structure/table/reinforced,
+/obj/item/gun/ballistic/automatic/pistol/deagle/camo,
 /turf/open/indestructible{
-	icon_state = "chapel_alt"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "uBj" = (
@@ -18598,11 +18602,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "uEC" = (
-/obj/structure/chair/office,
+/mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/indestructible{
-	icon_state = "textured_dark"
+	icon_state = "chapel_alt"
 	},
-/area/awaymission/ihategordon/hecu_camp)
+/area/awaymission/ihategordon/big_offices)
 "uFR" = (
 /obj/structure/lattice,
 /turf/open/indestructible{
@@ -18712,7 +18716,7 @@
 "uLi" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "wasteland4"
 	},
 /area/awaymission/ihategordon/big_offices)
 "uLr" = (
@@ -18840,15 +18844,12 @@
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/server_rooms)
 "uQl" = (
-/obj/machinery/door/airlock/research,
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
 /turf/open/indestructible{
-	icon_state = "plaswhite"
+	icon_state = "plastitanium"
 	},
-/area/awaymission/ihategordon/big_offices)
-"uQG" = (
-/obj/effect/decal/cleanable/blood,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/hecu_camp_hall)
+/area/awaymission/ihategordon)
 "uRb" = (
 /obj/structure/curtain{
 	color = "#556B2F"
@@ -19166,11 +19167,12 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "vkv" = (
-/obj/machinery/door/airlock/research,
+/obj/structure/table/glass,
+/obj/item/folder/blue,
 /turf/open/indestructible{
-	icon_state = "dark_large"
+	icon_state = "textured"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon/big_offices)
 "vlp" = (
 /obj/structure/salvage/computer{
 	dir = 8
@@ -19442,11 +19444,9 @@
 	},
 /area/awaymission/ihategordon/hyperlaser_chamber)
 "vAZ" = (
-/obj/machinery/power/emitter/energycannon{
-	dir = 4
-	},
+/obj/machinery/door/poddoor/preopen,
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "dark_large"
 	},
 /area/awaymission/ihategordon/emitter_chambers)
 "vBt" = (
@@ -19498,11 +19498,10 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon)
 "vFh" = (
-/obj/structure/chair/sofa/corp/right,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "platingdmg3"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/emitter_chambers)
 "vFj" = (
 /obj/effect/festive/street/streetlinewest,
 /obj/structure/flora/rock/pile,
@@ -19684,11 +19683,11 @@
 	},
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
 "vSe" = (
-/obj/structure/salvage/computer{
-	dir = 4
+/obj/structure/lattice,
+/turf/open/indestructible{
+	icon_state = "damaged2"
 	},
-/turf/open/indestructible,
-/area/awaymission/ihategordon/server_rooms)
+/area/awaymission/ihategordon/big_offices)
 "vSm" = (
 /obj/machinery/smoke_machine,
 /obj/machinery/light/cold{
@@ -19733,6 +19732,12 @@
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /turf/open/indestructible,
 /area/awaymission/ihategordon/hecu_camp_hall)
+"vVz" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/indestructible{
+	icon_state = "wasteland"
+	},
+/area/awaymission/ihategordon/big_offices)
 "vXb" = (
 /turf/open/indestructible{
 	icon_state = "platingdmg2"
@@ -19774,10 +19779,11 @@
 	},
 /area/awaymission/ihategordon/dorm_offices)
 "vZw" = (
+/obj/effect/decal/cleanable/generic,
 /turf/open/indestructible{
-	icon_state = "plating_rust"
+	icon_state = "wasteland4"
 	},
-/area/awaymission/ihategordon/dorm_rooms)
+/area/awaymission/ihategordon/big_offices)
 "wav" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas/hecu,
@@ -19804,13 +19810,9 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "wbn" = (
-/obj/structure/fluff/paper/stack{
-	dir = 6
-	},
-/turf/open/indestructible{
-	icon_state = "textured"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/structure/table/reinforced,
+/turf/open/indestructible,
+/area/awaymission/ihategordon/server_rooms)
 "wbw" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/bearsteak,
@@ -19922,6 +19924,14 @@
 	icon_state = "white"
 	},
 /area/awaymission/ihategordon/big_offices)
+"wge" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/turf/open/indestructible{
+	icon_state = "white"
+	},
+/area/awaymission/ihategordon/big_offices)
 "wgj" = (
 /obj/machinery/modular_computer/console/preset{
 	dir = 4
@@ -19968,6 +19978,14 @@
 	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon)
+"wio" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 32
+	},
+/turf/open/indestructible{
+	icon_state = "chapel_alt"
+	},
+/area/awaymission/ihategordon/big_offices)
 "wje" = (
 /obj/machinery/door/airlock/research,
 /obj/structure/alien/weeds{
@@ -20245,14 +20263,6 @@
 	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"wwA" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 4
-	},
-/turf/open/indestructible{
-	icon_state = "platingdmg2"
-	},
-/area/awaymission/ihategordon/big_offices)
 "wwO" = (
 /obj/machinery/vending/snack/random,
 /turf/open/indestructible{
@@ -20511,11 +20521,9 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "wKD" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 4
-	},
+/obj/effect/mob_spawn/human/scientist,
 /turf/open/indestructible{
-	icon_state = "white"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "wKF" = (
@@ -20947,8 +20955,7 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "xgp" = (
-/obj/structure/table/glass,
-/obj/item/pen,
+/obj/machinery/vending/wardrobe/science_wardrobe,
 /turf/open/indestructible{
 	icon_state = "textured"
 	},
@@ -20984,11 +20991,6 @@
 	icon_state = "showroomfloor"
 	},
 /area/awaymission/ihategordon/dorm_rooms)
-"xhm" = (
-/turf/open/indestructible{
-	icon_state = "wasteland7"
-	},
-/area/awaymission/ihategordon/big_offices)
 "xhI" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -21102,7 +21104,7 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "xlQ" = (
-/obj/effect/decal/cleanable/generic,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
 	icon_state = "wasteland"
 	},
@@ -21172,14 +21174,6 @@
 	icon_state = "textured_dark"
 	},
 /area/awaymission/ihategordon/tram_room)
-"xpa" = (
-/obj/structure/fluff/paper/stack{
-	dir = 8
-	},
-/turf/open/indestructible{
-	icon_state = "dark_large"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
 "xpG" = (
 /obj/structure/table/reinforced,
 /turf/open/indestructible{
@@ -21400,9 +21394,9 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "xzY" = (
-/obj/structure/table/optable,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "plaswhite_traction"
+	icon_state = "textured"
 	},
 /area/awaymission/ihategordon/big_offices)
 "xAp" = (
@@ -21498,10 +21492,13 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "xFf" = (
-/turf/open/indestructible{
-	icon_state = "textured"
+/obj/structure/fluff/broken_flooring{
+	dir = 4
 	},
-/area/awaymission/ihategordon/tram_room)
+/turf/open/indestructible{
+	icon_state = "platingdmg2"
+	},
+/area/awaymission/ihategordon/big_offices)
 "xFV" = (
 /mob/living/simple_animal/hostile/headcrab,
 /turf/open/floor/festive/sidewalk/mesawalk,
@@ -21536,11 +21533,15 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "xHb" = (
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
+	},
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/indestructible{
-	icon_state = "dark_large"
+	icon_state = "chapel_alt"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon/big_offices)
 "xHS" = (
 /mob/living/simple_animal/hostile/headcrab,
 /turf/open/indestructible,
@@ -21666,11 +21667,11 @@
 	},
 /area/awaymission/ihategordon/dorm_offices)
 "xOV" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/obj/structure/girder,
 /turf/open/indestructible{
-	icon_state = "plating"
+	icon_state = "platingdmg2"
 	},
-/area/awaymission/ihategordon/emitter_chambers)
+/area/awaymission/ihategordon/big_offices)
 "xPh" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/indestructible,
@@ -21734,11 +21735,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "xTl" = (
-/obj/machinery/vending/wardrobe/science_wardrobe,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/indestructible{
-	icon_state = "textured"
+	icon_state = "white"
 	},
-/area/awaymission/ihategordon/big_offices)
+/area/awaymission/ihategordon/hecu_camp_medbay)
 "xTr" = (
 /obj/machinery/light{
 	dir = 1
@@ -22038,11 +22039,6 @@
 	icon_state = "chapel_alt"
 	},
 /area/awaymission/ihategordon/big_offices)
-"yjG" = (
-/turf/open/indestructible{
-	icon_state = "platingdmg1"
-	},
-/area/awaymission/ihategordon)
 "ykm" = (
 /obj/structure/salvage/computer{
 	dir = 4
@@ -22929,7 +22925,7 @@ jdf
 yez
 yez
 yez
-fXL
+aaD
 aRY
 izx
 aRY
@@ -22945,21 +22941,21 @@ vTk
 vTk
 rJw
 poO
-syC
-syC
+hfS
+hfS
 rJw
-rTE
-rTE
+bon
+bon
 cAU
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 cAU
-rTE
-rTE
-rTE
+bon
+bon
+bon
 eqt
 eqt
 eqt
@@ -23156,14 +23152,14 @@ nJt
 nJt
 nJt
 nJt
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
 eqt
 eqt
 eqt
@@ -23310,8 +23306,8 @@ rJw
 bll
 wgj
 bll
-pnN
-jGI
+oPj
+cPa
 aRY
 rJw
 gFX
@@ -23358,15 +23354,15 @@ iSp
 qKm
 ogQ
 nJt
-rTE
+bon
 nJt
 nJt
 nJt
 nJt
 nJt
 nJt
-rTE
-rTE
+bon
+bon
 eqt
 eqt
 eqt
@@ -23536,9 +23532,9 @@ gFX
 pDY
 yez
 aRY
-cqX
+jex
 aRY
-cqX
+jex
 rJw
 aRY
 aRY
@@ -23550,7 +23546,7 @@ aRY
 aRY
 vTk
 qMD
-syC
+hfS
 aRY
 yla
 rJw
@@ -23560,16 +23556,16 @@ qKm
 qKm
 qKm
 nJt
-rTE
+bon
 nJt
 vvP
 bQv
 uUz
 rlU
 nJt
-rTE
-rTE
-rTE
+bon
+bon
+bon
 eqt
 eqt
 jwV
@@ -23754,7 +23750,7 @@ vTk
 rJw
 aRY
 aRY
-osC
+hqP
 rJw
 nJt
 qKm
@@ -23762,16 +23758,16 @@ rlU
 kRu
 jbQ
 nJt
-rTE
+bon
 nJt
 qKm
 qKm
 qKm
 qKm
 nJt
-rTE
+bon
 cAU
-rTE
+bon
 eqt
 eqt
 jwV
@@ -23971,9 +23967,9 @@ rIs
 rHf
 qKm
 nJt
-rTE
-rTE
-rTE
+bon
+bon
+bon
 eqt
 eqt
 eqt
@@ -24148,11 +24144,11 @@ eqt
 eqt
 vix
 aRY
-uLi
+xzY
 dfU
-cqX
+jex
 aRY
-uLi
+xzY
 aRY
 aRY
 rJw
@@ -24166,18 +24162,18 @@ qKm
 qKm
 qKm
 nJt
-rTE
+bon
 nJt
 qKm
 qKm
 ooA
 qKm
 uRb
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 nJt
 nJt
 nJt
@@ -24186,23 +24182,23 @@ nJt
 nJt
 nJt
 nJt
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
 cAU
+bon
+bon
+bon
+bon
+oVF
 rTE
 rTE
-rTE
-rTE
-nHM
-nNq
-nNq
 eqt
 eqt
 eqt
@@ -24317,7 +24313,7 @@ omx
 aYT
 oQS
 rJw
-jGI
+cPa
 bll
 bll
 qzR
@@ -24348,7 +24344,7 @@ eqt
 eqt
 eqt
 rJw
-cqX
+jex
 bho
 sqO
 aRY
@@ -24368,18 +24364,18 @@ pVv
 qKm
 pVv
 nJt
-rTE
+bon
 nJt
 mtp
 qKm
 ooA
 qKm
 uRb
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 nJt
 gIv
 hUA
@@ -24388,19 +24384,19 @@ rlU
 pdi
 wcc
 nJt
-rTE
+bon
 cAU
-rTE
+bon
 nwI
-rTE
-rTE
+bon
+bon
 cAU
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
 nwI
-rTE
+bon
 eqt
 eqt
 eqt
@@ -24558,11 +24554,11 @@ aRY
 dLn
 aRY
 aRY
-uLi
+xzY
 qrD
 aRY
 aRY
-xTl
+xgp
 rJw
 nJt
 qKm
@@ -24570,18 +24566,18 @@ qKm
 qKm
 qKm
 nJt
-rTE
+bon
 nJt
 mtp
 qKm
 hUA
 qKm
 nJt
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 nJt
 uUI
 qKm
@@ -24590,21 +24586,21 @@ qKm
 qKm
 smD
 nJt
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-rTE
-nHM
-rTE
-rTE
-nHM
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+bon
+oVF
+bon
+bon
+oVF
 eqt
 eqt
 eqt
@@ -24717,9 +24713,9 @@ eqt
 eqt
 eqt
 rJw
-gCj
-gCj
-gCj
+iFV
+iFV
+iFV
 rJw
 lyJ
 gFX
@@ -24772,7 +24768,7 @@ qKm
 qKm
 pVv
 nJt
-rTE
+bon
 nJt
 bXB
 qKm
@@ -24780,10 +24776,10 @@ rlU
 qKm
 nJt
 cAU
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
 nJt
 fFd
 qKm
@@ -24792,22 +24788,22 @@ qKm
 qKm
 qKm
 nJt
-rTE
+bon
 cAU
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 nwI
-rTE
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
+bon
 cAU
-nNq
-nNq
+rTE
+rTE
 eqt
 eqt
 eqt
@@ -24994,16 +24990,16 @@ qKm
 qKm
 qKm
 nJt
-rTE
-rTE
+bon
+bon
 cAU
-rTE
+bon
 rUW
-rTE
-rTE
+bon
+bon
 rUW
-rTE
-rTE
+bon
+bon
 rUW
 eqt
 eqt
@@ -25207,7 +25203,7 @@ hmn
 hmn
 hmn
 hmn
-ePq
+osC
 eqt
 eqt
 eqt
@@ -25409,8 +25405,8 @@ wqQ
 wqQ
 wqQ
 wqQ
-suD
-ePq
+haZ
+osC
 eqt
 eqt
 eqt
@@ -25597,7 +25593,7 @@ kMo
 qKm
 qKm
 qKm
-uEC
+nHM
 oKe
 nJt
 wqQ
@@ -25609,14 +25605,14 @@ wqQ
 wqQ
 wqQ
 wqQ
-suD
+haZ
 wqQ
 wqQ
 wqQ
 wqQ
-ePq
-ePq
-ePq
+osC
+osC
+osC
 eqt
 eqt
 eqt
@@ -25814,12 +25810,12 @@ wqQ
 wqQ
 wqQ
 wqQ
-suD
+haZ
 wqQ
 wqQ
-ePq
-ePq
-ePq
+osC
+osC
+osC
 eqt
 eqt
 jwV
@@ -26001,7 +25997,7 @@ rlU
 hUA
 qKm
 qKm
-uEC
+nHM
 lAD
 nJt
 wqQ
@@ -26015,10 +26011,10 @@ obk
 wqQ
 wqQ
 wqQ
-ePq
-ePq
-ePq
-ePq
+osC
+osC
+osC
+osC
 eqt
 eqt
 eqt
@@ -26625,8 +26621,8 @@ wqQ
 wqQ
 wqQ
 wqQ
-ePq
-ePq
+osC
+osC
 eqt
 eqt
 eqt
@@ -26821,12 +26817,12 @@ jDY
 dvh
 obk
 wqQ
-suD
+haZ
 wqQ
 wqQ
 wqQ
-suD
-ePq
+haZ
+osC
 eqt
 eqt
 eqt
@@ -27027,9 +27023,9 @@ wqQ
 wqQ
 wqQ
 wqQ
-ePq
-ePq
-ePq
+osC
+osC
+osC
 eqt
 eqt
 eqt
@@ -27229,7 +27225,7 @@ wqQ
 wqQ
 wqQ
 wqQ
-suD
+haZ
 eqt
 eqt
 eqt
@@ -27298,7 +27294,7 @@ brw
 gtz
 gFX
 oFD
-xOV
+oPv
 fPI
 fPI
 lDs
@@ -27500,7 +27496,7 @@ brw
 gtz
 oFD
 oFD
-xOV
+oPv
 fPI
 fPI
 fPI
@@ -27513,7 +27509,7 @@ gSc
 fPI
 fPI
 fPI
-xHb
+gCj
 mIo
 roS
 eqt
@@ -27633,9 +27629,9 @@ myT
 myT
 myT
 myT
-ePq
-ePq
-ePq
+osC
+osC
+osC
 eqt
 eqt
 eqt
@@ -27713,10 +27709,10 @@ fPI
 fPI
 gSc
 mGX
-xHb
+gCj
 jEL
-xpa
-pbQ
+ivn
+jeo
 roS
 eqt
 eqt
@@ -27824,18 +27820,18 @@ rHa
 rHa
 ppp
 ppp
-rTE
-rTE
+bon
+bon
 rUW
-rTE
-rTE
-rTE
+bon
+bon
+bon
 rUW
-nHM
-rTE
-rTE
+oVF
+bon
+bon
 rUW
-rTE
+bon
 eqt
 eqt
 eqt
@@ -27904,7 +27900,7 @@ brw
 gtz
 oFD
 oFD
-xOV
+oPv
 fPI
 sfm
 fPI
@@ -27918,7 +27914,7 @@ fPI
 fPI
 vgT
 piJ
-pbQ
+jeo
 roS
 eqt
 eqt
@@ -28009,13 +28005,13 @@ nDx
 nDx
 nDx
 nJt
-mpT
+eBJ
 qKm
 qKm
 qKm
 nJt
-rTE
-rTE
+bon
+bon
 eqt
 ppp
 gOH
@@ -28026,20 +28022,20 @@ nZO
 xKR
 gOH
 ppp
-rTE
-eaz
-rTE
-eaz
-rTE
-rTE
-rTE
+bon
+cqX
+bon
+cqX
+bon
+bon
+bon
 cAU
-eaz
-rTE
-rTE
-nHM
-rTE
-rTE
+cqX
+bon
+bon
+oVF
+bon
+bon
 eqt
 eqt
 eqt
@@ -28116,7 +28112,7 @@ roS
 rRG
 fPI
 roS
-vkv
+gLp
 roS
 xMy
 vgT
@@ -28152,7 +28148,7 @@ eqt
 eqt
 fix
 gLh
-kig
+ewP
 taY
 lki
 taY
@@ -28216,7 +28212,7 @@ rlU
 iDB
 qKm
 nJt
-rTE
+bon
 cAU
 eqt
 ppp
@@ -28232,17 +28228,17 @@ iKJ
 iKJ
 iKJ
 kbf
-rTE
+bon
 dPY
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
 nwI
+bon
+cqX
+bon
 rTE
-eaz
-rTE
-nNq
 eqt
 eqt
 eqt
@@ -28280,8 +28276,8 @@ yez
 eqt
 rJw
 qLv
-jeM
-jeM
+pQT
+pQT
 rJw
 gFX
 gFX
@@ -28418,8 +28414,8 @@ pVv
 qKm
 qKm
 nJt
-rTE
-rTE
+bon
+bon
 eqt
 ppp
 qgS
@@ -28430,22 +28426,22 @@ nZO
 xKR
 cTs
 ppp
-rTE
+bon
 iKJ
-rTE
+bon
 kbf
+bon
+bon
+bon
+cqX
+bon
+bon
+bon
+bon
+bon
 rTE
 rTE
 rTE
-eaz
-rTE
-rTE
-rTE
-rTE
-rTE
-nNq
-nNq
-nNq
 eqt
 eqt
 jwV
@@ -28481,7 +28477,7 @@ yez
 yez
 eqt
 rJw
-jeM
+pQT
 bHi
 mKU
 rJw
@@ -28561,7 +28557,7 @@ taY
 taY
 taY
 taY
-kig
+ewP
 taY
 taY
 taY
@@ -28620,8 +28616,8 @@ qKm
 qKm
 qKm
 nJt
-rTE
-rTE
+bon
+bon
 eqt
 ppp
 gOH
@@ -28634,19 +28630,19 @@ gOH
 ppp
 iKJ
 iKJ
-rTE
+bon
 iKJ
 nwI
-rTE
+bon
 dPY
-rTE
-rTE
+bon
+bon
 cAU
-rTE
+bon
 cAU
-rTE
-rTE
-nHM
+bon
+bon
+oVF
 cAU
 eqt
 eqt
@@ -28817,13 +28813,13 @@ aGy
 djk
 nDx
 nJt
-ewP
+hWK
 uSc
 kZy
 woS
 nJt
-rTE
-rTE
+bon
+bon
 eqt
 ppp
 gOH
@@ -28835,22 +28831,22 @@ xKR
 gOH
 ppp
 iKJ
-rTE
+bon
 kbf
 kbf
-rTE
-rTE
-rTE
+bon
+bon
+bon
 cAU
+bon
+bon
+bon
+bon
+oVF
+bon
+cqX
 rTE
 rTE
-rTE
-rTE
-nHM
-rTE
-eaz
-nNq
-nNq
 eqt
 eqt
 eqt
@@ -29024,7 +29020,7 @@ nJt
 nJt
 nJt
 nJt
-rTE
+bon
 cAU
 eqt
 ppp
@@ -29222,12 +29218,12 @@ djk
 nDx
 eqt
 eqt
-rTE
-rTE
-rTE
+bon
+bon
+bon
 cAU
-rTE
-rTE
+bon
+bon
 eqt
 ppp
 gGN
@@ -29292,10 +29288,10 @@ rJw
 upl
 upl
 upl
-hHQ
-hHQ
-hHQ
-hHQ
+cCk
+cCk
+cCk
+cCk
 vwA
 upl
 upl
@@ -29318,7 +29314,7 @@ ahu
 gtz
 oFD
 oFD
-xOV
+oPv
 fPI
 fPI
 fPI
@@ -29376,7 +29372,7 @@ wIx
 wIx
 nDx
 pfO
-aKb
+sUg
 ybC
 gYK
 ybC
@@ -29423,12 +29419,12 @@ aGy
 idL
 nDx
 eqt
-rTE
+bon
 cAU
-rTE
-rTE
-rTE
-rTE
+bon
+bon
+bon
+bon
 eqt
 eqt
 ppp
@@ -29451,7 +29447,7 @@ iju
 cLD
 iju
 iju
-uQG
+lJR
 iju
 iju
 rmZ
@@ -29473,7 +29469,7 @@ pNi
 kFC
 pNi
 xOl
-ehZ
+dXj
 mvL
 mvL
 wGl
@@ -29484,24 +29480,24 @@ eBP
 mvL
 eBP
 mvL
-ehZ
 dXj
+nHc
 mvL
-hWK
+bbh
 hyH
 eqt
 rJw
 xTr
-oQj
 hHQ
-hHQ
-gxT
-uAG
-hHQ
-hHQ
-hHQ
-hHQ
-hHQ
+cCk
+cCk
+xHb
+fiZ
+cCk
+cCk
+cCk
+cCk
+cCk
 upl
 upl
 rJw
@@ -29520,7 +29516,7 @@ cuU
 gtz
 gFX
 oFD
-xOV
+oPv
 fPI
 fPI
 fPI
@@ -29627,9 +29623,9 @@ nDx
 eqt
 eqt
 eqt
-rTE
-rTE
-rTE
+bon
+bon
+bon
 eqt
 eqt
 eqt
@@ -29679,7 +29675,7 @@ hyH
 pNi
 mvL
 mvL
-hWK
+bbh
 hyH
 osm
 mvL
@@ -29695,7 +29691,7 @@ eqt
 rJw
 upl
 upl
-hHQ
+cCk
 rJw
 rJw
 rJw
@@ -29705,7 +29701,7 @@ cPm
 upl
 upl
 upl
-hfS
+tyw
 rJw
 gFX
 lgm
@@ -29729,8 +29725,8 @@ ejv
 roS
 roS
 roS
-gxz
-gxz
+vAZ
+vAZ
 roS
 roS
 roS
@@ -29767,7 +29763,7 @@ taY
 taY
 taY
 taY
-kig
+ewP
 fix
 wIx
 wIx
@@ -29863,7 +29859,7 @@ iju
 iju
 jsY
 mhm
-nOi
+jeM
 mhm
 jRq
 xOl
@@ -29872,7 +29868,7 @@ mhm
 eqt
 eqt
 rGc
-nOi
+jeM
 osm
 mvL
 fxW
@@ -29887,8 +29883,8 @@ pNi
 mvL
 jSR
 mvL
-hWK
-ehZ
+bbh
+dXj
 aXl
 aXl
 aXl
@@ -29899,13 +29895,13 @@ upl
 nUB
 gtO
 gsd
-hHQ
+cCk
 rkS
-hHQ
+cCk
 qMD
 upl
 upl
-oQj
+hHQ
 ikz
 eDh
 rJw
@@ -30077,7 +30073,7 @@ eqt
 eqt
 mvL
 mvL
-hWK
+bbh
 mvL
 hyH
 hyH
@@ -30099,17 +30095,17 @@ eqt
 rJw
 upl
 upl
-hHQ
+cCk
 rJw
-hHQ
-uAG
-hHQ
+cCk
+fiZ
+cCk
 qMD
 dLn
-oQj
-iDe
+hHQ
+bhq
 dLn
-hfS
+tyw
 rJw
 lyJ
 lgm
@@ -30131,7 +30127,7 @@ oBt
 fPI
 fPI
 fPI
-pbQ
+jeo
 gSc
 fPI
 fPI
@@ -30168,7 +30164,7 @@ eqt
 fix
 taY
 ehi
-kig
+ewP
 taY
 taY
 ehi
@@ -30300,18 +30296,18 @@ hyH
 eqt
 rJw
 upl
-hHQ
-hHQ
+cCk
+cCk
 gsd
-hHQ
-hHQ
+cCk
+cCk
 rkS
 qMD
 upl
 upl
 upl
 upl
-tyw
+siA
 rJw
 gFX
 lgm
@@ -30333,7 +30329,7 @@ oFv
 fPI
 fPI
 fPI
-pbQ
+jeo
 gSc
 fPI
 fPI
@@ -30466,7 +30462,7 @@ iju
 oFn
 iju
 oNi
-cnx
+tsQ
 iju
 iju
 iju
@@ -30502,8 +30498,8 @@ hyH
 eqt
 rJw
 upl
-hHQ
-hHQ
+cCk
+cCk
 rJw
 rJw
 rJw
@@ -30511,9 +30507,9 @@ rJw
 rJw
 oGy
 upl
-oQj
+hHQ
 vix
-jeM
+pQT
 rJw
 gFX
 lgm
@@ -30670,8 +30666,8 @@ jAs
 iju
 iju
 iju
-uQG
-mgU
+lJR
+iNV
 uJV
 ejJ
 dHh
@@ -30704,18 +30700,18 @@ hyH
 eqt
 rJw
 eUi
-hHQ
-hHQ
+cCk
+cCk
 gsd
-hHQ
-hHQ
+cCk
+cCk
 gtO
 qMD
-jeM
+pQT
 upl
 upl
 upl
-jeM
+pQT
 rJw
 gFX
 lgm
@@ -30733,20 +30729,20 @@ gtz
 lyJ
 eqt
 roS
-atT
-atT
+oVR
+oVR
 roS
 roS
 roS
 roS
-gxz
+vAZ
 kah
 roS
 roS
 roS
 roS
-atT
-atT
+oVR
+oVR
 roS
 eqt
 rwm
@@ -30865,7 +30861,7 @@ jAs
 iju
 lLf
 phz
-mgU
+iNV
 iju
 iju
 iju
@@ -30905,19 +30901,19 @@ egJ
 hyH
 eqt
 rJw
-hHQ
+cCk
 sqO
 upl
 rJw
-hHQ
-uAG
-hHQ
+cCk
+fiZ
+cCk
 qMD
 mtS
 upl
 sqO
-hqP
-jeM
+szW
+pQT
 rJw
 pDY
 lgm
@@ -30979,7 +30975,7 @@ taY
 mMS
 mMS
 ehi
-kig
+ewP
 eoU
 wIx
 hDV
@@ -31107,19 +31103,19 @@ egJ
 hyH
 eqt
 rJw
-hHQ
+cCk
 upl
 rkS
 gsd
 gtO
-hHQ
-hHQ
+cCk
+cCk
 qMD
 mtS
 upl
 upl
 upl
-iNV
+jGI
 rJw
 lyJ
 lgm
@@ -31265,7 +31261,7 @@ npH
 ppp
 ppp
 ppp
-cnx
+tsQ
 iju
 xeF
 nGv
@@ -31274,7 +31270,7 @@ rTZ
 tzj
 vKz
 nPh
-jEf
+usa
 uBL
 rTZ
 udB
@@ -31310,7 +31306,7 @@ hyH
 eqt
 rJw
 upl
-oQj
+hHQ
 upl
 rJw
 rJw
@@ -31318,10 +31314,10 @@ rJw
 rJw
 rJw
 dZM
-fVu
+cvB
 upl
-oQj
-iNV
+hHQ
+jGI
 rJw
 gFX
 lgm
@@ -31513,17 +31509,17 @@ eqt
 rJw
 upl
 upl
-hHQ
+cCk
 gsd
-hHQ
+cCk
 idR
-hHQ
+cCk
 qMD
-iNV
+jGI
 upl
-aaD
+mgU
 upl
-aut
+uaw
 rJw
 gFX
 lgm
@@ -31678,10 +31674,10 @@ uBL
 rTZ
 uBL
 uBL
-sHM
+xTl
 uBL
 rTZ
-jEf
+usa
 uBL
 lwI
 uBL
@@ -31702,9 +31698,9 @@ eqt
 eqt
 hyH
 hyH
-gLy
+hCN
 hyH
-gLy
+hCN
 hyH
 hyH
 egJ
@@ -31714,18 +31710,18 @@ hyH
 eqt
 rJw
 cPm
-hHQ
-hHQ
+cCk
+cCk
 gsd
-hHQ
-hHQ
-hHQ
+cCk
+cCk
+cCk
 qMD
 upl
-oQj
-cIA
+hHQ
+laU
 upl
-oZL
+syC
 rJw
 xhP
 lgm
@@ -31917,11 +31913,11 @@ eqt
 rJw
 upl
 upl
-hHQ
+cCk
 mJw
-hHQ
-hHQ
-hHQ
+cCk
+cCk
+cCk
 qMD
 dPF
 upl
@@ -31985,7 +31981,7 @@ jwV
 eqt
 fix
 taY
-kig
+ewP
 mMS
 mMS
 mMS
@@ -32117,19 +32113,19 @@ egJ
 hyH
 eqt
 rJw
-hHQ
+cCk
 gtO
-hHQ
+cCk
 gsd
-hHQ
+cCk
 rkS
-hHQ
+cCk
 qMD
 upl
 upl
-qZl
-oQj
-oZL
+wio
+hHQ
+syC
 rJw
 pDY
 lgm
@@ -32388,7 +32384,7 @@ jwV
 jwV
 eqt
 fix
-kig
+ewP
 taY
 pKQ
 taY
@@ -32592,7 +32588,7 @@ eqt
 fix
 ehi
 taY
-kig
+ewP
 ixu
 mMS
 mMS
@@ -32754,19 +32750,19 @@ gFX
 eqt
 roS
 roS
-atT
-atT
+oVR
+oVR
 roS
 roS
 roS
 kah
-gxz
+vAZ
 roS
 roS
 roS
 roS
-atT
-atT
+oVR
+oVR
 roS
 eqt
 eqt
@@ -32930,9 +32926,9 @@ czz
 ssL
 rJw
 wcZ
-oZL
-oZL
-oZL
+syC
+syC
+syC
 upl
 upl
 upl
@@ -32955,20 +32951,20 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
+kon
 roS
 fPI
 fPI
 roS
-oVR
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -33132,9 +33128,9 @@ czz
 boK
 rJw
 wcZ
-oZL
-oZL
-oZL
+syC
+syC
+syC
 upl
 upl
 tLk
@@ -33160,13 +33156,13 @@ roS
 pBC
 iid
 iZV
-vAZ
-oVR
+cnx
+kon
 iTd
 fPI
 fPI
 iTd
-oVR
+kon
 inl
 iZV
 taC
@@ -33361,16 +33357,16 @@ eqt
 roS
 cUL
 ijW
-oVR
-oVR
-oVR
+kon
+kon
+kon
 iTd
 fPI
 fPI
 iTd
 bpu
-oVR
-oVR
+kon
+kon
 pBC
 mLW
 roS
@@ -33562,19 +33558,19 @@ gFX
 eqt
 roS
 rTc
-oVR
-oVR
-oVR
+kon
+kon
+kon
 ybm
 jzI
 fPI
 fPI
 hfN
 sVe
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -33613,7 +33609,7 @@ wIx
 wIx
 eoD
 ioh
-xFf
+gxz
 eoD
 eqt
 eqt
@@ -33764,19 +33760,19 @@ gFX
 eqt
 roS
 oyt
-oVR
-oVR
-oVR
+kon
+kon
+kon
 oyt
 iTd
 fPI
 fPI
 iTd
 oyt
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -33815,7 +33811,7 @@ wIx
 wIx
 xDd
 vJJ
-xFf
+gxz
 eoD
 eoD
 eoD
@@ -33946,7 +33942,7 @@ upl
 upl
 upl
 upl
-haZ
+uEC
 upl
 mBs
 upl
@@ -33966,18 +33962,18 @@ gFX
 eqt
 roS
 gfp
-oVR
-oVR
-oVR
+kon
+kon
+kon
 vFC
 iTd
 fPI
 fPI
 iTd
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
 gfp
 roS
 eqt
@@ -34017,9 +34013,9 @@ wIx
 wIx
 xDd
 qlj
-ghz
-xFf
-xFf
+pzt
+gxz
+gxz
 bZX
 xkP
 xkP
@@ -34168,8 +34164,8 @@ lyJ
 eqt
 roS
 wRR
-oVR
-oVR
+kon
+kon
 oyt
 oyt
 poy
@@ -34178,8 +34174,8 @@ fPI
 hfN
 oyt
 mtu
-oVR
-oVR
+kon
+kon
 ybm
 roS
 eqt
@@ -34370,8 +34366,8 @@ gFX
 eqt
 roS
 uvS
-oVR
-oVR
+kon
+kon
 oyt
 oyt
 iTd
@@ -34379,9 +34375,9 @@ fPI
 fPI
 iTd
 oyt
-oVR
-oVR
-oVR
+kon
+kon
+kon
 uZv
 roS
 eqt
@@ -34548,7 +34544,7 @@ rJw
 bEE
 upl
 upl
-jeM
+pQT
 uhT
 upl
 upl
@@ -34572,18 +34568,18 @@ gFX
 eqt
 roS
 dAM
-oVR
-oVR
-oVR
+kon
+kon
+kon
 epp
 iTd
 fPI
 fPI
 iTd
 wRR
-oVR
+kon
 mtu
-oVR
+kon
 ybm
 roS
 eqt
@@ -34749,8 +34745,8 @@ jjn
 rJw
 upl
 upl
-pFO
-jeM
+sby
+pQT
 uhT
 upl
 xtt
@@ -34774,18 +34770,18 @@ gFX
 eqt
 roS
 sVe
-oVR
-oVR
-oVR
+kon
+kon
+kon
 epp
 roS
 fPI
 fPI
 roS
 wRR
-oVR
-oVR
-oVR
+kon
+kon
+kon
 ybm
 roS
 eqt
@@ -34950,7 +34946,7 @@ jjn
 jjn
 rJw
 bEE
-haZ
+uEC
 upl
 fmb
 uhT
@@ -34981,7 +34977,7 @@ roS
 roS
 roS
 roS
-gxz
+vAZ
 kah
 roS
 roS
@@ -35032,7 +35028,7 @@ eqt
 eqt
 ekp
 ekp
-iyv
+igC
 ekp
 ekp
 kep
@@ -35148,7 +35144,7 @@ pNi
 osm
 rJw
 jjn
-cYc
+bMq
 jjn
 rJw
 upl
@@ -35178,8 +35174,8 @@ gFX
 eqt
 roS
 rTc
-oVR
-oVR
+kon
+kon
 iTd
 qrL
 gSc
@@ -35188,9 +35184,9 @@ fPI
 gSc
 miL
 roS
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -35379,8 +35375,8 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
+kon
+kon
 pJh
 roS
 miL
@@ -35390,8 +35386,8 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
+kon
+kon
 mtu
 roS
 eqt
@@ -35562,7 +35558,7 @@ upl
 upl
 upl
 upl
-aaD
+mgU
 upl
 mBs
 upl
@@ -35581,8 +35577,8 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
+kon
+kon
 mtu
 iTd
 qrL
@@ -35593,7 +35589,7 @@ gSc
 miL
 roS
 hnq
-oVR
+kon
 mLW
 roS
 eqt
@@ -35783,7 +35779,7 @@ gtz
 gFX
 eqt
 roS
-oVR
+kon
 mtu
 pJh
 roS
@@ -35794,9 +35790,9 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -35957,7 +35953,7 @@ eqt
 rJw
 xqc
 xQo
-ivn
+ecm
 rJw
 upl
 upl
@@ -35985,9 +35981,9 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
-oVR
+kon
+kon
+kon
 iTd
 qrL
 gSc
@@ -35997,8 +35993,8 @@ gSc
 miL
 roS
 hnq
-oVR
-oVR
+kon
+kon
 roS
 eqt
 jwV
@@ -36188,8 +36184,8 @@ lyJ
 eqt
 roS
 sVe
-oVR
-oVR
+kon
+kon
 roS
 miL
 gSc
@@ -36198,8 +36194,8 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
+kon
+kon
 ybm
 roS
 eqt
@@ -36390,7 +36386,7 @@ gFX
 eqt
 roS
 uvS
-oVR
+kon
 lbk
 roS
 roS
@@ -36569,7 +36565,7 @@ rrw
 vFy
 czz
 rJw
-sRb
+eaz
 upl
 upl
 upl
@@ -36592,8 +36588,8 @@ gFX
 eqt
 roS
 sVe
-oVR
-oVR
+kon
+kon
 roS
 miL
 gSc
@@ -36602,8 +36598,8 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
+kon
+kon
 ybm
 roS
 eqt
@@ -36794,8 +36790,8 @@ gFX
 eqt
 roS
 cUL
-oVR
-oVR
+kon
+kon
 iTd
 qrL
 gSc
@@ -36805,8 +36801,8 @@ gSc
 miL
 roS
 hnq
-oVR
-oVR
+kon
+kon
 roS
 eqt
 jwV
@@ -36995,8 +36991,8 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
+kon
+kon
 pJh
 roS
 miL
@@ -37006,9 +37002,9 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -37197,9 +37193,9 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
-oVR
+kon
+kon
+kon
 iTd
 qrL
 gSc
@@ -37209,8 +37205,8 @@ gSc
 miL
 roS
 hnq
-oVR
-oVR
+kon
+kon
 roS
 eqt
 jwV
@@ -37410,8 +37406,8 @@ fPI
 gSc
 pXS
 gSc
-oVR
-oVR
+kon
+kon
 mLW
 roS
 eqt
@@ -37576,7 +37572,7 @@ czz
 xLv
 rJw
 poN
-llf
+pFO
 lQF
 qMD
 pNV
@@ -37601,7 +37597,7 @@ gtz
 gFX
 eqt
 roS
-oVR
+kon
 oyt
 dxD
 roS
@@ -37612,9 +37608,9 @@ fPI
 roS
 roS
 roS
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -37803,20 +37799,20 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
+kon
+kon
 vBK
-mpl
+dHk
 iZV
 roS
-gxz
-gxz
+vAZ
+vAZ
 roS
 iZV
 kfz
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -38005,10 +38001,10 @@ gtz
 gFX
 eqt
 roS
-oVR
-oVR
-oVR
-oVR
+kon
+kon
+kon
+kon
 iZV
 roS
 fPI
@@ -38016,9 +38012,9 @@ fPI
 roS
 iZV
 aLa
-oVR
-oVR
-oVR
+kon
+kon
+kon
 roS
 eqt
 jwV
@@ -38132,7 +38128,7 @@ eqt
 mfb
 mfb
 aGl
-pGS
+okl
 yha
 lSx
 mfb
@@ -38179,13 +38175,13 @@ eqt
 rJw
 sqO
 poN
-lJR
+svA
 aqy
-wKD
+wge
 poN
 poN
 rJw
-cPa
+skX
 kKE
 iLX
 lOU
@@ -38213,7 +38209,7 @@ roS
 roS
 roS
 roS
-gxz
+vAZ
 kah
 roS
 roS
@@ -38386,11 +38382,11 @@ dLn
 poN
 fYp
 poN
-uQl
-cPa
+kQu
 skX
+fXL
 wpn
-cPa
+skX
 dsq
 svB
 eqt
@@ -38418,7 +38414,7 @@ roS
 fPI
 fPI
 roS
-oPj
+tkM
 fPI
 fPI
 fPI
@@ -38583,16 +38579,16 @@ eqt
 rJw
 poN
 poN
-pvc
+nOi
 poN
 tNs
 poN
 mDR
 rJw
-cPa
-iSN
-cPa
 skX
+iSN
+skX
+fXL
 asi
 svB
 eqt
@@ -38620,7 +38616,7 @@ roS
 kDN
 kDN
 roS
-icv
+oSA
 fPI
 cWg
 fPI
@@ -38792,9 +38788,9 @@ poN
 mDR
 rJw
 wpn
-cPa
+skX
 kgK
-cPa
+skX
 jZc
 svB
 eqt
@@ -38986,17 +38982,17 @@ jwV
 eqt
 rJw
 rJw
-uQl
+kQu
 rJw
-iFV
-iFV
-iFV
+dxI
+dxI
+dxI
 rJw
 rJw
 siE
 asi
-cPa
-cPa
+skX
+skX
 cYj
 svB
 eqt
@@ -39188,17 +39184,17 @@ jwV
 eqt
 rJw
 ebG
-fIA
-fIA
-owI
-fIA
-fIA
 ejC
+ejC
+owI
+ejC
+ejC
+nNq
 rJw
 tah
 asi
 dxd
-cPa
+skX
 ifk
 svB
 eqt
@@ -39391,17 +39387,17 @@ eqt
 rJw
 ebG
 wlL
-fIA
-fIA
+ejC
+ejC
 wlL
-fIA
-xzY
+ejC
+aut
 rJw
 cWD
 asi
-skX
+fXL
 lQh
-vZw
+lUB
 svB
 eqt
 eqt
@@ -39425,8 +39421,8 @@ roS
 roS
 roS
 roS
-vkv
-vkv
+gLp
+gLp
 roS
 roS
 roS
@@ -39593,17 +39589,17 @@ eqt
 rJw
 edf
 vix
-fIA
-svA
-fIA
-owI
 ejC
+bHr
+ejC
+owI
+nNq
 rJw
+fXL
 skX
-cPa
-cPa
+skX
 wpn
-cPa
+skX
 svB
 eqt
 eqt
@@ -39794,12 +39790,12 @@ jwV
 eqt
 rJw
 eEX
-fIA
+ejC
 wlL
-igC
-jex
+fVu
+qZl
 wlL
-xzY
+aut
 rJw
 hKi
 asi
@@ -39869,7 +39865,7 @@ cXG
 iEC
 iEC
 iEC
-ncR
+qVK
 fJZ
 iEC
 iEC
@@ -40590,7 +40586,7 @@ voA
 voA
 wlC
 voA
-oSA
+aQB
 voA
 voA
 voA
@@ -40720,7 +40716,7 @@ vYw
 nrt
 nrt
 bSC
-qVK
+coo
 dBC
 gBJ
 tCi
@@ -40794,7 +40790,7 @@ ybx
 juv
 voA
 voA
-jBM
+aKb
 voA
 ybx
 eqt
@@ -40879,7 +40875,7 @@ cXG
 iEC
 iEC
 iEC
-ncR
+qVK
 nlm
 fJZ
 iEC
@@ -41187,7 +41183,7 @@ thN
 thN
 thN
 ybx
-kQu
+pbQ
 lor
 voA
 rJw
@@ -41389,7 +41385,7 @@ thN
 mVQ
 thN
 ybx
-cvB
+icv
 voA
 xHS
 iFh
@@ -41591,7 +41587,7 @@ thN
 mVQ
 mVQ
 ybx
-lUB
+ibE
 voA
 voA
 gcP
@@ -41793,7 +41789,7 @@ ygg
 ygg
 thN
 ybx
-gRf
+iyv
 jXX
 voA
 qYg
@@ -42399,7 +42395,7 @@ thN
 mVQ
 thN
 ybx
-kQu
+pbQ
 voA
 voA
 rJw
@@ -42601,7 +42597,7 @@ mVQ
 mVQ
 thN
 ybx
-cvB
+icv
 voA
 voA
 rJw
@@ -42732,7 +42728,7 @@ gFX
 gFX
 wyr
 rJw
-ozY
+uAG
 aRY
 aRY
 sTr
@@ -42803,7 +42799,7 @@ thN
 thN
 thN
 ybx
-lUB
+ibE
 voA
 dAi
 rJw
@@ -42869,7 +42865,7 @@ wRP
 kIc
 wAT
 ltB
-fGD
+vSe
 pBH
 rJw
 jjn
@@ -43005,7 +43001,7 @@ thN
 mVQ
 thN
 ybx
-gRf
+iyv
 voA
 voA
 rJw
@@ -43669,7 +43665,7 @@ aAj
 rJw
 fCm
 jQz
-dxI
+miE
 kpH
 kpH
 fGS
@@ -43708,7 +43704,7 @@ iEC
 iEC
 iEC
 fJZ
-ncR
+qVK
 fJZ
 iEC
 iEC
@@ -44470,7 +44466,7 @@ gOD
 gOD
 gOD
 gOD
-yjG
+lbQ
 nHA
 gOD
 gOD
@@ -44681,9 +44677,9 @@ kce
 aAj
 aAj
 aAj
-xlQ
+vVz
 ctj
-gpE
+uLi
 dHy
 rvv
 fCm
@@ -44870,12 +44866,12 @@ trT
 trT
 aTO
 gOD
-hyX
-hyX
-ugW
-hyX
-hyX
-ugW
+kGc
+kGc
+iDe
+kGc
+kGc
+iDe
 fAJ
 rbk
 dGa
@@ -45066,11 +45062,11 @@ cuU
 cuU
 cuU
 gOD
-hyX
-hyX
-hyX
+kGc
+kGc
+kGc
 bZK
-hyX
+kGc
 fSZ
 gAg
 tFw
@@ -45081,7 +45077,7 @@ jLX
 gBT
 rbk
 qgg
-xhm
+llf
 rvv
 rvv
 ctj
@@ -45121,7 +45117,7 @@ iEC
 iEC
 jAy
 cdd
-ncR
+qVK
 cqA
 jAy
 iEC
@@ -45268,17 +45264,17 @@ gOD
 cuU
 cuU
 gOD
-hyX
-hyX
-hyX
+kGc
+kGc
+kGc
 tFw
-hyX
+kGc
 dqB
 niW
 inv
 fKu
 inv
-ugW
+iDe
 oyX
 gOD
 gOD
@@ -45286,7 +45282,7 @@ gZy
 rvv
 oRJ
 whc
-snc
+jFu
 rvv
 jjn
 uPn
@@ -45465,7 +45461,7 @@ voA
 gOD
 wkP
 sYK
-hyX
+kGc
 gOD
 gOD
 pOC
@@ -45473,17 +45469,17 @@ gOD
 rFk
 hbu
 gRC
-hyX
+kGc
 rsu
 gOD
 jKk
 avN
 fKu
 kIV
-jhj
+pWS
 gOD
 rvv
-siA
+lnQ
 rvv
 ctj
 ctj
@@ -45660,14 +45656,14 @@ pWV
 jjn
 iYz
 kaN
-oVF
+kig
 pze
 voA
 uMc
 xXt
 ktX
 mJX
-nGY
+eCi
 gOD
 gOD
 gOD
@@ -45687,14 +45683,14 @@ gOD
 gOD
 gOD
 rvv
-jFu
+vZw
 ctj
-kon
+ozY
 dPc
 bvR
 fCm
 dPc
-siA
+lnQ
 unX
 jjn
 jjn
@@ -45868,8 +45864,8 @@ pWV
 kls
 xXt
 qje
-hyX
-hyX
+kGc
+kGc
 iXm
 xus
 nGm
@@ -45877,20 +45873,20 @@ jPQ
 nGm
 nGm
 hrY
-hyX
-hyX
+kGc
+kGc
 tFw
 jBd
 cbr
 fKu
 jod
-ugW
+iDe
 pQJ
 rbk
 wQw
 rvv
 ctj
-gDu
+nEO
 jjn
 jjn
 jjn
@@ -46070,20 +46066,20 @@ kpH
 cbZ
 ggN
 qje
-hyX
-nGY
+kGc
+eCi
 xqh
-hyX
-hyX
+kGc
+kGc
 rFI
-hyX
-nGY
-iOf
-hyX
-hyX
-hyX
+kGc
+eCi
+fIA
+kGc
+kGc
+kGc
 vVa
-tSI
+cIA
 hrG
 mds
 tFw
@@ -46272,19 +46268,19 @@ fCm
 oxe
 xXt
 int
-hyX
+kGc
 tFw
 gOD
-jhj
+pWS
 xle
 whP
 xle
-yjG
+lbQ
 ieY
-hyX
-nGY
-hyX
-hyX
+kGc
+eCi
+kGc
+kGc
 irn
 xAp
 kIV
@@ -46295,8 +46291,8 @@ qgg
 rvv
 aAj
 aAj
-siA
-ivn
+lnQ
+ecm
 jjn
 jjn
 mLh
@@ -46475,7 +46471,7 @@ xLD
 mQb
 vIJ
 bQX
-nGY
+eCi
 gOD
 gOD
 gOD
@@ -46489,18 +46485,18 @@ oyX
 hrY
 hrY
 rtZ
-tsQ
+uQl
 gOD
 gOD
 gOD
 gOD
-siA
+lnQ
 aAj
 rvv
 rvv
-xlQ
+vVz
 rvv
-siA
+lnQ
 xQo
 jjn
 jjn
@@ -46534,8 +46530,8 @@ rJw
 iqr
 vTk
 biE
-bhq
-bhq
+tSI
+tSI
 sqO
 biE
 vTk
@@ -46677,7 +46673,7 @@ itK
 oyX
 ktX
 aLi
-hyX
+kGc
 gOD
 gOD
 pyP
@@ -46689,7 +46685,7 @@ tFw
 lAc
 gOD
 mKq
-hyX
+kGc
 hrG
 kIV
 wDy
@@ -46697,7 +46693,7 @@ gOD
 rvv
 rvv
 rvv
-xlQ
+vVz
 ctj
 ctj
 dPc
@@ -46705,7 +46701,7 @@ mLh
 dvZ
 jjn
 jjn
-siA
+lnQ
 fCm
 aAj
 aAj
@@ -46885,13 +46881,13 @@ pMm
 jEW
 gOD
 uNu
-hyX
-hyX
+kGc
+kGc
 lHZ
-hyX
+kGc
 gOD
 tFA
-hyX
+kGc
 fKu
 nwP
 wDy
@@ -46901,7 +46897,7 @@ gOD
 gOD
 rvv
 aAj
-nEO
+xlQ
 aAj
 rvv
 rvv
@@ -47087,9 +47083,9 @@ cuU
 cuU
 gOD
 uNu
-hyX
-hyX
-hyX
+kGc
+kGc
+kGc
 rFx
 iXm
 eqo
@@ -47097,11 +47093,11 @@ tFw
 sxF
 wpi
 fFI
-ugW
+iDe
 mDT
 rbk
 wQw
-xlQ
+vVz
 rvv
 aAj
 aAj
@@ -47289,17 +47285,17 @@ cuU
 jLK
 gOD
 bif
-cCk
 jCM
-cCk
+gLy
+jCM
 bRF
 gOD
 ekL
-hyX
-ugW
-hyX
+kGc
+iDe
+kGc
 sFz
-hyX
+kGc
 pzJ
 rbk
 dGa
@@ -47308,7 +47304,7 @@ rvv
 aAj
 aAj
 rvv
-siA
+lnQ
 jjn
 fCm
 jjn
@@ -47506,13 +47502,13 @@ mDT
 rbk
 qgg
 rvv
-siA
+lnQ
 rvv
 aAj
-xlQ
-xhm
+vVz
+llf
 rvv
-siA
+lnQ
 xQo
 jjn
 jjn
@@ -47708,10 +47704,10 @@ gOD
 gOD
 gZy
 rvv
-xhm
+llf
 rvv
 rvv
-siA
+lnQ
 rvv
 jjn
 jjn
@@ -47948,11 +47944,11 @@ eqt
 rJw
 meb
 meb
-cqX
+jex
 aRY
 eqt
 eqt
-jGI
+cPa
 rJw
 vTk
 rJw
@@ -48149,12 +48145,12 @@ jwV
 eqt
 rJw
 meb
-cqX
+jex
 aRY
 aRY
 aRY
 vix
-cqX
+jex
 rJw
 vTk
 rJw
@@ -48309,9 +48305,9 @@ gFX
 rJw
 koe
 aAj
-bbh
+pGS
 fCm
-bMq
+pnN
 mLh
 agK
 jjn
@@ -48354,9 +48350,9 @@ eqt
 aRY
 aRY
 aRY
-uLi
+xzY
 aRY
-jGI
+cPa
 rJw
 vTk
 rJw
@@ -48558,7 +48554,7 @@ aRY
 dLn
 aRY
 aRY
-jGI
+cPa
 rJw
 chN
 rJw
@@ -48760,7 +48756,7 @@ aRY
 xlk
 aRY
 aRY
-jGI
+cPa
 rJw
 vTk
 rJw
@@ -49564,11 +49560,11 @@ eqt
 eqt
 eqt
 aRY
-cqX
+jex
 eqt
 eqt
 eqt
-cqX
+jex
 rJw
 vTk
 rJw
@@ -49729,13 +49725,13 @@ bWX
 kaN
 law
 tpL
-nHc
+wbn
 hHc
 key
 key
 sJJ
 hHc
-nHc
+wbn
 hPv
 teT
 tpL
@@ -49764,7 +49760,7 @@ jwV
 jwV
 eqt
 rJw
-pnN
+oPj
 aRY
 eqt
 eqt
@@ -49926,11 +49922,11 @@ rJw
 bHB
 jjn
 gPy
-dtD
+gRf
 uic
 jjn
 hVk
-eil
+ugW
 rlA
 rlA
 rlA
@@ -49966,10 +49962,10 @@ jwV
 jwV
 eqt
 rJw
-jGI
+cPa
 aRY
 aRY
-cqX
+jex
 eqt
 eqt
 eqt
@@ -50170,7 +50166,7 @@ eqt
 rJw
 rJw
 rJw
-gLp
+gpE
 rJw
 eqt
 rJw
@@ -50338,7 +50334,7 @@ hPv
 car
 twt
 twt
-vSe
+aHa
 sJJ
 nuy
 car
@@ -50774,7 +50770,7 @@ jwV
 jwV
 eqt
 rJw
-jGI
+cPa
 aRY
 aRY
 nDS
@@ -50976,7 +50972,7 @@ jwV
 jwV
 eqt
 rJw
-jGI
+cPa
 aRY
 aRY
 nDS
@@ -51384,7 +51380,7 @@ eLX
 aRY
 aRY
 nDS
-fiZ
+kcy
 nDS
 rJw
 aAj
@@ -51582,7 +51578,7 @@ jwV
 jwV
 eqt
 rJw
-jGI
+cPa
 aRY
 aRY
 aRY
@@ -51785,7 +51781,7 @@ eqt
 eqt
 rJw
 aRY
-uLi
+xzY
 aRY
 aRY
 nDS
@@ -51955,7 +51951,7 @@ nzb
 jjn
 pGG
 jjn
-dtD
+gRf
 jjn
 jjn
 bGd
@@ -51987,7 +51983,7 @@ ekp
 ekp
 rJw
 rJw
-usa
+kJK
 rJw
 rJw
 iNc
@@ -52154,7 +52150,7 @@ rJw
 rJw
 rJw
 rJw
-dtD
+gRf
 rJw
 rJw
 rJw
@@ -52352,7 +52348,7 @@ jjn
 jjn
 jjn
 jjn
-dtD
+gRf
 jjn
 jjn
 jjn
@@ -52591,14 +52587,14 @@ eqt
 rEo
 rEo
 rEo
-gLp
+gpE
 aRY
 aRY
 aRY
-uLi
+xzY
 aRY
 aRY
-usa
+kJK
 vTk
 vTk
 vTk
@@ -53198,7 +53194,7 @@ rEo
 rEo
 ekp
 mHt
-uLi
+xzY
 aRY
 sqO
 aRY
@@ -53401,9 +53397,9 @@ rEo
 ekp
 acL
 aRY
-cqX
+jex
 aRY
-uLi
+xzY
 aRY
 aRY
 aRY
@@ -53560,8 +53556,8 @@ gFX
 gFX
 rJw
 rJw
-dtD
-dtD
+gRf
+gRf
 rJw
 rJw
 rJw
@@ -53604,7 +53600,7 @@ ekp
 acL
 aRY
 aRY
-fXL
+aaD
 aRY
 neW
 aRY
@@ -53623,7 +53619,7 @@ rJw
 nDS
 nDS
 nDS
-dHk
+jBM
 fhO
 nDS
 nDS
@@ -53803,14 +53799,14 @@ rEo
 rEo
 rEo
 ekp
-vFh
+sRb
 vix
 aRY
 aRY
 aRY
 aRY
 xlk
-uLi
+xzY
 jOG
 tWo
 tWo
@@ -53825,7 +53821,7 @@ gcN
 nDS
 nDS
 nDS
-dHk
+jBM
 efw
 uyj
 nDS
@@ -54005,11 +54001,11 @@ rEo
 bgS
 rEo
 ekp
-cqX
+jex
 xlk
 aRY
 aRY
-cqX
+jex
 aRY
 aRY
 aRY
@@ -54207,7 +54203,7 @@ rEo
 rEo
 rEo
 ekp
-uLi
+xzY
 poj
 aRY
 rZX
@@ -54411,11 +54407,11 @@ rEo
 ekp
 aRY
 aRY
-cqX
+jex
 eNp
 gZq
 aRY
-cqX
+jex
 aRY
 rJw
 tWo
@@ -54616,8 +54612,8 @@ eqt
 aRY
 ksR
 aRY
-wwA
-wbn
+xFf
+gDu
 aRY
 rJw
 tWo
@@ -54632,11 +54628,11 @@ tWo
 rJw
 blI
 nDS
-fiZ
+kcy
 rJw
 rJw
 rJw
-laU
+jhj
 rJw
 ekp
 rEo
@@ -54779,7 +54775,7 @@ aAj
 rJw
 jjn
 jjn
-dtD
+gRf
 jjn
 dPc
 xQo
@@ -55040,7 +55036,7 @@ nDS
 nDS
 nDS
 nDS
-fiZ
+kcy
 nDS
 ekp
 rEo
@@ -55424,18 +55420,18 @@ czz
 eqt
 fNW
 tYW
-gDu
+nEO
 aRY
 eqt
 rJw
 rJw
-dHk
-dHk
-dHk
-dHk
-dHk
-dHk
-dHk
+jBM
+jBM
+jBM
+jBM
+jBM
+jBM
+jBM
 rJw
 rJw
 egf
@@ -55626,7 +55622,7 @@ czz
 czz
 fNW
 dJU
-wbn
+gDu
 eqt
 eqt
 rJw
@@ -55995,7 +55991,7 @@ iWl
 iQB
 ugf
 aof
-pWS
+vFh
 ugf
 aof
 jZz
@@ -56140,7 +56136,7 @@ bOd
 wPd
 jjn
 jjn
-lbQ
+xOV
 tuq
 qSU
 vLB
@@ -56228,14 +56224,14 @@ rEo
 rEo
 ekp
 aRY
-cqX
+jex
 aRY
 rJw
-xTl
+xgp
 aRY
 gIi
-syC
-dHk
+hfS
+jBM
 vTk
 exy
 boX
@@ -56247,7 +56243,7 @@ exy
 vTk
 rJw
 aRY
-oPv
+wKD
 aRY
 rJw
 aRY
@@ -56432,12 +56428,12 @@ xTO
 vix
 aRY
 aRY
-usa
+kJK
 aRY
 aRY
 aRY
 jDG
-dHk
+jBM
 vTk
 exy
 tWo
@@ -56636,10 +56632,10 @@ eqt
 aRY
 rJw
 aRY
-cqX
+jex
 aRY
-kGc
-dHk
+eil
+jBM
 vTk
 fGu
 aNF
@@ -56839,9 +56835,9 @@ eqt
 rJw
 aRY
 sqO
-oPv
-xgp
-dHk
+wKD
+iaQ
+jBM
 vTk
 exy
 tWo
@@ -56857,7 +56853,7 @@ vix
 aRY
 rJw
 aRY
-fXL
+aaD
 aRY
 aRY
 ekp
@@ -57038,12 +57034,12 @@ uod
 eqt
 eqt
 eqt
-usa
+kJK
 aRY
 aRY
 aRY
 gTD
-dHk
+jBM
 vTk
 exy
 boX
@@ -57054,12 +57050,12 @@ boX
 exy
 nWh
 rJw
-oPv
+wKD
 aRY
 aRY
 rJw
 aRY
-cqX
+jex
 aRY
 vix
 uBj
@@ -57242,9 +57238,9 @@ eqt
 eqt
 eqt
 aRY
-fXL
+aaD
 aRY
-syC
+hfS
 rJw
 wUX
 boX
@@ -57444,7 +57440,7 @@ eqt
 eqt
 eqt
 eqt
-gLp
+gpE
 rJw
 rJw
 rJw
@@ -57665,8 +57661,8 @@ rJw
 rJw
 rJw
 rJw
-gLp
-gLp
+gpE
+gpE
 rJw
 ekp
 rEo
@@ -57849,17 +57845,17 @@ eqt
 eqt
 eqt
 eqt
-cqX
+jex
 wWj
 rJw
 rJw
-dHk
-dHk
-dHk
-dHk
-dHk
-dHk
-dHk
+jBM
+jBM
+jBM
+jBM
+jBM
+jBM
+jBM
 rJw
 rJw
 bdH
@@ -58045,7 +58041,7 @@ rEo
 rEo
 bgS
 qSU
-aQB
+bjq
 czz
 eqt
 eqt
@@ -58055,14 +58051,14 @@ aRY
 wWj
 rJw
 xgt
-okl
-kGc
-okl
+vkv
+eil
+vkv
 qvR
 qvR
 icc
 cNi
-syC
+hfS
 rJw
 lXS
 aRY
@@ -58256,23 +58252,23 @@ aRY
 aRY
 sqO
 rJw
-xgp
+iaQ
 aRY
 aRY
 aRY
 aRY
 lzO
 aRY
-cqX
+jex
 fet
 rJw
 fZb
 aRY
 iKl
 bAk
-dHk
+jBM
 aRY
-cqX
+jex
 gZq
 ekp
 rEo
@@ -58454,11 +58450,11 @@ eqt
 eqt
 rJw
 rJw
-gLp
+gpE
 rJw
 rJw
 rJw
-syC
+hfS
 lWZ
 aRY
 vix
@@ -58466,13 +58462,13 @@ aRY
 tBA
 aRY
 aRY
-syC
+hfS
 rJw
 lXS
 aRY
 mbv
 bll
-dHk
+jBM
 dLn
 aRY
 aRY
@@ -58656,14 +58652,14 @@ aRY
 eqt
 aRY
 aRY
-cqX
+jex
 lFZ
 aAj
 aAj
 aAj
 aRY
 aRY
-fXL
+aaD
 aRY
 aRY
 dLn
@@ -58674,7 +58670,7 @@ aRY
 aRY
 aRY
 jCx
-dHk
+jBM
 aRY
 aRY
 aRY
@@ -58856,7 +58852,7 @@ ekp
 lFZ
 aRY
 aRY
-cqX
+jex
 dLn
 aRY
 aAj
@@ -58867,7 +58863,7 @@ muc
 aRY
 aRY
 uei
-cqX
+jex
 aRY
 aAj
 aAj
@@ -59067,15 +59063,15 @@ rJw
 rJw
 rJw
 rJw
-gLp
+gpE
 rJw
-gLp
+gpE
 aAj
 aAj
 rJw
 rJw
 rJw
-usa
+kJK
 rJw
 rJw
 rJw
@@ -59257,32 +59253,32 @@ rEo
 rEo
 rEo
 ekp
-coo
+atT
 lFZ
 aRY
 aRY
 rZB
 aAj
-fXL
+aaD
 aRY
-gLp
+gpE
 aRY
 aRY
 aRY
-cqX
+jex
 hYO
-gDu
+nEO
 aAj
 aAj
 dPF
-gLp
+gpE
 aRY
 sPq
 aRY
 aRY
 aRY
 ayQ
-cqX
+jex
 eqt
 eqt
 eqt
@@ -59460,7 +59456,7 @@ rEo
 rEo
 ekp
 lpt
-oPv
+wKD
 aRY
 aRY
 aRY
@@ -59470,7 +59466,7 @@ dLn
 rJw
 aRY
 aRY
-oPv
+wKD
 aRY
 aRY
 aAj
@@ -59480,9 +59476,9 @@ aRY
 rJw
 aRY
 aRY
-fXL
+aaD
 aRY
-cqX
+jex
 dLn
 eqt
 eqt
@@ -59667,9 +59663,9 @@ lFZ
 muc
 aRY
 aRY
-cqX
+jex
 aRY
-gLp
+gpE
 nPH
 aRY
 aRY
@@ -59678,11 +59674,11 @@ sqO
 aRY
 aRY
 gyd
-cqX
-gLp
+jex
+gpE
 aRY
-wbn
-cqX
+gDu
+jex
 aRY
 aRY
 eqt
@@ -59867,7 +59863,7 @@ aRY
 aRY
 aRY
 aRY
-oPv
+wKD
 aRY
 aRY
 aRY
@@ -59885,8 +59881,8 @@ rJw
 rJw
 rJw
 rJw
-dHk
-dHk
+jBM
+jBM
 rJw
 rJw
 rJw
@@ -60074,7 +60070,7 @@ qCK
 rJw
 aRY
 rJw
-pnN
+oPj
 aRY
 aRY
 aRY
@@ -60478,7 +60474,7 @@ qCK
 rJw
 rzX
 rJw
-pnN
+oPj
 aRY
 uWR
 swD
