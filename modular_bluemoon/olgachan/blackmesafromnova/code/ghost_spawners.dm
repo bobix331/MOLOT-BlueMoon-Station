@@ -123,7 +123,7 @@
 	head = /obj/item/clothing/head/helmet/hecu
 	suit = /obj/item/clothing/suit/armor/hecu
 	gloves = /obj/item/clothing/gloves/combat
-	belt = /obj/item/storage/belt/utility/chief/full
+	belt = /obj/item/storage/belt/military/assault/hecu/engi
 	shoes = /obj/item/clothing/shoes/combat
 	l_pocket = /obj/item/reagent_containers/food/drinks/flask
 	r_pocket = /obj/item/flashlight/flare
@@ -214,3 +214,12 @@
 		/obj/item/gun/ballistic/automatic/pistol/deagle,
 		/obj/item/ammo_box/magazine/m50,
 	)
+
+
+/obj/item/storage/belt/military/assault/hecu/engi/PopulateContents()
+	new /obj/item/screwdriver/power(src)
+	new /obj/item/crowbar/power(src)
+	new /obj/item/weldingtool/experimental(src)
+	new /obj/item/multitool/tricorder(src)
+	new /obj/item/stack/cable_coil(src,30,pick("red","yellow","orange"))
+	new /obj/item/extinguisher/mini(src)
