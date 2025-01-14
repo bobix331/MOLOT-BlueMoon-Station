@@ -191,7 +191,7 @@
 /obj/effect/mob_spawn/human/black_mesa/hecu/leader
 	name = "HECU squad leader"
 	outfit = /datum/outfit/hecu_leader
-	short_desc = "Ты являешься лидером неболього отряда поддержки HECU"
+	short_desc = "Ты являешься лидером небольшого отряда поддержки HECU"
 
 /datum/outfit/hecu_leader
 	name = "HECU squad leader"
