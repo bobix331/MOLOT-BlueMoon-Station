@@ -970,6 +970,10 @@
 "bmJ" = (
 /turf/open/floor/iron/herringbone,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"bnO" = (
+/obj/item/crowbar/freeman/ultimate,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/science_tunnel)
 "bon" = (
 /obj/structure/closet/crate/large,
 /obj/item/ammo_box/magazine/pistolm9mm,
@@ -12844,6 +12848,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/science_tunnel)
+"sdL" = (
+/obj/effect/turf_decal/stripes/white/box,
+/obj/structure/closet/crate/large,
+/obj/item/pickaxe,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "sdO" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -12962,10 +12972,9 @@
 /turf/open/floor/iron/herringbone,
 /area/awaymission/ihategordon/dining_room)
 "sls" = (
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash"
-	},
-/area/awaymission/ihategordon/hecu_camp_hall)
+/obj/item/pickaxe,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/cryo_room)
 "smx" = (
 /obj/item/clothing/accessory/indiv_number,
 /turf/open/floor/catwalk_floor,
@@ -24798,8 +24807,8 @@ lNr
 siA
 mhm
 mhm
-mhm
-eqt
+iNV
+xsj
 iNV
 xlQ
 iNV
@@ -24998,11 +25007,11 @@ mhm
 jRq
 xlQ
 uct
-mhm
-eqt
-eqt
-eqt
-eqt
+iNV
+iNV
+iNV
+qVF
+iNV
 rrW
 vHC
 fxW
@@ -25200,11 +25209,11 @@ ume
 rrW
 cvk
 oTo
-eqt
-eqt
-eqt
-eqt
-eqt
+dKr
+dKr
+dKr
+dKr
+dKr
 vHC
 vHC
 bbh
@@ -25403,9 +25412,9 @@ iKM
 hyH
 hyH
 hyH
-eqt
-eqt
-eqt
+dKr
+dKr
+dKr
 hyH
 hyH
 hyH
@@ -25603,10 +25612,10 @@ iju
 iju
 oFn
 qgz
-sls
-sls
-eqt
-eqt
+dKr
+dKr
+dKr
+dKr
 ksA
 rrW
 iNV
@@ -25807,8 +25816,8 @@ iju
 oNi
 fmJ
 iju
-eqt
-eqt
+dKr
+dKr
 hyH
 iNV
 jBM
@@ -26010,8 +26019,8 @@ uqj
 iju
 qgz
 iju
-eqt
-eqt
+dKr
+dKr
 iNV
 iNV
 iNV
@@ -26212,7 +26221,7 @@ nGv
 nGv
 nGv
 nGv
-eqt
+dKr
 nGv
 hyH
 neX
@@ -26413,9 +26422,9 @@ nGv
 rTZ
 bXa
 jch
-eqt
-eqt
-eqt
+dKr
+dKr
+dKr
 mhm
 mhm
 xrA
@@ -26614,10 +26623,10 @@ rTZ
 lwI
 uBL
 czR
-eqt
-eqt
-eqt
-eqt
+dKr
+dKr
+dKr
+dKr
 nqH
 lkj
 jyW
@@ -26819,7 +26828,7 @@ aUU
 uBL
 lqD
 bju
-eqt
+dKr
 eBv
 oVR
 fVu
@@ -27021,7 +27030,7 @@ czR
 fgz
 uJq
 csL
-eqt
+dKr
 hvD
 xOV
 htw
@@ -27223,7 +27232,7 @@ nGv
 nGv
 nGv
 nGv
-eqt
+dKr
 hyH
 swd
 xlQ
@@ -27425,7 +27434,7 @@ eqt
 eqt
 eqt
 eqt
-eqt
+dKr
 ekp
 mrr
 gpE
@@ -37324,7 +37333,7 @@ eqt
 eqt
 ekp
 jEf
-jEf
+sdL
 gpE
 ybx
 wuP
@@ -41473,7 +41482,7 @@ eqt
 eqt
 eqt
 ekp
-pvc
+bnO
 dvq
 pvc
 gnv
@@ -42170,7 +42179,7 @@ nWT
 gps
 eqt
 ekp
-jEf
+sdL
 jEf
 uld
 wxJ
@@ -44811,7 +44820,7 @@ pgU
 eqt
 eqt
 peg
-nPi
+sls
 rWI
 egd
 ekp
