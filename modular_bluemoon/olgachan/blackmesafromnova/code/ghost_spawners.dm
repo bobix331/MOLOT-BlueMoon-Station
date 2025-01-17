@@ -16,8 +16,7 @@
 	short_desc = "Ты являешься одним из немногих выживших после инцидента в чёрной мезе"
 	flavour_text = "Ты старший научный научный сотрудник сектора H. Недавно тебя повысили в должности, перенаправив в этот сектор, но что-то пошло не так. Исходя из оповещений BMAS, По всему сектору начались портальные штормы. По этому вы, засев в одном из кабинетов, ждёте помощи."
 	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
-	roundstart = FALSE
-	death = FALSE
+	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/black_mesa
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
@@ -84,6 +83,8 @@
 	important_info = "Не пытайтесь исследовать карту далее основного атриума, ангара с автобусами и вашего палаточного медицинского отдела ( не ломайте стены в комнаты, закрытые ключ картами). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
 	roundstart = FALSE
 	death = FALSE
+	density = TRUE
+	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/hecu
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
