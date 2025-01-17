@@ -52,7 +52,7 @@
 			C.adjust_integration_blood(round(reac_volume, 0.1))
 			// we don't care about bloodtype here, we're just refilling the mob
 
-	if(reac_volume >= 10 && istype(L) && method != INJECT)
+	if(reac_volume >= 10 && istype(L) && (method != INJECT && method != INGEST))
 		L.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
 
 /datum/reagent/blood/on_mob_life(mob/living/carbon/C)	//Because lethals are preferred over stamina. damnifino.
@@ -446,8 +446,8 @@
 	if(!data)
 		data = list("misc" = 1)
 	data["misc"]++
-	if(HAS_TRAIT(M, TRAIT_HALLOWED) || M.mind?.isholy)
-		return
+	if(!iscultist(M, FALSE, TRUE) && !is_servant_of_ratvar(M) && (HAS_TRAIT(M, TRAIT_HALLOWED) || M.mind?.isholy))
+		return ..()
 	if(iscultist(M, FALSE, TRUE))
 		for(var/datum/action/innate/cult/blood_magic/BM in M.actions)
 			if(!BM.holy_dispel)
