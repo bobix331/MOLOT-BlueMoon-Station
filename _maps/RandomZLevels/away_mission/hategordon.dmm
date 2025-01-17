@@ -3472,6 +3472,9 @@
 /area/awaymission/ihategordon/emitter_chambers)
 "eTQ" = (
 /obj/machinery/light/red,
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "eUi" = (
@@ -6119,6 +6122,13 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/emitter_chambers)
+"iQL" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/science_tunnel)
 "iQM" = (
 /obj/effect/festive/street/streetlinenorth,
 /obj/machinery/light{
@@ -10089,6 +10099,13 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"obV" = (
+/obj/machinery/light/red,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/science_tunnel)
 "obY" = (
 /obj/machinery/door/airlock/research,
 /turf/open/floor/iron,
@@ -30856,14 +30873,14 @@ eqt
 eqt
 eqt
 qsD
-frW
-rcB
-rcB
+iQL
+hug
+hug
 ylu
 xzN
 cTx
-rcB
-frW
+hug
+iQL
 ylu
 vBt
 cTx
@@ -31666,16 +31683,16 @@ eqt
 eqt
 eqt
 gHy
-rcB
+wZN
 ylu
 mmB
 cTx
-rcB
-rcB
+wZN
+wZN
 ylu
 xzN
 cTx
-eTQ
+obV
 rGc
 rGc
 rGc
