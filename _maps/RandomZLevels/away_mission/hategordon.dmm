@@ -6119,11 +6119,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/emitter_chambers)
-"iQL" = (
-/obj/structure/barricade/sandbags,
-/obj/structure/barricade/wooden,
-/turf/open/floor/festive/cobblestone/safe/mesafcobble,
-/area/awaymission/outsideofmesa)
 "iQM" = (
 /obj/effect/festive/street/streetlinenorth,
 /obj/machinery/light{
@@ -10093,12 +10088,6 @@
 	pixel_y = 2
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
-"obV" = (
-/obj/machinery/door/airlock/vault,
-/turf/open/floor/plating/ironsand{
-	icon_state = "ironsand1"
-	},
 /area/awaymission/ihategordon/big_offices)
 "obY" = (
 /obj/machinery/door/airlock/research,
@@ -19050,7 +19039,7 @@ koe
 koe
 koe
 koe
-obV
+uUT
 gFX
 eQU
 nXQ
@@ -20090,11 +20079,11 @@ eQU
 eQU
 eQU
 kZo
-oFD
+eQU
+eQU
 eQU
 eQU
 rvU
-eQU
 rUW
 rUW
 rUW
@@ -20291,12 +20280,12 @@ eQU
 eQU
 hhY
 hhY
-eQU
-eQU
-eQU
+hhY
+hhY
+hhY
+hhY
 hhY
 xvA
-hhY
 rlA
 rlA
 rUW
@@ -20497,7 +20486,7 @@ oKi
 oKi
 oKi
 oKi
-iQL
+oKi
 wlC
 jrz
 rdd
