@@ -76,7 +76,7 @@
 	icon_state = "plant-04"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "agd" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner,
@@ -350,7 +350,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ayE" = (
 /mob/living/simple_animal/hostile/headcrab/fast,
 /turf/open/floor/iron,
@@ -389,7 +389,7 @@
 	icon_state = "plant-18"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "aDJ" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 4
@@ -474,7 +474,7 @@
 	layer = 5
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "aHT" = (
 /obj/machinery/light/red{
 	dir = 8
@@ -792,7 +792,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "bgP" = (
 /turf/open/floor/plasteel/stairs/right,
 /area/awaymission/ihategordon/dorm_offices)
@@ -1250,7 +1250,7 @@
 /obj/structure/closet/l3closet/scientist,
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "bHR" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/broken{
@@ -1540,7 +1540,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ccO" = (
 /obj/structure/fluff/broken_flooring,
 /turf/open/floor/plating,
@@ -1617,7 +1617,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ckA" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/east,
@@ -1778,7 +1778,7 @@
 /obj/machinery/vending/snack/random,
 /obj/machinery/light/red,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "cwQ" = (
 /obj/structure/barricade/sandbags,
 /obj/effect/festive/street/streetlineeast,
@@ -2295,7 +2295,7 @@
 "diW" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "djk" = (
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
@@ -2385,7 +2385,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "dse" = (
 /obj/machinery/pdapainter,
 /turf/open/floor/iron,
@@ -2508,7 +2508,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "dAM" = (
 /obj/structure/salvage/computer,
 /obj/machinery/light/broken/directional/north,
@@ -2695,7 +2695,7 @@
 "dPE" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "dPF" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -2972,7 +2972,7 @@
 "ehe" = (
 /obj/structure/lattice,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ehi" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/iron,
@@ -3240,7 +3240,7 @@
 /obj/structure/closet/l3closet/scientist,
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "eBv" = (
 /obj/structure/salvage/metal_frame,
 /turf/open/water/safe/electric,
@@ -3267,7 +3267,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged3"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "eCi" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/iron/dark/smooth_half,
@@ -3361,7 +3361,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "eJR" = (
 /obj/structure/table,
 /turf/open/floor/iron/dark,
@@ -3670,7 +3670,7 @@
 "frg" = (
 /obj/structure/chair/sofa/corp,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "fro" = (
 /obj/structure/railing,
 /mob/living/simple_animal/hostile/headcrab,
@@ -3725,7 +3725,7 @@
 "fwh" = (
 /obj/machinery/door/airlock/research,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "fwi" = (
 /obj/structure/table/reinforced,
 /obj/structure/fluff/paper/stack{
@@ -3793,7 +3793,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "fyN" = (
 /obj/machinery/computer,
 /obj/structure/lattice/catwalk,
@@ -3914,7 +3914,7 @@
 	},
 /obj/structure/lattice,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "fJX" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/jacket/urbanjacket/polychromic,
@@ -4157,7 +4157,7 @@
 	},
 /obj/structure/chair/sofa/corp,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "gaH" = (
 /obj/structure/railing,
 /obj/structure/lattice/catwalk,
@@ -4342,7 +4342,7 @@
 "goj" = (
 /obj/machinery/light,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "gps" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/turret_lockdown_hall)
@@ -4465,7 +4465,7 @@
 "gzC" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "gzQ" = (
 /obj/structure/closet/l3closet/scientist,
 /turf/open/floor/iron,
@@ -4737,7 +4737,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "gVL" = (
 /obj/structure/alien/weeds,
 /turf/closed/wall/r_wall,
@@ -4766,7 +4766,7 @@
 	name = "xen floor"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "gXp" = (
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/white,
@@ -5130,14 +5130,14 @@
 	puzzle_id = "main_complex"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "hyp" = (
 /obj/structure/lattice,
 /obj/machinery/light/floor,
 /turf/open/floor/iron{
 	icon_state = "damaged5"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "hyH" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/dorm_offices)
@@ -5230,7 +5230,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "hGV" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/meatballsub,
@@ -5330,7 +5330,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "hNr" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -5818,7 +5818,7 @@
 	icon_state = "plant-08"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "iwz" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -6342,7 +6342,7 @@
 "jfF" = (
 /obj/structure/lattice,
 /turf/closed/wall/r_wall,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jfU" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 8
@@ -6562,7 +6562,7 @@
 "jsV" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jsY" = (
 /obj/machinery/door/keycard{
 	puzzle_id = "main_complex"
@@ -6594,7 +6594,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jwp" = (
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/iron,
@@ -7078,12 +7078,12 @@
 /obj/machinery/door/airlock/research,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jWR" = (
 /turf/open/floor/iron{
 	icon_state = "wasteland7"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jXh" = (
 /obj/machinery/light{
 	dir = 1
@@ -7098,7 +7098,7 @@
 "jXX" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "jYg" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
@@ -7193,7 +7193,7 @@
 	},
 /obj/machinery/light/broken,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ked" = (
 /turf/open/floor/iron{
 	icon_state = "damaged2"
@@ -7464,7 +7464,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "kxt" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/large,
@@ -7579,7 +7579,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged5"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "kEh" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/closet/crate/bin,
@@ -7815,7 +7815,7 @@
 	pixel_x = -31
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "kYn" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -8039,7 +8039,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "lnh" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/research,
@@ -8070,7 +8070,7 @@
 	dir = 6
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "loT" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/table/reinforced,
@@ -8118,7 +8118,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland4"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ltq" = (
 /obj/structure/table,
 /obj/item/bodybag,
@@ -8503,7 +8503,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged4"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "lRD" = (
 /obj/machinery/light/small/red{
 	dir = 1
@@ -8660,7 +8660,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "mfb" = (
 /obj/structure/rack,
 /obj/item/ammo_box/magazine/mp5,
@@ -8766,7 +8766,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "mkV" = (
 /obj/effect/turf_decal/tile/dark,
 /obj/effect/turf_decal/tile/dark{
@@ -8813,7 +8813,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland4"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "mmh" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -8958,7 +8958,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged5"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "mtM" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/coffee,
@@ -9206,7 +9206,7 @@
 	name = "xen floor"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "mLW" = (
 /obj/machinery/light/broken/directional/south,
 /turf/open/floor/plating,
@@ -10067,7 +10067,7 @@
 "oaM" = (
 /obj/structure/closet/crate/trashcart/laundry,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "obh" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -10356,7 +10356,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "osC" = (
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
@@ -10423,7 +10423,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "oyS" = (
 /obj/structure/table,
 /obj/item/multitool{
@@ -10989,7 +10989,7 @@
 "ppa" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ppp" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/hecu_camp_hall)
@@ -11257,7 +11257,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "pIz" = (
 /obj/machinery/vending/snack/random,
 /obj/machinery/light/floor,
@@ -11330,7 +11330,7 @@
 /area/awaymission/ihategordon/dorm_rooms)
 "pNi" = (
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "pNC" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -11358,7 +11358,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland4"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "pOQ" = (
 /obj/structure/fluff/bus/passable,
 /obj/item/ammo_box/magazine/m16,
@@ -11393,7 +11393,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "pSm" = (
 /obj/structure/railing{
 	dir = 4
@@ -11604,7 +11604,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qnt" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -11619,7 +11619,7 @@
 /obj/item/kirbyplants,
 /obj/machinery/light/floor,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qpZ" = (
 /obj/structure/salvage/computer{
 	dir = 8
@@ -11629,7 +11629,7 @@
 "qqw" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qqG" = (
 /obj/effect/festive/street/streetlineeast,
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
@@ -11640,7 +11640,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qqV" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/toolbox/mechanical,
@@ -11840,7 +11840,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged4"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qFx" = (
 /obj/item/reagent_containers/spray/cleaner,
 /obj/structure/table/reinforced,
@@ -12031,7 +12031,7 @@
 	icon_state = "plant-06"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "qWX" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/west,
@@ -12443,7 +12443,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ryl" = (
 /obj/machinery/chem_heater,
 /turf/open/floor/iron,
@@ -12518,7 +12518,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged5"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "rAV" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/structure/window/reinforced/spawner/north{
@@ -12722,7 +12722,7 @@
 	},
 /obj/structure/flora/biolumi/flower,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "rTc" = (
 /obj/machinery/light/broken/directional/north,
 /turf/open/floor/plating,
@@ -12749,7 +12749,7 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "rUW" = (
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/ihategordon/hecu_camp)
@@ -12913,7 +12913,7 @@
 	},
 /obj/structure/flora/biolumi,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "six" = (
 /obj/structure/fence{
 	dir = 4
@@ -13373,7 +13373,7 @@
 	},
 /obj/structure/flora/biolumi/mine,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "sTr" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north,
@@ -13758,7 +13758,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "tyw" = (
 /obj/machinery/computer{
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
@@ -14348,7 +14348,7 @@
 "uql" = (
 /obj/item/kirbyplants,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "uqq" = (
 /obj/effect/festive/street/streetlinenorth,
 /obj/machinery/light/red{
@@ -14383,7 +14383,7 @@
 /area/awaymission/ihategordon/big_offices)
 "usW" = (
 /turf/closed/indestructible/riveted/lfwb/leviathan,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "utP" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
@@ -14440,7 +14440,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "uxF" = (
 /obj/structure/lattice,
 /obj/machinery/light/red,
@@ -14462,7 +14462,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "uAF" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
@@ -14492,7 +14492,7 @@
 /turf/closed/indestructible/rock{
 	icon_state = "rockyash"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/rocks)
 "uBL" = (
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/hecu_camp_medbay)
@@ -14571,7 +14571,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "uIK" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = 32
@@ -14824,11 +14824,6 @@
 /obj/item/reagent_containers/food/snacks/meat/steak/bear,
 /turf/open/floor/iron/freezer,
 /area/awaymission/ihategordon/dining_room)
-"uZj" = (
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash"
-	},
-/area/awaymission/ihategordon/faciluty_hallway)
 "uZm" = (
 /obj/machinery/computer/library,
 /obj/structure/table/reinforced,
@@ -14935,7 +14930,7 @@
 	name = "xen floor"
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "vix" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/floor/plating/ironsand{
@@ -15060,7 +15055,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "vsV" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north{
@@ -15349,7 +15344,7 @@
 "vNR" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "vPy" = (
 /obj/machinery/light/cold{
 	dir = 4
@@ -15796,7 +15791,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "wuY" = (
 /obj/structure/closet/l3closet/security,
 /obj/structure/window/reinforced/spawner/west,
@@ -15926,7 +15921,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "wDh" = (
 /obj/machinery/computer{
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
@@ -15999,7 +15994,7 @@
 /turf/open/floor/iron{
 	icon_state = "damaged3"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "wHP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/red{
@@ -16125,10 +16120,9 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_offices)
 "wRi" = (
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash"
-	},
-/area/awaymission/ihategordon/hecu_camp_bus_stop)
+/obj/machinery/door/poddoor,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/outsideofmesa)
 "wRR" = (
 /obj/structure/salvage/computer,
 /turf/open/floor/plating,
@@ -16734,7 +16728,7 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "xDd" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
 /obj/machinery/door/poddoor{
@@ -16815,7 +16809,7 @@
 "xHS" = (
 /mob/living/simple_animal/hostile/headcrab,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "xIc" = (
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_y = -32
@@ -16844,13 +16838,13 @@
 /turf/open/floor/iron{
 	icon_state = "wasteland2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "xKt" = (
 /turf/open/floor/plating{
 	heat_capacity = 1e+006;
 	icon_state = "platingdmg2"
 	},
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "xKu" = (
 /obj/structure/table/reinforced,
 /obj/machinery/fax,
@@ -17069,7 +17063,7 @@
 /area/awaymission/ihategordon/emitter_chambers)
 "ybx" = (
 /turf/closed/wall/r_wall,
-/area/awaymission/ihategordon/faciluty_hallway)
+/area/awaymission/ihategordon/facility_hallway)
 "ybC" = (
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
@@ -19854,7 +19848,7 @@ jwV
 jwV
 eqt
 rJw
-qaH
+rJw
 qaH
 qaH
 rJw
@@ -20055,9 +20049,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
-tAH
+ygT
+wRi
+eQU
 eQU
 eQU
 eQU
@@ -20257,9 +20251,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
-iOk
+ygT
+fAC
+hhY
 hhY
 hhY
 hhY
@@ -20459,9 +20453,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 wlC
@@ -20661,9 +20655,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -20863,9 +20857,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -21065,9 +21059,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -21267,9 +21261,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 fAC
+hhY
 hhY
 hIr
 hhY
@@ -21469,9 +21463,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 law
+uhp
 uhp
 nSO
 uhp
@@ -21671,9 +21665,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 oKi
 oKi
@@ -21873,9 +21867,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -22075,9 +22069,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -22277,9 +22271,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -22479,9 +22473,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
+ygT
 iOk
+oKi
 oKi
 wlC
 oKi
@@ -22681,9 +22675,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
-iOk
+ygT
+law
+uhp
 uhp
 cwQ
 cwQ
@@ -22883,9 +22877,9 @@ jwV
 jwV
 jwV
 eqt
-eqt
-tAH
-tAH
+ygT
+wRi
+eQU
 eQU
 eQU
 eQU
@@ -24521,9 +24515,9 @@ gYK
 ybC
 qZJ
 ybC
-wRi
-wRi
-wRi
+dKr
+dKr
+dKr
 djk
 qYV
 dIq
@@ -24722,8 +24716,8 @@ ybC
 ybC
 ybC
 qZJ
-wRi
-wRi
+dKr
+dKr
 nDx
 aoJ
 djk
@@ -24924,9 +24918,9 @@ ybC
 ybC
 ybC
 qZJ
-wRi
-wRi
-wRi
+dKr
+dKr
+dKr
 djk
 djk
 jcj
@@ -25125,8 +25119,8 @@ ybC
 kiw
 ybC
 gYK
-wRi
-wRi
+dKr
+dKr
 rup
 nDx
 djk
@@ -35488,9 +35482,9 @@ mfa
 ybx
 ybx
 ybx
-uZj
-uZj
-uZj
+eqt
+eqt
+eqt
 ybx
 gzC
 ybx
@@ -35690,8 +35684,8 @@ jfF
 hyp
 ybx
 lsM
-uZj
-uZj
+eqt
+eqt
 cjc
 wCZ
 vNR
@@ -35893,8 +35887,8 @@ eqt
 jWM
 ehe
 cjc
-uZj
-uZj
+eqt
+eqt
 ehe
 ehe
 pNi
@@ -36093,7 +36087,7 @@ lRo
 eqt
 ybx
 jWM
-uZj
+eqt
 mlZ
 jWR
 pNi
@@ -36295,7 +36289,7 @@ eqt
 eqt
 qnR
 ybx
-uZj
+eqt
 cjc
 ehe
 pHT
@@ -47817,12 +47811,12 @@ koe
 fwh
 ehe
 ehe
-uZj
+eqt
 uBB
-uZj
+eqt
 kwu
-uZj
-uZj
+eqt
+eqt
 ehe
 fwh
 koe
@@ -48021,10 +48015,10 @@ ybx
 ybx
 ybx
 ybx
-uZj
-uZj
-uZj
-uZj
+eqt
+eqt
+eqt
+eqt
 ybx
 ybx
 rJw

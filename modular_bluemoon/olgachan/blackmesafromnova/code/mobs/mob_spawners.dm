@@ -1,3 +1,8 @@
+#define FACTION_XEN "xen"
+#define FACTION_HECU "hecu"
+#define FACTION_BLACKOPS "blackops"
+#define FACTION_BLACKMESA "blackmesa"
+
 /mob/living/simple_animal/hostile/blackmesa
 	var/list/alert_sounds
 	var/alert_cooldown = 3 SECONDS

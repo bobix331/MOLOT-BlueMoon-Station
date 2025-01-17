@@ -1,3 +1,10 @@
+// Black Mesa away mission factions
+
+#define FACTION_XEN "xen"
+#define FACTION_HECU "hecu"
+#define FACTION_BLACKOPS "blackops"
+#define FACTION_BLACKMESA "blackmesa"
+
 /obj/effect/mob_spawn/human/black_mesa
 	name = "Black mesa scientist"
 	icon = 'icons/obj/machines/sleeper.dmi'
@@ -223,3 +230,36 @@
 	new /obj/item/multitool/tricorder(src)
 	new /obj/item/stack/cable_coil(src,30,pick("red","yellow","orange"))
 	new /obj/item/extinguisher/mini(src)
+
+//трупы
+
+/obj/effect/mob_spawn/human/hlscientist
+	name = "black mesa scientist"
+	outfit = /datum/outfit/science_team
+
+/obj/effect/mob_spawn/human/hlguard
+	name = "black mesa guard"
+	outfit = /datum/outfit/security_guard
+
+
+/obj/effect/mob_spawn/human/deadhecu
+	name = "hecu grunt"
+	outfit = /datum/outfit/hecudead
+
+/datum/outfit/hecudead
+	name = "dead hecu grunt"
+
+	uniform = /obj/item/clothing/under/rank/security/officer/urban_camo
+	mask = /obj/item/clothing/mask/gas/hecu
+	head = /obj/item/clothing/head/helmet/hecu
+	suit = /obj/item/clothing/suit/armor/hecu
+	gloves = /obj/item/clothing/gloves/combat
+	belt = /obj/item/storage/belt/military/assault/hecu
+	shoes = /obj/item/clothing/shoes/combat
+	l_pocket = /obj/item/reagent_containers/food/drinks/flask
+	r_pocket = /obj/item/flashlight/flare
+	back = /obj/item/storage/backpack/hecu
+	backpack_contents = list(
+		/obj/item/storage/box/survival/radio,
+		/obj/item/storage/firstaid/emergency,
+	)

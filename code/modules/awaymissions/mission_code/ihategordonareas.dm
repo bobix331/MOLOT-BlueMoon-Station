@@ -91,7 +91,7 @@
 	name = "main dining room"
 	icon_state = "awaycontent21"
 
-/area/awaymission/ihategordon/faciluty_hallway
+/area/awaymission/ihategordon/facility_hallway
 	name = "facility hallway"
 	icon_state = "awaycontent4"
 
