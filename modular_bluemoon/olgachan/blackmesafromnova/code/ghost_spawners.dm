@@ -33,12 +33,19 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack
 	backpack_contents = list(/obj/item/radio, /obj/item/reagent_containers/glass/beaker)
-	id = /obj/item/card/id
+	id = /obj/item/card/id/hlscientist
 	id_trim = /datum/id_trim/science_team
 
 /datum/id_trim/science_team
 	assignment = "Учёный Чёрной Мезы"
-	trim_state = "trim_scientist"
+	trim_state = "retro"
+
+/obj/item/card/id/hlscientist
+	name = "Black mesa scientist"
+	assignment = "Учёный Чёрной Мезы"
+	icon_state = "retro"
+
+
 
 /obj/effect/mob_spawn/human/black_mesa/guard
 	name = "Black mesa guard"
@@ -59,11 +66,17 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack
 	backpack_contents = list(/obj/item/radio, /obj/item/gun/ballistic/automatic/pistol/hl9mm, /obj/item/ammo_box/magazine/pistolm9mm, /obj/item/reagent_containers/food/snacks/donut/apple,)
-	id = /obj/item/card/id
+	id = /obj/item/card/id/hlguard
 	id_trim = /datum/id_trim/security_guard
+
+/obj/item/card/id/hlguard
+	name = "Black mesa guard"
+	assignment = "Охранник чёрной мезы"
+	icon_state = "retro"
 
 /datum/id_trim/security_guard
 	assignment = "Охранник Чёрной Мезы"
+	trim_state = "retro"
 	access = list(ACCESS_BRIG, ACCESS_SECURITY, ACCESS_AWAY_SEC)
 
 /obj/item/clothing/under/rank/rnd/scientist/halflife
@@ -75,6 +88,45 @@
 	icon_state = "hl_scientist"
 	item_state = "hl_scientist"
 	can_adjust = FALSE
+
+/obj/effect/mob_spawn/human/sectorhdirector
+	name = "Black mesa sector H director"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper_s"
+	density = TRUE
+	roundstart = FALSE
+	death = FALSE
+	outfit = /datum/outfit/sectorhdirector
+	short_desc = "Вы являетесь главным директором Сектора H"
+	flavour_text = "Ты стоял на одной из высших должностей в Чёрной Мезе, пока в одном из секторов не случился каскадный резонанс с последующим портальным штормом. Ты инициировал эвакуацию большей части персонала. Но в последний момент, когда вы собирались покинуть комплекс и отправится вместе с пехотинцами ХЕКУ на вертолётную площадку, система врат лаборатории дала сбой и отрезала вас от поверхности. Теперь же пехотинцы были убиты фауной Зена, а ты остался один... Или нет?"
+	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
+	category = "offstation"
+	antagonist_type = /datum/antagonist/ghost_role/black_mesa
+/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+	. = ..()
+	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.remove_language(/datum/language/common)
+
+/datum/outfit/sectorhdirector
+	name = "Sector H director"
+
+	uniform = /obj/item/clothing/under/rank/rnd/research_director
+	suit = /obj/item/clothing/suit/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/laceup
+	back = /obj/item/storage/backpack
+	belt = /obj/item/melee/classic_baton
+	backpack_contents = list(/obj/item/radio, /obj/item/reagent_containers/glass/beaker)
+	id = /obj/item/card/id/sectorhdirector
+	id_trim = /datum/id_trim/sectorhdirector
+
+/obj/item/card/id/sectorhdirector
+	name = "Sector H director"
+	assignment = "Директор сектора H"
+	icon_state = "retro"
+
+/datum/id_trim/sectorhdirector
+	assignment = "Директор сектора H"
+	trim_state = "retro"
 
 //ХЕКУ
 
@@ -285,7 +337,7 @@
 	death = FALSE
 	outfit = /datum/outfit/blackops
 	short_desc = "Ты являешься чудом попавшим в сектор H чёрным оперативником"
-	flavour_text = "Ваш отряд был отправлен для зачистки оставшихся отрядов HECU, но в один момент почти все ваши напарники были устранены. Теперь вас только двое, и вы буквально виживаете среди всего того происходящего хаоса, что окружает этот клятый сектор. Вам в любом случае плевать на весь этот персонал, если они только не будут угрожать вашей жизни."
+	flavour_text = "Ваш отряд был отправлен для зачистки оставшихся отрядов HECU, но в один момент почти все ваши напарники были устранены. Теперь вас только двое, и вы буквально виживаете среди всего того происходящего хаоса, что окружает этот клятый сектор. Вам в любом случае плевать на весь этот низший персонал, если они только не будут угрожать вашей жизни."
 	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
 	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/black_mesa
