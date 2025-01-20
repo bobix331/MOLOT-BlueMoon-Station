@@ -19,8 +19,8 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 
 /obj/item/clothing/glasses/night/blackops
-	name = "night vision goggles"
-	desc = "You can totally see in the dark now! Just don't look too closely at bright lights. This lacks any flash correction."
+	name = "Black operative night vision goggles"
+	desc = "Линзы этих очков угрожающе горят красным цветом."
 	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/gear/glasses.dmi'
 	mob_overlay_icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mob/hecu_glass.dmi'
 	icon_state = "blackopsnight"
