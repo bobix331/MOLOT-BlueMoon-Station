@@ -111,6 +111,7 @@
 	name = "Sector H director"
 
 	uniform = /obj/item/clothing/under/rank/rnd/research_director
+	head = /obj/item/clothing/head/beret/sci
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack

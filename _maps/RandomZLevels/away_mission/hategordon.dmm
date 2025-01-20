@@ -4189,10 +4189,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
-"gcP" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle,
-/turf/open/floor/plating/airless,
-/area/awaymission/ihategordon/big_offices)
 "gdB" = (
 /mob/living/simple_animal/hostile/headcrab,
 /obj/structure/closet/crate/bin,
@@ -5599,12 +5595,6 @@
 /obj/structure/salvage/destructive_analyzer,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
-"ihv" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/awaymission/ihategordon/big_offices)
 "ihG" = (
 /obj/structure/railing{
 	dir = 1
@@ -6604,10 +6594,6 @@
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/entrance)
-"jwI" = (
-/obj/structure/lattice,
-/turf/open/floor/plating/airless,
-/area/awaymission/ihategordon/big_offices)
 "jwV" = (
 /turf/open/space/basic,
 /area/space)
@@ -13709,9 +13695,6 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
-"tuq" = (
-/turf/open/floor/plating/airless,
 /area/awaymission/ihategordon/big_offices)
 "tvQ" = (
 /obj/structure/fluff/broken_flooring{
@@ -40502,7 +40485,7 @@ rJw
 fTf
 dMd
 koe
-gcP
+qMD
 bGd
 koe
 sHM
@@ -40704,7 +40687,7 @@ kWc
 qNm
 woQ
 koe
-gcP
+qMD
 nOi
 koe
 koe
@@ -40906,7 +40889,7 @@ vsu
 kml
 koe
 dHk
-gcP
+qMD
 bfL
 koe
 koe
@@ -41108,7 +41091,7 @@ kWc
 iuP
 koe
 ked
-gcP
+qMD
 ybh
 gsh
 koe
@@ -41310,7 +41293,7 @@ rJw
 koe
 dHk
 koe
-tuq
+alg
 koe
 ked
 koe
@@ -41512,7 +41495,7 @@ rJw
 kJK
 koe
 koe
-jwI
+rxM
 koe
 uaw
 koe
@@ -41714,7 +41697,7 @@ rJw
 koe
 tQk
 cdw
-gcP
+qMD
 fEX
 koe
 koe
@@ -41916,7 +41899,7 @@ rJw
 koe
 ukc
 tQk
-gcP
+qMD
 qHO
 koe
 koe
@@ -42118,7 +42101,7 @@ rJw
 tQk
 yik
 xhd
-gcP
+qMD
 mlq
 koe
 koe
@@ -42320,7 +42303,7 @@ rJw
 tQk
 yiA
 aqR
-gcP
+qMD
 wxA
 koe
 koe
@@ -42522,7 +42505,7 @@ rJw
 gdB
 tQk
 xhd
-gcP
+qMD
 koe
 koe
 koe
@@ -44747,12 +44730,12 @@ gFX
 gFX
 rJw
 rJw
-ihv
-ihv
-ihv
-ihv
-ihv
-ihv
+gmG
+gmG
+gmG
+gmG
+gmG
+gmG
 rJw
 rJw
 rJw
