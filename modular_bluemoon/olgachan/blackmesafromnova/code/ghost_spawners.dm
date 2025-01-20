@@ -5,6 +5,8 @@
 #define FACTION_BLACKOPS "blackops"
 #define FACTION_BLACKMESA "blackmesa"
 
+//Персонал чёрной мезы
+
 /obj/effect/mob_spawn/human/black_mesa
 	name = "Black mesa scientist"
 	icon = 'icons/obj/machines/sleeper.dmi'
@@ -74,13 +76,14 @@
 	item_state = "hl_scientist"
 	can_adjust = FALSE
 
+//ХЕКУ
 
 /obj/effect/mob_spawn/human/black_mesa/hecu
 	name = "HECU grunt"
 	outfit = /datum/outfit/hecu
 	short_desc = "Ты являешься, скорее всего, одним из немногих обычных пехотинцев, оставшихся в секторе H без какой либо поддержки со стороны правительства."
 	flavour_text = "Ваш отряд был направлен в Чёрную Мезу для оказания медицинской, инженерной и боевой помощи основным отрядам HECU. Но, к сожалению, с каждым часом ситуация становилась всё хуже. Ведь правительство, поняв, что посланные пехотинцы не справляются, решили их всех предательски убить. Всё, что вы смутно знаете о миссии, так это только то, что основная задача отрядов, которым вы помогали - устранять всех свидетелей? Но имеет ли это вес, когда вас бросили? Теперь ваша задача сейчас - окопаться в этом клятом лагере и или ждать помощи, или попытаться следовать приказу основных отрядов."
-	important_info = "Не пытайтесь исследовать карту далее основного атриума, ангара с автобусами и вашего палаточного медицинского отдела ( не ломайте стены в комнаты, закрытые ключ картами). Вы можете покинуть гейт ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт."
+	important_info = "Не пытайтесь исследовать карту далее основного атриума, ангара с автобусами и вашего палаточного медицинского отдела ( не ломайте стены в комнаты, закрытые ключ картами). Вы можете покинуть гейт/исследовать его ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт и как либо пытатся продвигатся далее по локации."
 	roundstart = FALSE
 	death = FALSE
 	density = TRUE
@@ -133,7 +136,7 @@
 	name = "HECU engineer"
 
 	uniform = /obj/item/clothing/under/rank/security/officer/urban_camo
-	glasses = /obj/item/clothing/glasses/welding/hecu
+	glasses = /obj/item/clothing/glasses/welding
 	head = /obj/item/clothing/head/helmet/hecu
 	suit = /obj/item/clothing/suit/armor/hecu
 	gloves = /obj/item/clothing/gloves/combat
@@ -270,3 +273,47 @@
 		/obj/item/storage/box/survival/radio,
 		/obj/item/storage/firstaid/emergency,
 	)
+
+//Чёрные оперативники
+
+/obj/effect/mob_spawn/human/blackops
+	name = "Black operative"
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper_s"
+	density = TRUE
+	roundstart = FALSE
+	death = FALSE
+	outfit = /datum/outfit/blackops
+	short_desc = "Ты являешься чудом попавшим в сектор H чёрным оперативником"
+	flavour_text = "Ваш отряд был отправлен для зачистки оставшихся отрядов HECU, но в один момент почти все ваши напарники были устранены. Теперь вас только двое, и вы буквально виживаете среди всего того происходящего хаоса, что окружает этот клятый сектор. Вам в любом случае плевать на весь этот персонал, если они только не будут угрожать вашей жизни."
+	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
+	category = "offstation"
+	antagonist_type = /datum/antagonist/ghost_role/black_mesa
+/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+	. = ..()
+	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.remove_language(/datum/language/common)
+
+
+/datum/outfit/blackops
+	name = "male black operative"
+
+	uniform = /obj/item/clothing/under/syndicate/combat
+	mask = /obj/item/clothing/mask/balaclava/breath
+	glasses = /obj/item/clothing/glasses/night/blackops
+	suit = /obj/item/clothing/suit/blackops
+	gloves = /obj/item/clothing/gloves/combat
+	belt = /obj/item/storage/belt/military/assault/hecu/black/blackops
+	shoes = /obj/item/clothing/shoes/combat
+	l_pocket = /obj/item/reagent_containers/food/drinks/flask
+	r_pocket = /obj/item/flashlight/flare
+	back = /obj/item/gun/ballistic/automatic/m16a4
+	r_hand = /obj/item/book/granter/martial/cqc
+
+/obj/item/storage/belt/military/assault/hecu/black/blackops/PopulateContents()
+	new /obj/item/ammo_box/magazine/m16(src)
+	new /obj/item/ammo_box/magazine/m16(src)
+	new /obj/item/ammo_box/magazine/m16(src)
+	new /obj/item/reagent_containers/hypospray/combat/omnizine(src)
+	new /obj/item/storage/box/survival/radio(src,30,pick("red","yellow","orange"))
+	new /obj/item/kitchen/knife/combat(src)

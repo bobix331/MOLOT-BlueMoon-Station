@@ -1,10 +1,11 @@
-/obj/item/clothing/glasses/welding/hecu
-	name = "welding goggles"
-	desc = "Защищает твои полные инженерным энтузиазмом глаза от слепоты"
-	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/gear/hecugear.dmi'
-	mob_overlay_icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mob/hecu_glass.dmi'
-	icon_state = "hecu_engineer"
-	item_state = "hecu_engineer"
+//obj/item/clothing/glasses/welding/hecu
+//	name = "welding goggles"
+//	desc = "Защищает твои полные инженерным энтузиазмом глаза от слепоты"
+//	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/gear/glasses.dmi'
+//	mob_overlay_icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mob/hecu_glass.dmi'
+//	icon_state = "hecu_engineer"
+//	item_state = "hecu_engineer"
+//Оставил код вырезанных очков (возможно я их когда-то смогу починить)
 
 /obj/item/clothing/glasses/hud/health/sunglasses/hecu
 	name = "aperture science special medical glasses"
@@ -19,7 +20,7 @@
 /obj/item/clothing/glasses/hud/security/hecu_ski
 	name = "HECU ski glasses"
 	desc = "Урбанистическая горнолыжная маска с обширным функционалом, разработанная специально для операций в городских местностях. Так-же отлично подходят для совершения военных преступлений на территории чёрной мезы"
-	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/gear/hecugear.dmi'
+	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/gear/glasses.dmi'
 	mob_overlay_icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mob/hecu_glass.dmi'
 	icon_state = "ski_hecu"
 	item_state = "ski_hecu"

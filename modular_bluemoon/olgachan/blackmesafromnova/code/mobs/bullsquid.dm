@@ -8,6 +8,7 @@
 	icon_gib = null
 	mob_biotypes = list(MOB_ORGANIC, MOB_BEAST)
 	environment_smash = ENVIRONMENT_SMASH_STRUCTURES
+	faction = list(FACTION_XEN)
 	speak_chance = 50
 	speak_emote = list("growls")
 	emote_taunt = list("growls", "snarls", "grumbles")

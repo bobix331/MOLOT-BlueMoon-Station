@@ -104,3 +104,7 @@
 	icon_state = "awaycontent6"
 	shipambience ='modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/outside of sector h.ogg'
 	ambientsounds = list('modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/outside of sector h.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/sector h outside ambience.ogg')
+
+/area/awaymission/ihategordon/secret_rooms
+	name = "secret"
+	icon_state = "awaycontent28"

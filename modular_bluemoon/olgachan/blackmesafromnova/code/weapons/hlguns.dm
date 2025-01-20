@@ -123,3 +123,58 @@
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
 	caliber = "shotgun"
 	max_ammo = 8
+
+/obj/item/gun/ballistic/automatic/mp5/underbarrel
+	desc = "Версия MP5 с подствольным гранатомётом и невероятным желанием выстрелить из него"
+	var/obj/item/gun/ballistic/revolver/grenadelauncher/halflife/underbarrel
+	icon_state = "mp5grenade"
+	item_state = "mp5"
+
+/obj/item/gun/ballistic/automatic/mp5/underbarrel/Initialize(mapload)
+	. = ..()
+	underbarrel = new /obj/item/gun/ballistic/revolver/grenadelauncher/halflife(src)
+	update_icon()
+
+/obj/item/gun/ballistic/automatic/mp5/underbarrel/afterattack(atom/target, mob/living/user, flag, params)
+	if(select == 2)
+		underbarrel.afterattack(target, user, flag, params)
+	else
+		. = ..()
+		return
+/obj/item/gun/ballistic/automatic/mp5/underbarrel/attackby(obj/item/A, mob/user, params)
+	if(istype(A, /obj/item/ammo_casing))
+		if(istype(A, underbarrel.magazine.ammo_type))
+			underbarrel.attack_self()
+			underbarrel.attackby(A, user, params)
+	else
+		..()
+
+/obj/item/gun/ballistic/automatic/mp5/underbarrel/update_icon_state()
+	if(magazine)
+		icon_state = "mp5grenade"
+	else
+		icon_state = "mp5grenadenomag"
+
+
+/obj/item/gun/ballistic/automatic/mp5/underbarrel/fire_select()
+	var/mob/living/carbon/human/user = usr
+	switch(select)
+		if(0)
+			select = 1
+			burst_size = initial(burst_size)
+			to_chat(user, "<span class='notice'>You switch to [burst_size]-rnd burst.</span>")
+		if(1)
+			select = 2
+			to_chat(user, "<span class='notice'>You switch to grenades.</span>")
+		if(2)
+			select = 0
+			burst_size = 1
+			to_chat(user, "<span class='notice'>You switch to semi-auto.</span>")
+	playsound(user, 'sound/weapons/empty.ogg', 100, 1)
+	update_icon()
+	return
+
+
+/obj/item/gun/ballistic/revolver/grenadelauncher/halflife
+	fire_sound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/weapons/underbarrel.ogg'
+	pin = /obj/item/firing_pin
