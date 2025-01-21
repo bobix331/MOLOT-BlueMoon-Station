@@ -12,5 +12,4 @@
 	message = "Says <b>i have a target</b>"
 	emote_type = EMOTE_BOTH
 	sound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/emote/boalert.ogg'
-	emote_cooldown = 3.2 SECONDS
-
+	emote_cooldown = 10 SECONDS

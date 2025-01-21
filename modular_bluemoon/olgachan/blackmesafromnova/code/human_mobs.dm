@@ -221,3 +221,13 @@
 	attack_sound = 'sound/weapons/cqchit1.ogg'
 	loot = list(/obj/effect/gibspawner/human, /obj/item/ammo_box/magazine/m16)
 	rapid_melee = 1
+
+/mob/living/simple_animal/hostile/syndicate/mecha_pilot/hecu
+	name = "\improper HECU tank operator"
+	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mobs.dmi'
+	icon_state = "hecu_melee"
+	icon_living = "hecu_melee"
+	icon_dead = "hecu_dead"
+	icon_gib = "syndicate_gib"
+	faction = list(FACTION_HECU)
+	spawn_mecha_type = /obj/vehicle/sealed/mecha/combat/five_stars
