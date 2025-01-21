@@ -178,3 +178,18 @@
 /obj/item/gun/ballistic/revolver/grenadelauncher/halflife
 	fire_sound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/weapons/underbarrel.ogg'
 	pin = /obj/item/firing_pin
+
+
+/obj/item/wrench/shepard
+	name = "Old wrench"
+	desc = "Этот гаечный ключ довольно увесист и излучает... Своеобразную ауру.."
+	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/guns/shepard.dmi'
+	icon_state = "shepard"
+	item_state = "wrench_caravan"
+	force = 40
+	attack_speed = 20
+	throwforce = 45
+	toolspeed = 0.1
+	wound_bonus = 10
+	w_class = WEIGHT_CLASS_NORMAL
+	hitsound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/weapons/wrenchhit.ogg'
