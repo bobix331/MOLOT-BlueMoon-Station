@@ -1,4 +1,5 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble
+	explosion_power_break_tile =99999
 
 /turf/open/floor/festive/cobblestone/safe/mesafcobble/Melt()
 	to_be_destroyed = FALSE

@@ -447,7 +447,7 @@
 "aGM" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/decal/cleanable/dirt/dust,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/outsideofmesa)
 "aHa" = (
@@ -1860,7 +1860,7 @@
 /turf/open/floor/holofloor/ice,
 /area/awaymission/ihategordon/cryo_room)
 "cDH" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/cafeteria,
 /area/awaymission/ihategordon/dorm_rooms)
 "cEg" = (
@@ -2230,7 +2230,7 @@
 /turf/open/floor/iron/freezer,
 /area/awaymission/ihategordon/dining_room)
 "dcz" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
@@ -2583,7 +2583,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "dGS" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron{
 	icon_state = "damaged3"
 	},
@@ -2778,7 +2778,7 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
 "dWW" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
 	},
@@ -2883,7 +2883,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
 "ecR" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
@@ -2996,7 +2996,7 @@
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/outsideofmesa)
 "eil" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
 "ejv" = (
@@ -3004,7 +3004,7 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/emitter_chambers)
 "ejC" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_offices)
 "ekp" = (
@@ -3676,7 +3676,7 @@
 /area/awaymission/ihategordon/facility_hallway)
 "fro" = (
 /obj/structure/railing,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "frW" = (
@@ -4190,7 +4190,7 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "gdB" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/closet/crate/bin,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -4315,7 +4315,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/science_tunnel)
 "glm" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_offices)
@@ -4357,7 +4357,7 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "gsh" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
@@ -4398,7 +4398,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "gvp" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/smooth_large,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
 "gvA" = (
@@ -4435,7 +4435,7 @@
 	},
 /area/awaymission/ihategordon/science_tunnel)
 "gyd" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
@@ -4545,7 +4545,7 @@
 	},
 /area/awaymission/ihategordon/emitter_chambers)
 "gER" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30
 	},
@@ -4699,7 +4699,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/science_tunnel)
 "gRf" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "gRh" = (
@@ -4771,7 +4771,7 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/science_tunnel)
 "gXu" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /obj/machinery/light/cold{
 	dir = 8
@@ -4954,7 +4954,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "hlE" = (
@@ -5148,7 +5148,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "hzg" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
@@ -5404,7 +5404,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "hVu" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -5478,7 +5478,7 @@
 	color = "#ac3b06";
 	name = "xen floor"
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "iaQ" = (
@@ -5642,7 +5642,7 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/emitter_chambers)
 "ikz" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "ilx" = (
@@ -5975,7 +5975,7 @@
 	},
 /area/awaymission/ihategordon/dining_room)
 "iJb" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/hecu_camp_medbay)
@@ -6040,7 +6040,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "iNc" = (
@@ -6397,7 +6397,7 @@
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/ihategordon/hecu_camp)
 "jkn" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
@@ -6854,7 +6854,7 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
 "jJN" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/outsideofmesa)
@@ -6897,7 +6897,7 @@
 /area/awaymission/ihategordon/big_offices)
 "jMR" = (
 /obj/effect/mob_spawn/human/corpse/inteq_dead,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "jNc" = (
@@ -6963,7 +6963,7 @@
 /turf/open/water/safe/electric,
 /area/awaymission/ihategordon/dorm_offices)
 "jRO" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron{
 	icon_state = "wasteland4"
 	},
@@ -7798,7 +7798,7 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_offices)
 "kXL" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = -31
 	},
@@ -7907,7 +7907,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_offices)
 "leA" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
@@ -8017,7 +8017,7 @@
 	},
 /area/awaymission/outsideofmesa)
 "lmf" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
 "lmk" = (
@@ -8714,7 +8714,7 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "miE" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
 	},
@@ -8824,7 +8824,7 @@
 /area/awaymission/ihategordon/dorm_offices)
 "mmB" = (
 /obj/structure/lattice/catwalk,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "mnf" = (
@@ -8884,7 +8884,7 @@
 /area/awaymission/ihategordon/science_tunnel)
 "mpA" = (
 /obj/effect/festive/street/streetlinewest,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "mpL" = (
@@ -8923,7 +8923,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "msv" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/machinery/light/red,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
@@ -9047,7 +9047,7 @@
 /area/awaymission/outsideofmesa)
 "mDk" = (
 /obj/structure/lattice,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
@@ -9127,7 +9127,7 @@
 	color = "#ac3b06";
 	name = "xen floor"
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "mJI" = (
@@ -9236,7 +9236,7 @@
 	dir = 1;
 	pixel_y = 3
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -9369,7 +9369,7 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_rooms)
 "nbW" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/entrance)
 "nct" = (
@@ -9395,7 +9395,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "ndA" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/item/ammo_box/magazine/m50,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
@@ -9658,7 +9658,7 @@
 /area/awaymission/ihategordon/dorm_rooms)
 "nAL" = (
 /obj/structure/flora/biolumi,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
@@ -9675,7 +9675,7 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/hecu_camp)
 "nBw" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/outsideofmesa)
@@ -10035,7 +10035,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "nYP" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/entrance)
@@ -10109,7 +10109,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "ocF" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "oda" = (
@@ -10288,7 +10288,7 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/ihategordon/tram_room)
 "oqL" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
@@ -10904,7 +10904,7 @@
 	},
 /area/awaymission/ihategordon/cryo_room)
 "plc" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
@@ -10918,7 +10918,7 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/big_offices)
 "pnu" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/tram_room)
 "pnE" = (
@@ -10942,7 +10942,7 @@
 /area/awaymission/ihategordon/big_offices)
 "poj" = (
 /obj/structure/lattice/catwalk,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "poy" = (
@@ -10997,7 +10997,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "ppU" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/turf_decal/sand/plating,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/festive/sidewalk/mesawalk,
@@ -11068,7 +11068,7 @@
 	color = "#ac3b06";
 	name = "xen floor"
 	},
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plasteel/showroomfloor,
 /area/awaymission/ihategordon/big_offices)
 "pus" = (
@@ -11296,7 +11296,7 @@
 /area/awaymission/ihategordon/underground_tunnels)
 "pKQ" = (
 /obj/structure/flora/rock/pile,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/tram_room)
@@ -11316,7 +11316,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "pMN" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_rooms)
 "pNi" = (
@@ -11655,7 +11655,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "qtu" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/machinery/light/red{
 	dir = 8
 	},
@@ -11822,7 +11822,7 @@
 /turf/open/floor/iron/smooth_large,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
 "qES" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "qEV" = (
@@ -12764,7 +12764,7 @@
 /area/awaymission/ihategordon/cryo_room)
 "rXN" = (
 /obj/effect/mob_spawn/human/scientist,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "rYA" = (
@@ -13258,7 +13258,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "sGm" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plasteel/showroomfloor,
 /area/awaymission/ihategordon/big_offices)
 "sGu" = (
@@ -13499,7 +13499,7 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/ihategordon/tram_room)
 "tek" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/ironsand{
 	icon_state = "ironsand1"
@@ -13644,7 +13644,7 @@
 /area/awaymission/ihategordon/dining_room)
 "tqo" = (
 /obj/structure/fluff/paper/stack,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "tqG" = (
@@ -13784,7 +13784,7 @@
 /area/awaymission/ihategordon/big_offices)
 "tBA" = (
 /obj/structure/lattice/catwalk,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
@@ -14691,7 +14691,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "uPH" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_rooms)
@@ -15289,7 +15289,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "vIW" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_rooms)
 "vJh" = (
@@ -16070,7 +16070,7 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
 "wPd" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
@@ -16157,7 +16157,7 @@
 /area/awaymission/ihategordon/hecu_abandoned_camp)
 "wVP" = (
 /obj/effect/festive/street/streetlinewest,
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
@@ -16369,7 +16369,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "xhd" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
 	name = "xen floor"
@@ -16738,7 +16738,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "xDp" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/item/ammo_box/magazine/m16,
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -16764,11 +16764,11 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "xFf" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/ihategordon/big_offices)
 "xFV" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/sidewalk/mesawalk,
 /area/awaymission/ihategordon/tram_room)
 "xGu" = (
@@ -16798,7 +16798,7 @@
 /turf/open/floor/iron/dark/smooth_half,
 /area/awaymission/ihategordon)
 "xHS" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/facility_hallway)
 "xIc" = (
@@ -16815,7 +16815,7 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
 "xIM" = (
-/mob/living/simple_animal/hostile/headcrab,
+/mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "xJT" = (
