@@ -41,8 +41,8 @@
 		COOLDOWN_START(src, shock_cooldown_timer, shock_cooldown)
 
 
-///Returns a list of turfs around a center based on view()
-/proc/circle_view_turfs(center=usr,radius=3) //Is there even a diffrence between this proc and circle_range_turfs()?
+
+/proc/circle_view_turfs(center=usr,radius=3)
 
 	var/turf/center_turf = get_turf(center)
 	var/list/turfs = new/list()
@@ -102,7 +102,7 @@
 	density = TRUE
 	anchored = TRUE
 	/// The range at which we provide shield support to a mob.
-	var/shield_range = 8
+	var/shield_range = 5
 	/// A list of mobs we are currently shielding with attached beams.
 	var/list/shielded_mobs = list()
 
@@ -196,3 +196,27 @@
 /obj/item/paper/fluff/blackmesasecret
 	name = "Сектор H является не тем, чем кажется"
 	default_raw_text = "Видишь это пустое нечто? Там должен был быть коридор, но его нету. Я надеюсь, ты понимаешь, что не должен был попасть сюда. В любом случае, если ты это читаешь, то поздравляю, ты каким-то образом нашёл одну из моих записей. Я дам тебе подсказку, что-бы ты понял, куда двигаться дальше. У лагерей свои секреты... Ты ведь знаешь, где находится самый большой? Теперь это самый тихий лагерь из всех. и те, кто это устроили, скоро прийдут за тобой. Сможешь ли ты найти там дверь?"
+
+/obj/item/paper/fluff/blackmesasecret2
+	name = "Сектор H является не тем, чем кажется"
+	default_raw_text = "С каждым разом продвигаешься всё дальше и дальше, а этой пустоты, как и вопросов, всё больше и больше. Мне кажется, или я окончательно схожу с ума? Так или иначе, я дам тебе следующую подсказку, куда идти. Один из коридоров сильно пострадал, и попасть туда можно только пройдясь по краю пропасти. Ключ я, конечно же, оставлю тут же. Забочусь о вас, напарники."
+
+
+/obj/item/paper/fluff/blackmesasecret3
+	name = "Сектор H является не тем, чем кажется"
+	default_raw_text = "Отлично... Кажется, ты снова нарвался на одно из моих убежищ. Спешу предупредить, что это, вероятнее всего, посоедняя запись. Я был с одним пехотинцем, как вдруг этот проклятый пришелец запрыгнул на его голову и захватил контроль. Пока он не трансформировался в того ужасного монстра, я упрятал его в одной из своих лабораторий. Ладно, дам тебе последнюю подсказку, куда идти. Просто знай, что в той части комплекса, куда ты сейчас направляешься, будут двери, закрытые ключ картой. Это мой кабинет вместе с небольшой лабораторией. Я хочу, что-бы ты выяснил, что происходит с теми, кто живут с этим пришельцем на голове... Слишком долго."
+
+
+
+
+//лампы
+
+/obj/machinery/power/floodlight/lamppost/one/mesa
+	icon_state = "one"
+	number_of_lamps = 1
+	light_power = 1.4
+	layer = 4
+	light_range = 15
+	light_color = "#ffffdd"
+	max_integrity = 9999999
+

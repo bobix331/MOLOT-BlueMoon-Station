@@ -1,5 +1,15 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble
 
+/turf/open/floor/festive/cobblestone/safe/mesafcobble/Melt()
+	to_be_destroyed = FALSE
+	return src
+
+/turf/open/floor/festive/cobblestone/safe/mesafcobble/singularity_act()
+	return
+
+/turf/open/floor/festive/cobblestone/safe/mesafcobble/TerraformTurf(path, new_baseturf, flags, defer_change = FALSE, ignore_air = FALSE)
+	return
+
 /turf/open/floor/festive/cobblestone/safe/mesafcobble/try_replace_tile(obj/item/stack/tile/T, mob/user, params)
 	return
 
@@ -33,6 +43,16 @@
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 	planetary_atmos = FALSE
 
+/turf/open/floor/festive/sidewalk/mesawalk/Melt()
+	to_be_destroyed = FALSE
+	return src
+
+/turf/open/floor/festive/sidewalk/mesawalk/singularity_act()
+	return
+
+/turf/open/floor/festive/sidewalk/mesawalk/TerraformTurf(path, new_baseturf, flags, defer_change = FALSE, ignore_air = FALSE)
+	return
+
 /turf/open/floor/festive/sidewalk/mesawalk/try_replace_tile(obj/item/stack/tile/T, mob/user, params)
 	return
 
@@ -51,3 +71,15 @@
 /turf/open/floor/festive/sidewalk/mesawalk/crowbar_act(mob/living/user, obj/item/I)
 	return
 
+
+/turf/open/floor/plating/ironsand/indestructible
+
+/turf/open/floor/plating/ironsand/indestructible/Melt()
+	to_be_destroyed = FALSE
+	return src
+
+/turf/open/floor/plating/ironsand/indestructible/singularity_act()
+	return
+
+/turf/open/floor/plating/ironsand/indestructible/TerraformTurf(path, new_baseturf, flags, defer_change = FALSE, ignore_air = FALSE)
+	return
