@@ -1,6 +1,6 @@
 /mob/living/simple_animal/hostile/blackmesa/xen/gonome
 	name = "Gonome"
-	desc = "Сильно мутировавший обычный зомби! Вам точно стоило тратить время на его рассмотрение?"
+	desc = "Довольно опасная мутация обычного зомби! Вам точно стоило тратить время на его рассмотрение?"
 	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/mobs.dmi'
 	icon_state = "gonome"
 	icon_living = "gonome"
@@ -15,8 +15,9 @@
 	emote_taunt = list("Рычит", "Орёт", "Кряхтит")
 	taunt_chance = 100
 	turns_per_move = 40
-	maxHealth = 2500
-	health = 2500
+	projectiletype = /obj/item/projectile/neurotox
+	maxHealth = 3000
+	health = 3000
 	stat_attack = UNCONSCIOUS
 	obj_damage = 70
 	harm_intent_damage = 25

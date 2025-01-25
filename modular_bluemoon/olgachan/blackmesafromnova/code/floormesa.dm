@@ -70,3 +70,29 @@
 
 /turf/open/floor/festive/sidewalk/mesawalk/crowbar_act(mob/living/user, obj/item/I)
 	return
+
+//используемые только у босса
+/turf/open/indestructible/newmesacobble
+	name = "cobblestone"
+	baseturfs = /turf/open/floor/festive/cobblestone
+	icon = 'modular_bluemoon/olgachan/blackmesafromnova/icons/cobble.dmi'
+	icon_state = "unsmooth"
+	canSmoothWith = list(/turf/open/floor/festive/cobblestone)
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	planetary_atmos = FALSE
+
+
+
+/turf/open/indestructible/newmesawalk
+	name = "sidewalk"
+	baseturfs = /turf/open/floor/festive/sidewalk
+	icon = 'modular_citadel/code/modules/festive/sidewalk.dmi'
+	icon_state = "unsmooth"
+	canSmoothWith = list(/turf/open/floor/festive/sidewalk)
+	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
+	planetary_atmos = FALSE
+
+
+/turf/open/indestructible/mesasand
+	name = "sand"
+	icon_state = "ironsand1"
