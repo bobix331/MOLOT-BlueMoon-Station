@@ -108,3 +108,7 @@
 /area/awaymission/ihategordon/secret_rooms
 	name = "secret"
 	icon_state = "awaycontent28"
+
+/area/awaymission/ihategordon/gonome
+	name = "gonome boss battle"
+	icon_state = "awaycontent29"

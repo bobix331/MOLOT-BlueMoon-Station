@@ -146,6 +146,8 @@
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
 	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.grant_language(/datum/language/old_codes, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.grant_language(/datum/language/signlanguage, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 /obj/effect/mob_spawn/human/black_mesa/hecu/breacher
@@ -341,12 +343,14 @@
 	outfit = /datum/outfit/blackops
 	short_desc = "Ты являешься чудом попавшим в сектор H чёрным оперативником"
 	flavour_text = "Ваш отряд был отправлен для зачистки оставшихся отрядов HECU, но в один момент почти все ваши напарники были устранены. Теперь вас только двое, и вы буквально виживаете среди всего того происходящего хаоса, что окружает этот клятый сектор. Вам в любом случае плевать на весь этот низший персонал, если они только не будут угрожать вашей жизни."
-	important_info = "Не пытайся исследовать комплекс до прибытия экспедиционной группы. В случае, когда прошло 20 минут от начала раунда, а исследователи так и не пришли, ты можешь постепенно продвигаться по комплексу."
+	important_info = "Не пытайтесь исследовать карту далее основного атриума, комнат с туррелями ( не ломайте стены в комнаты, закрытые ключ картами/заболтироваными дверьми ). Вы можете покинуть гейт/исследовать его ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт и как либо пытатся продвигатся далее по локации (УБИВАТЬ ДИРЕКТОРА ЗОНЫ БЕЗ ВЕСКИХ ПРИЧИН ЗАПРЕЩЕНО)"
 	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/black_mesa
 /obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
 	. = ..()
 	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.grant_language(/datum/language/old_codes, TRUE, TRUE, LANGUAGE_MIND)
+	spawned_human.grant_language(/datum/language/signlanguage, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.remove_language(/datum/language/common)
 
 
