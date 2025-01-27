@@ -24,12 +24,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/awaymission/ihategordon/big_offices)
-"adb" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 27
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/ihategordon/tram_room)
 "adO" = (
 /obj/effect/festive/street/streetlinewest,
 /mob/living/simple_animal/hostile/headcrab/mesa,
@@ -996,12 +990,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/awaymission/ihategordon/secret_rooms)
-"beh" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/turret_lockdown_hall)
 "bei" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/bullsquid,
 /turf/open/floor/iron/dark/herringbone,
@@ -2127,12 +2115,6 @@
 /obj/effect/festive/street/streetlineinnerne,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
-"cpJ" = (
-/obj/structure/chair/sofa/corp{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/turret_lockdown_hall)
 "cpW" = (
 /obj/machinery/door/airlock/research,
 /obj/effect/mapping_helpers/airlock/locked,
@@ -2855,6 +2837,11 @@
 /obj/item/clothing/head/helmet/sec,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"cXY" = (
+/obj/machinery/door/poddoor/preopen,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/catwalk_floor,
+/area/awaymission/ihategordon/tram_tunnel)
 "cYa" = (
 /turf/closed/indestructible/riveted/lfwb/leviathan,
 /area/awaymission/ihategordon/dorm_rooms)
@@ -4427,10 +4414,6 @@
 /obj/structure/lattice,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
-"eAc" = (
-/obj/effect/mob_spawn/human/hlguard,
-/turf/open/floor/iron/smooth_large,
-/area/awaymission/ihategordon/tram_room)
 "eAC" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/iron/dark,
@@ -4803,11 +4786,6 @@
 /obj/item/stack/cable_coil,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/entrance)
-"eWy" = (
-/obj/machinery/door/poddoor/preopen,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/catwalk_floor,
-/area/awaymission/ihategordon/tram_tunnel)
 "eWB" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/ironsand{
@@ -6431,6 +6409,12 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"gQK" = (
+/obj/structure/chair/sofa/corp{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "gQV" = (
 /obj/machinery/door/airlock/research,
 /obj/machinery/door/poddoor{
@@ -8002,6 +7986,10 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/hyperlaser_chamber)
+"iEm" = (
+/obj/effect/mob_spawn/human/hlguard,
+/turf/open/floor/iron/smooth_large,
+/area/awaymission/ihategordon/tram_room)
 "iEu" = (
 /obj/structure/lattice,
 /obj/machinery/light/red{
@@ -9845,6 +9833,12 @@
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/ihategordon/big_offices)
+"kFo" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "kFx" = (
 /obj/structure/window/reinforced/spawner/north{
 	dir = 8
@@ -11157,15 +11151,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
-"mbP" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/chair/sofa/corp{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/turret_lockdown_hall)
 "mcj" = (
 /obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/iron/dark,
@@ -11308,11 +11293,6 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/hecu_camp_bus_stop)
-"mgV" = (
-/obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/snacks/donut,
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/tram_room)
 "mhf" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/dark/smooth_large,
@@ -12217,9 +12197,6 @@
 	icon_state = "platingdmg2"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"mUe" = (
-/turf/open/floor/catwalk_floor,
-/area/awaymission/outsideofmesa)
 "mUB" = (
 /obj/structure/railing{
 	dir = 1
@@ -14558,12 +14535,6 @@
 /obj/machinery/door/airlock/research,
 /turf/open/floor/plasteel/showroomfloor/shower,
 /area/awaymission/ihategordon/big_offices)
-"pqe" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 8
-	},
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/turret_lockdown_hall)
 "pqp" = (
 /obj/structure/fluff/broken_flooring,
 /turf/open/floor/plasteel/white,
@@ -14619,6 +14590,12 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/facility_hallway)
+"pts" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "ptJ" = (
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/hecu_camp)
@@ -15398,6 +15375,9 @@
 /obj/structure/rack/shelf,
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon/emitter_chambers)
+"qhj" = (
+/turf/open/floor/catwalk_floor,
+/area/awaymission/outsideofmesa)
 "qhE" = (
 /obj/machinery/power/emitter/energycannon{
 	dir = 1
@@ -16001,6 +15981,11 @@
 "qKz" = (
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon)
+"qKE" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/snacks/donut,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/tram_room)
 "qKJ" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/ironsand{
@@ -19257,6 +19242,12 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"tYT" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 27
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/tram_room)
 "tZs" = (
 /obj/structure/chair/sofa/corp,
 /turf/open/floor/plasteel/white,
@@ -19969,6 +19960,15 @@
 /obj/machinery/vending/cola/random,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"uNf" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/chair/sofa/corp{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "uNk" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
 	dir = 4
@@ -43549,10 +43549,10 @@ nBV
 nnW
 dbj
 dbj
-pqe
-mbP
-cpJ
-beh
+kFo
+uNf
+gQK
+pts
 dbj
 nnW
 dbj
@@ -51156,7 +51156,7 @@ rQi
 lbu
 feN
 wyx
-adb
+tYT
 hAN
 lBA
 oky
@@ -52666,7 +52666,7 @@ fOi
 oBv
 lPJ
 oBJ
-mgV
+qKE
 bJb
 bfG
 uaH
@@ -54477,7 +54477,7 @@ ayp
 wHj
 oBv
 iSe
-eAc
+iEm
 xsY
 iSe
 iSe
@@ -55383,10 +55383,10 @@ bKK
 bKK
 bKK
 nzu
-eWy
-eWy
-eWy
-eWy
+cXY
+cXY
+cXY
+cXY
 nzu
 bKK
 bKK
@@ -92526,32 +92526,32 @@ vWs
 vWs
 dRb
 dRb
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
-mUe
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
+qhj
 dRb
 dRb
 dRb
