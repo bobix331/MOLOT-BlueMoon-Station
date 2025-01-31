@@ -2655,6 +2655,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"cOs" = (
+/obj/structure/closet/crate/large,
+/obj/item/ammo_box/magazine/mp5,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/outsideofmesa)
 "cOt" = (
 /mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plasteel/showroomfloor,
@@ -3909,6 +3914,9 @@
 /obj/machinery/light/red{
 	dir = 8
 	},
+/obj/machinery/computer{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "dYT" = (
@@ -4552,6 +4560,13 @@
 /obj/item/pen,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/turret_lockdown_hall)
+"eJE" = (
+/obj/structure/closet/crate/large,
+/obj/item/ammo_box/magazine/mp5,
+/turf/open/floor/plating/ironsand{
+	icon_state = "ironsand1"
+	},
+/area/awaymission/outsideofmesa)
 "eJI" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -5166,9 +5181,7 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_offices)
 "fsP" = (
-/obj/structure/chair/office/light{
-	dir = 4
-	},
+/obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "ftv" = (
@@ -7965,10 +7978,8 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
 "iDt" = (
-/obj/structure/fluff/broken_flooring{
-	dir = 4
-	},
-/turf/open/floor/plating,
+/obj/structure/closet/crate/trashcart/laundry,
+/turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "iDA" = (
 /obj/structure/rack,
@@ -10048,8 +10059,9 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "kSJ" = (
-/obj/machinery/computer{
-	dir = 8
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/machinery/light/red{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
@@ -10817,10 +10829,10 @@
 /turf/open/floor/plasteel/showroomfloor/shower,
 /area/awaymission/ihategordon/emitter_chambers)
 "lKk" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "side"
+/obj/machinery/computer{
+	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "lKv" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
@@ -11015,14 +11027,6 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/science_tunnel)
-"lTr" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/obj/structure/shockplant,
-/turf/open/indestructible,
-/area/awaymission/ihategordon/gonome)
 "lTR" = (
 /obj/structure/railing{
 	dir = 1
@@ -11493,10 +11497,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_camp)
-"mmi" = (
-/obj/structure/shockplant,
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/server_rooms)
 "mmr" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/beer,
@@ -12506,13 +12506,6 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/awaymission/ihategordon/tram_room)
-"nka" = (
-/turf/open/chasm{
-	icon_state = "Fill";
-	planetary_atmos = 1;
-	base_icon_state = "Fill"
-	},
-/area/awaymission/ihategordon/hecu_camp)
 "nky" = (
 /obj/machinery/power/emitter/energycannon{
 	dir = 1
@@ -14535,6 +14528,11 @@
 /obj/machinery/door/airlock/research,
 /turf/open/floor/plasteel/showroomfloor/shower,
 /area/awaymission/ihategordon/big_offices)
+"ppY" = (
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/emergency/turret,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/outsideofmesa)
 "pqp" = (
 /obj/structure/fluff/broken_flooring,
 /turf/open/floor/plasteel/white,
@@ -15343,10 +15341,8 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "qeQ" = (
-/obj/structure/fluff/broken_flooring{
-	icon_state = "singular"
-	},
-/turf/open/floor/plating,
+/obj/structure/table/glass,
+/turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "qfb" = (
 /obj/effect/festive/street/streetlinesouth,
@@ -15555,6 +15551,13 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/iron/dark/diagonal,
 /area/awaymission/ihategordon/big_offices)
+"qps" = (
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/emergency/turret,
+/turf/open/floor/plating/ironsand{
+	icon_state = "ironsand1"
+	},
+/area/awaymission/outsideofmesa)
 "qpZ" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/machinery/light{
@@ -16371,6 +16374,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
+"rcG" = (
+/obj/structure/closet/crate/large,
+/turf/open/floor/plating/ironsand{
+	icon_state = "ironsand1"
+	},
+/area/awaymission/outsideofmesa)
 "rcI" = (
 /mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/plating{
@@ -17065,8 +17074,8 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "rSb" = (
-/obj/structure/fluff/broken_flooring,
-/turf/open/floor/plating,
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/iron,
 /area/awaymission/ihategordon/hecu_camp_hall)
 "rSJ" = (
 /obj/machinery/computer{
@@ -17253,6 +17262,11 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/big_offices)
+"saS" = (
+/obj/structure/closet/crate/large,
+/obj/item/clothing/glasses/night,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/outsideofmesa)
 "sba" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/salvage/remains,
@@ -20630,8 +20644,10 @@
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_camp)
 "vwT" = (
-/turf/closed/wall/r_wall,
-/area/awaymission/ihategordon/hecu_camp)
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/hecu_camp_hall)
 "vwW" = (
 /turf/closed/wall/mineral/iron,
 /area/awaymission/ihategordon/rocks)
@@ -21221,6 +21237,10 @@
 /obj/machinery/door/airlock/research,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_offices)
+"waZ" = (
+/obj/structure/closet/crate/large,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/outsideofmesa)
 "wbi" = (
 /obj/structure/curtain{
 	color = "#556B2F"
@@ -22873,10 +22893,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/dorm_rooms)
-"xKZ" = (
-/obj/machinery/vending/wardrobe/chem_wardrobe,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/hecu_camp_hall)
 "xLq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -31761,8 +31777,8 @@ uDV
 pvF
 uDV
 uDV
-uDV
-uDV
+waZ
+ppY
 uDV
 uDV
 xTi
@@ -31932,8 +31948,8 @@ mCu
 mCu
 mCu
 mCu
-vwT
-vwT
+pgl
+pgl
 sDn
 dJt
 dJt
@@ -32063,8 +32079,8 @@ mnz
 mnz
 mnz
 mnz
-mnz
-mnz
+qps
+rcG
 vlD
 uDV
 xTi
@@ -32234,8 +32250,8 @@ kMk
 kMk
 kMk
 svs
-nka
-vwT
+rMp
+pgl
 xXx
 xXx
 xXx
@@ -32536,8 +32552,8 @@ kMk
 kMk
 kMk
 svs
-nka
-vwT
+rMp
+pgl
 gpy
 xXx
 xXx
@@ -32838,8 +32854,8 @@ kMk
 kMk
 tGC
 svs
-nka
-vwT
+rMp
+pgl
 xXx
 xXx
 xXx
@@ -32965,12 +32981,12 @@ uDV
 uDV
 uDV
 uDV
-uDV
-uDV
+waZ
+saS
 uDV
 mnz
-mnz
-mnz
+eJE
+rcG
 mnz
 uDV
 xTi
@@ -33140,8 +33156,8 @@ kMk
 kMk
 kMk
 svs
-nka
-vwT
+rMp
+pgl
 xXx
 iaY
 xXx
@@ -33267,12 +33283,12 @@ uDV
 uDV
 uDV
 uDV
+waZ
+cOs
 uDV
 uDV
-uDV
-uDV
-uDV
-uDV
+ppY
+cOs
 uDV
 uDV
 xTi
@@ -33442,8 +33458,8 @@ kMk
 kMk
 kMk
 svs
-nka
-vwT
+rMp
+pgl
 iaY
 gpy
 xXx
@@ -33744,8 +33760,8 @@ mCu
 mCu
 mCu
 mCu
-cBF
-vWs
+pgl
+pgl
 vWs
 vWs
 vWs
@@ -34045,7 +34061,7 @@ lBN
 lBN
 daX
 lBN
-lBN
+oGf
 pgl
 pgl
 pgl
@@ -34348,13 +34364,13 @@ lBN
 lBN
 lBN
 lBN
-pgl
-rYX
-oxj
+vwT
+imc
+lKk
 dYM
-oxj
+lKk
 qeQ
-rIT
+oxj
 oxj
 sKI
 oxj
@@ -34649,14 +34665,14 @@ daX
 lBN
 lBN
 lBN
-oGf
-pgl
-xKZ
-kZO
-lKk
+lBN
+fsP
 oxj
-imc
-pgl
+kZO
+oxj
+oxj
+oxj
+oxj
 oxj
 oxj
 kZO
@@ -34952,13 +34968,13 @@ lBN
 lBN
 lBN
 lBN
-pgl
-rSb
 fsP
 oxj
 oxj
-imc
-pgl
+oxj
+oxj
+oxj
+oxj
 oxj
 oxj
 oxj
@@ -35251,16 +35267,16 @@ kFx
 wkB
 uIa
 jWW
-whl
-maP
-whl
-pgl
-utR
-kSJ
+lBN
+lBN
+lBN
+fsP
+rSb
+rSb
 kSJ
 iDt
-imc
-pgl
+utR
+oxj
 kZO
 oxj
 jcb
@@ -35553,13 +35569,13 @@ lBN
 pSj
 lBN
 bll
-lBN
-lBN
-lBN
+whl
+maP
+whl
 pgl
 pgl
-bVF
-vCy
+pgl
+pgl
 pgl
 pgl
 pgl
@@ -50806,7 +50822,7 @@ bET
 vov
 vov
 vov
-mmi
+bET
 oME
 drG
 qZq
@@ -52608,7 +52624,7 @@ vWs
 vWs
 vWs
 vWs
-voQ
+vWs
 fNp
 aQR
 bAo
@@ -52910,7 +52926,7 @@ vWs
 vWs
 vWs
 vWs
-voQ
+vWs
 fNp
 aQR
 qmf
@@ -53212,7 +53228,7 @@ vWs
 vWs
 vWs
 vWs
-voQ
+vWs
 fNp
 eiy
 qmf
@@ -101076,7 +101092,7 @@ dzO
 lOu
 lOu
 lOu
-lTr
+lOu
 vWs
 vWs
 vWs
