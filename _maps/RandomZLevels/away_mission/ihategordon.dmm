@@ -3370,11 +3370,6 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
-"dyc" = (
-/obj/structure/closet/crate/large,
-/obj/item/clothing/gloves/chameleon/insulated,
-/turf/open/floor/plating,
-/area/awaymission/ihategordon/science_tunnel)
 "dyg" = (
 /obj/structure/table,
 /obj/item/modular_computer/laptop{
@@ -4392,10 +4387,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
-"exV" = (
-/obj/machinery/door/airlock/research,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/turret_lockdown_hall)
 "eya" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/north{
@@ -4690,12 +4681,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/awaymission/ihategordon/entrance)
-"ePj" = (
-/obj/structure/closet/crate/large,
-/obj/effect/turf_decal/stripes/white/box,
-/obj/item/storage/firstaid/regular,
-/turf/open/floor/plating,
-/area/awaymission/ihategordon/science_tunnel)
 "ePN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -6071,6 +6056,11 @@
 /obj/item/circuitboard/machine/fax,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/turret_lockdown_hall)
+"gsE" = (
+/obj/structure/rack/shelf,
+/obj/item/reagent_containers/glass/beaker,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/big_offices)
 "gsK" = (
 /obj/machinery/smartfridge/chemistry,
 /turf/open/floor/plasteel/white,
@@ -6305,11 +6295,6 @@
 /obj/structure/salvage/pda,
 /turf/open/water/safe/electric,
 /area/awaymission/ihategordon/science_tunnel)
-"gFS" = (
-/obj/structure/rack/shelf,
-/obj/item/reagent_containers/glass/beaker,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
 "gFW" = (
 /obj/structure/lattice,
 /turf/open/floor/plating,
@@ -7127,6 +7112,11 @@
 /mob/living/simple_animal/hostile/headcrab/mesa,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
+"hGf" = (
+/obj/structure/rack/shelf,
+/obj/item/multitool,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/big_offices)
 "hGr" = (
 /obj/structure/window/reinforced/spawner/north{
 	dir = 8
@@ -7186,6 +7176,11 @@
 /obj/structure/frame/machine,
 /turf/open/floor/iron/smooth,
 /area/awaymission/ihategordon/emitter_chambers)
+"hJL" = (
+/obj/structure/closet/crate/large,
+/obj/item/clothing/gloves/chameleon/insulated,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "hJV" = (
 /obj/structure/shuttle/engine/propulsion/left,
 /obj/effect/turf_decal/stripes/line,
@@ -7293,6 +7288,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/server_rooms)
+"hNm" = (
+/obj/structure/closet/crate/large,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "hOA" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced/spawner/west,
@@ -10919,11 +10919,6 @@
 /obj/structure/window/reinforced/spawner/east,
 /obj/item/paper_bin,
 /obj/machinery/door/poddoor/shutters/preopen,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
-"lOf" = (
-/obj/structure/rack/shelf,
-/obj/item/reagent_containers/glass/beaker/large,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "lOh" = (
@@ -14908,15 +14903,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/turret_lockdown_hall)
-"pGl" = (
-/obj/structure/closet/crate/large,
-/obj/effect/turf_decal/stripes/white/box,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/turf/open/floor/plating,
-/area/awaymission/ihategordon/science_tunnel)
 "pGG" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/chair/sofa/corp/right,
@@ -15336,11 +15322,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
-"qbk" = (
-/obj/structure/closet/crate/large,
-/obj/item/storage/firstaid/regular,
-/turf/open/floor/plating,
-/area/awaymission/ihategordon/science_tunnel)
 "qck" = (
 /obj/machinery/vending/wardrobe/science_wardrobe,
 /turf/open/floor/iron/dark,
@@ -16096,6 +16077,10 @@
 "qMn" = (
 /turf/closed/indestructible/riveted/lfwb/leviathan,
 /area/awaymission/outsideofmesa)
+"qMz" = (
+/obj/machinery/door/airlock/research,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "qNg" = (
 /obj/machinery/photocopier,
 /obj/machinery/light/red{
@@ -16499,11 +16484,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_camp)
-"rgJ" = (
-/obj/structure/rack/shelf,
-/obj/item/multitool,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
 "rio" = (
 /obj/effect/mob_spawn/human/hlscientist,
 /obj/effect/decal/cleanable/blood/gibs,
@@ -21755,6 +21735,15 @@
 /obj/machinery/fax,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/entrance)
+"wAZ" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "wBc" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/floor/plasteel/white,
@@ -22675,6 +22664,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/server_rooms)
+"xzQ" = (
+/obj/structure/rack/shelf,
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/big_offices)
 "xAc" = (
 /obj/structure/closet/syndicate,
 /obj/item/card/id/syndicate,
@@ -23119,6 +23113,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/hecu_camp_medbay)
+"xWJ" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "xWL" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plasteel/white,
@@ -65849,7 +65849,7 @@ bua
 vUI
 vUI
 srt
-exV
+qMz
 vUI
 vWs
 vmN
@@ -66175,7 +66175,7 @@ ozf
 eQG
 xXk
 btk
-qbk
+hNm
 xXk
 vWs
 vWs
@@ -68892,7 +68892,7 @@ bKE
 tHa
 uTJ
 xXk
-dyc
+hJL
 btk
 xXk
 vWs
@@ -70402,7 +70402,7 @@ kvO
 bua
 nTn
 xXk
-pGl
+wAZ
 btk
 xXk
 vWs
@@ -71584,9 +71584,9 @@ bua
 dRb
 bua
 dxH
-lOf
+xzQ
 dxH
-rgJ
+hGf
 dxH
 bua
 qLN
@@ -72190,7 +72190,7 @@ bua
 dxH
 llh
 dxH
-gFS
+gsE
 dxH
 bua
 pyj
@@ -72792,7 +72792,7 @@ wKz
 dRb
 bua
 dxH
-rgJ
+hGf
 jWi
 hmO
 dxH
@@ -73120,7 +73120,7 @@ bRg
 bRg
 lte
 xXk
-ePj
+xWJ
 btk
 xXk
 vWs
