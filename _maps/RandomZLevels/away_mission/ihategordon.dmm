@@ -3073,6 +3073,7 @@
 "dlw" = (
 /obj/structure/table/glass,
 /obj/item/stack/sheet/mineral/plasma,
+/obj/item/clothing/gloves/chameleon/insulated,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "dlB" = (
@@ -3089,6 +3090,10 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
@@ -5878,6 +5883,10 @@
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/science_tunnel)
+"gjf" = (
+/obj/machinery/door/airlock/research,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "gjh" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
@@ -6562,6 +6571,11 @@
 /obj/structure/window/plastitanium,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon)
+"hbq" = (
+/obj/structure/closet/crate/large,
+/obj/item/clothing/gloves/chameleon/insulated,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "hbt" = (
 /obj/structure/closet/crate/large,
 /obj/item/rcd_ammo,
@@ -10738,6 +10752,10 @@
 	color = "#ac3b06";
 	name = "xen floor"
 	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "lGK" = (
@@ -12551,6 +12569,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"noo" = (
+/obj/structure/rack/shelf,
+/obj/item/multitool,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/big_offices)
 "noB" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -13058,6 +13081,15 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/dorm_offices)
+"nMs" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "nME" = (
 /obj/effect/turf_decal/tile/dark/half{
 	dir = 4
@@ -16106,6 +16138,7 @@
 "qQc" = (
 /obj/structure/closet/l3closet/scientist,
 /obj/structure/window/reinforced/spawner/west,
+/obj/item/storage/firstaid/regular,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/cryo_room)
 "qQG" = (
@@ -16827,6 +16860,12 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_camp_hall)
+"rBT" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "rCs" = (
 /obj/item/weldingtool,
 /turf/open/floor/iron/dark/smooth_large,
@@ -19161,6 +19200,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"tTG" = (
+/obj/structure/closet/crate/large,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "tTJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/bus/passable,
@@ -65794,7 +65838,7 @@ bua
 vUI
 vUI
 srt
-srt
+gjf
 vUI
 vWs
 vmN
@@ -66120,7 +66164,7 @@ ozf
 eQG
 xXk
 btk
-kJL
+tTG
 xXk
 vWs
 vWs
@@ -68837,7 +68881,7 @@ bKE
 tHa
 uTJ
 xXk
-kJL
+hbq
 btk
 xXk
 vWs
@@ -70347,7 +70391,7 @@ kvO
 bua
 nTn
 xXk
-cjT
+nMs
 btk
 xXk
 vWs
@@ -71531,7 +71575,7 @@ bua
 dxH
 dxH
 dxH
-dxH
+noo
 dxH
 bua
 qLN
@@ -72737,7 +72781,7 @@ wKz
 dRb
 bua
 dxH
-dxH
+noo
 jWi
 hmO
 dxH
@@ -73065,7 +73109,7 @@ bRg
 bRg
 lte
 xXk
-cjT
+rBT
 btk
 xXk
 vWs
