@@ -13505,9 +13505,6 @@
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/floor/iron/smooth_large,
 /area/awaymission/ihategordon/tram_room)
-"odM" = (
-/turf/closed/indestructible/riveted/lfwb/leviathan,
-/area/awaymission/ihategordon/rocks)
 "odQ" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/machinery/computer{
@@ -20512,10 +20509,8 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "vgk" = (
-/obj/effect/festive/street/streetlineeast,
-/mob/living/simple_animal/hostile/blackmesa/hecu/ranged/smg,
-/turf/open/indestructible/newmesacobble,
-/area/awaymission/outsideofmesa)
+/turf/closed/indestructible/riveted/lfwb/leviathan,
+/area/awaymission/ihategordon/rocks)
 "vgz" = (
 /mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/structure/flora/junglebush,
@@ -48959,7 +48954,7 @@ vWs
 vWs
 vWs
 vWs
-odM
+vgk
 lJl
 lJl
 lJl
@@ -78239,7 +78234,7 @@ fPo
 fPo
 fPo
 fPo
-xQf
+fPo
 fPo
 fPo
 fPo
@@ -80653,7 +80648,7 @@ lpM
 lpM
 lpM
 lpM
-naA
+lpM
 lpM
 lpM
 lpM
@@ -81872,7 +81867,7 @@ cdH
 cdH
 cdH
 ltw
-vgk
+ltw
 ltw
 ltw
 ltw
@@ -82125,8 +82120,8 @@ rwX
 rwX
 rwX
 rwX
-jeK
-nkW
+hRi
+rwX
 rwX
 rwX
 rwX
@@ -83337,7 +83332,7 @@ lId
 lId
 lId
 qBU
-nGr
+lId
 lId
 lId
 lId
@@ -83656,7 +83651,7 @@ lId
 lId
 lId
 lId
-lId
+eeR
 lId
 lId
 lId
@@ -83993,7 +83988,7 @@ rwX
 cEU
 lpM
 lpM
-lpM
+naA
 lpM
 cEU
 fQr
@@ -86079,7 +86074,7 @@ qmd
 uUs
 lId
 lId
-nGr
+lId
 lId
 lId
 iXS
