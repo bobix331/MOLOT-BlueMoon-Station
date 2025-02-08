@@ -90,7 +90,7 @@
 	item_state = "hl_scientist"
 	can_adjust = FALSE
 
-/obj/effect/mob_spawn/human/sectorhdirector
+/obj/effect/mob_spawn/human/black_mesa/sectorhdirector
 	name = "Black mesa sector H director"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
@@ -143,7 +143,7 @@
 	density = TRUE
 	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/hecu
-/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+/obj/effect/mob_spawn/human/black_mesa/hecu/special(mob/living/carbon/human/spawned_human)
 	. = ..()
 	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.grant_language(/datum/language/old_codes, TRUE, TRUE, LANGUAGE_MIND)
@@ -332,7 +332,7 @@
 
 //Чёрные оперативники
 
-/obj/effect/mob_spawn/human/blackops
+/obj/effect/mob_spawn/human/black_mesa/hecu/blackops
 	name = "Black operative"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
@@ -346,7 +346,7 @@
 	important_info = "Не пытайтесь исследовать карту далее основного атриума, комнат с туррелями ( не ломайте стены в комнаты, закрытые ключ картами/заболтироваными дверьми ). Вы можете покинуть гейт/исследовать его ТОЛЬКО В ТОМ СЛУЧАЕ, когда договоритесь с исследовательской командой. Если вы решили враждовать с исследователями, то вам после этого запрещено покидать гейт и как либо пытатся продвигатся далее по локации"
 	category = "offstation"
 	antagonist_type = /datum/antagonist/ghost_role/black_mesa
-/obj/effect/mob_spawn/human/black_mesa/special(mob/living/carbon/human/spawned_human)
+/obj/effect/mob_spawn/human/black_mesa/hecu/special(mob/living/carbon/human/spawned_human)
 	. = ..()
 	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
 	spawned_human.grant_language(/datum/language/old_codes, TRUE, TRUE, LANGUAGE_MIND)

@@ -1115,6 +1115,7 @@
 /area/awaymission/ihategordon/dorm_rooms)
 "blo" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/med,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/sci_medbay)
 "blN" = (
@@ -1493,12 +1494,10 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "bBT" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/effect/mob_spawn/human/blackops,
-/turf/open/floor/iron/dark,
-/area/awaymission/ihategordon/entrance)
+/obj/structure/table,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/hecu_abandoned_camp)
 "bCj" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -3673,6 +3672,11 @@
 /obj/effect/mob_spawn/human/scientist,
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"dBY" = (
+/obj/structure/table,
+/obj/item/storage/firstaid/regular,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/hecu_abandoned_camp)
 "dCx" = (
 /obj/structure/rack/shelf,
 /obj/item/reagent_containers/glass/beaker,
@@ -3942,6 +3946,12 @@
 /obj/structure/bonfire/prelit,
 /turf/open/indestructible/mesasand,
 /area/awaymission/outsideofmesa)
+"dRv" = (
+/obj/structure/closet/crate/freezer/blood,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/entrance)
 "dRA" = (
 /obj/machinery/light/small/red,
 /obj/structure/rack/shelf,
@@ -5144,6 +5154,12 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
+"fjI" = (
+/obj/effect/turf_decal/stripes/white/box,
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/entrance)
 "fka" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/closet/crate/large,
@@ -5219,7 +5235,7 @@
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/tram_room)
 "fpf" = (
-/obj/effect/mob_spawn/human/blackops,
+/obj/effect/mob_spawn/human/black_mesa/hecu/blackops,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/entrance)
 "fpw" = (
@@ -8254,6 +8270,11 @@
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/emitter_chambers)
+"iru" = (
+/obj/structure/closet/crate/large,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "isg" = (
 /obj/structure/table/reinforced,
 /obj/machinery/fax,
@@ -9706,6 +9727,11 @@
 	icon_state = "damaged1"
 	},
 /area/awaymission/ihategordon/dining_room)
+"jMx" = (
+/obj/structure/closet/crate/large,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/catwalk_floor,
+/area/awaymission/ihategordon/tram_room)
 "jML" = (
 /obj/structure/rack/shelf,
 /obj/item/multitool,
@@ -11225,6 +11251,11 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
+"lrf" = (
+/obj/structure/rack/shelf,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/big_offices)
 "lrg" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/iron,
@@ -11475,6 +11506,13 @@
 	icon_state = "wasteland2"
 	},
 /area/awaymission/ihategordon/facility_hallway)
+"lCv" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/stack/sheet/plasmaglass/fifty,
+/obj/item/defibrillator/compact/combat/loaded,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "lCQ" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
@@ -14768,6 +14806,11 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/awaymission/ihategordon)
+"oMe" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/iron/dark,
+/area/awaymission/ihategordon/tram_room)
 "oMz" = (
 /obj/machinery/door/poddoor/preopen,
 /obj/effect/turf_decal/caution/stand_clear,
@@ -15604,6 +15647,13 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"pDC" = (
+/obj/structure/closet/secure_closet/medical2,
+/obj/structure/cable,
+/obj/item/clothing/suit/apron/surgical,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/big_offices)
 "pDK" = (
 /obj/item/shard{
 	icon_state = "tiny"
@@ -18999,6 +19049,11 @@
 /obj/item/stack/sheet/plastic/five,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/turret_lockdown_hall)
+"tej" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/med/surgery,
+/turf/open/floor/catwalk_floor,
+/area/awaymission/ihategordon/big_offices)
 "teq" = (
 /obj/structure/rack,
 /obj/item/ammo_box/magazine/mp5,
@@ -19468,9 +19523,9 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
 "tHN" = (
-/obj/effect/mob_spawn/human/sectorhdirector,
-/turf/open/floor/iron,
-/area/awaymission/ihategordon/big_offices)
+/obj/machinery/computer/operating,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/sci_medbay)
 "tHX" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -20012,6 +20067,12 @@
 	},
 /turf/open/floor/iron/cafeteria,
 /area/awaymission/ihategordon/dorm_rooms)
+"ulU" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/defibrillator/loaded,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/science_tunnel)
 "ulX" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /mob/living/simple_animal/hostile/blackmesa/blackops,
@@ -21791,6 +21852,13 @@
 /obj/item/papercutter,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/hecu_abandoned_camp)
+"wfo" = (
+/obj/structure/closet/crate/large,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/item/stack/sheet/plastic/five,
+/obj/item/storage/backpack/duffelbag/med,
+/turf/open/floor/plating,
+/area/awaymission/ihategordon/turret_lockdown_hall)
 "wfB" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -23826,12 +23894,9 @@
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
 "yiC" = (
-/obj/structure/chair/office{
-	icon_state = "plastic_chair";
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
-/area/awaymission/ihategordon/sci_medbay)
+/obj/effect/mob_spawn/human/black_mesa/sectorhdirector,
+/turf/open/floor/iron,
+/area/awaymission/ihategordon/big_offices)
 "yiF" = (
 /obj/structure/fence/door,
 /turf/open/floor/plating/ironsand{
@@ -34220,7 +34285,7 @@ fgB
 fgB
 fgB
 rdj
-nTb
+dBY
 lFW
 iVq
 iVq
@@ -34479,7 +34544,7 @@ fgB
 rdj
 iFl
 nTb
-nTb
+bBT
 nTb
 fzd
 rdj
@@ -37258,7 +37323,7 @@ cQv
 afq
 cbA
 cbA
-tdR
+wfo
 dNe
 tpA
 fVc
@@ -38026,7 +38091,7 @@ pZy
 pZy
 gDL
 vwO
-yiC
+lwf
 xLz
 xLz
 eye
@@ -38539,7 +38604,7 @@ mGl
 pZy
 pZy
 gDL
-vwO
+tHN
 lwf
 lwf
 lwf
@@ -38796,7 +38861,7 @@ rRf
 pZy
 pZy
 gDL
-tHu
+vwO
 lwf
 lwf
 lwf
@@ -39053,7 +39118,7 @@ ssa
 enp
 pbc
 gDL
-blo
+tHu
 lwf
 lwf
 lwf
@@ -39310,7 +39375,7 @@ omw
 pbc
 ssa
 gDL
-lwf
+tHN
 lwf
 lwf
 lwf
@@ -45761,7 +45826,7 @@ iYi
 oeV
 qsD
 pTp
-sXK
+lCv
 nBn
 pZy
 oHq
@@ -45932,7 +45997,7 @@ uJi
 uJi
 uJi
 gYI
-uHt
+pDC
 nvK
 kNl
 kNl
@@ -46563,7 +46628,7 @@ rbi
 tSi
 tSi
 jXG
-tSi
+oMe
 ldO
 tPT
 rbi
@@ -52941,7 +53006,7 @@ pTp
 xxM
 bNb
 bNb
-rCV
+tej
 gYI
 pXR
 pXR
@@ -59425,7 +59490,7 @@ cfJ
 uJi
 uJi
 gYI
-cQK
+lrf
 kNl
 kNl
 tdl
@@ -59549,7 +59614,7 @@ uJi
 uJi
 pTp
 cun
-cun
+iru
 pTp
 uJi
 uJi
@@ -63008,7 +63073,7 @@ mtN
 cTX
 mtN
 hqZ
-hqZ
+jMx
 hqZ
 eGo
 cOi
@@ -64688,7 +64753,7 @@ njf
 njf
 cNX
 pTp
-oRN
+ulU
 pZy
 pTp
 uJi
@@ -64904,7 +64969,7 @@ uJi
 gYI
 vYs
 tGi
-tGi
+yiC
 iSb
 rBO
 gYI
@@ -65162,7 +65227,7 @@ gYI
 qse
 iQW
 tGi
-tHN
+tGi
 rBO
 gYI
 vYs
@@ -66807,7 +66872,7 @@ xLL
 uJi
 uJi
 hwe
-neD
+fpf
 neD
 neD
 neD
@@ -67064,7 +67129,7 @@ xLL
 uJi
 uJi
 hwe
-neD
+fpf
 neD
 neD
 neD
@@ -69125,8 +69190,8 @@ neD
 neD
 jdm
 neD
-fpf
-bBT
+neD
+jdm
 neD
 neD
 neD
@@ -82101,7 +82166,7 @@ neD
 neD
 neD
 xUY
-xUY
+dRv
 hwe
 uJi
 uJi
@@ -86984,7 +87049,7 @@ neD
 neD
 hwe
 eOQ
-eOQ
+fjI
 wfC
 yeo
 neD
