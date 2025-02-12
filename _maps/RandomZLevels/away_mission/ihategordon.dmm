@@ -1722,13 +1722,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/ihategordon/big_offices)
-"bMd" = (
-/obj/effect/bump_teleporter{
-	id = "bossentbattle";
-	id_target = "bossentbattleex"
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/ihategordon/entrance)
 "bMh" = (
 /obj/effect/festive/street/streetlinenorth,
 /obj/machinery/door/poddoor,
@@ -9811,14 +9804,6 @@
 	},
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
-"jQQ" = (
-/obj/machinery/door/airlock/research,
-/obj/effect/bump_teleporter{
-	id = "bossentbattleex";
-	id_target = "bossentbattle"
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/ihategordon/entrance)
 "jQS" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -64056,10 +64041,10 @@ lSL
 lSL
 lSL
 lSL
-bMd
+neD
 lSL
 lSL
-bMd
+neD
 lSL
 lSL
 lSL
@@ -87294,11 +87279,11 @@ lSL
 lSL
 lSL
 lSL
-jQQ
+imJ
 lSL
 lSL
 lSL
-jQQ
+imJ
 lSL
 lSL
 lSL
