@@ -76,7 +76,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	burst_size = 2
 	burst_shot_delay = 1
-	fire_delay = 3.0 ///Это пиздец
+	fire_delay = 3.0 ///Это пиздец!
 	can_bayonet = FALSE
 	automatic_burst_overlay = FALSE
 
