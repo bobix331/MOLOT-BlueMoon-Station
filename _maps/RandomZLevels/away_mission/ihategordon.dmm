@@ -5861,14 +5861,6 @@
 	},
 /turf/open/floor/iron/herringbone,
 /area/awaymission/ihategordon/big_offices)
-"fXK" = (
-/obj/effect/bump_teleporter{
-	id = "bossentbattle";
-	id_target = "bossentbattleex"
-	},
-/obj/machinery/door/airlock/research,
-/turf/open/floor/iron/dark,
-/area/awaymission/ihategordon/entrance)
 "fXO" = (
 /turf/open/floor/plating{
 	heat_capacity = 1e+006;
@@ -9820,11 +9812,11 @@
 /turf/open/indestructible,
 /area/awaymission/ihategordon/big_offices)
 "jQQ" = (
+/obj/machinery/door/airlock/research,
 /obj/effect/bump_teleporter{
 	id = "bossentbattleex";
 	id_target = "bossentbattle"
 	},
-/obj/machinery/door/airlock/research,
 /turf/open/floor/iron/dark,
 /area/awaymission/ihategordon/entrance)
 "jQS" = (
@@ -67849,8 +67841,8 @@ fgB
 hCI
 fgB
 hhI
-dRS
-dRS
+fgB
+fgB
 idK
 rdj
 jcF
@@ -87302,7 +87294,7 @@ lSL
 lSL
 lSL
 lSL
-fXK
+jQQ
 lSL
 lSL
 lSL
