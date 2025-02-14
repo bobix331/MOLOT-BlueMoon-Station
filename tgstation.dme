@@ -4564,6 +4564,7 @@
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\headcrab.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\houndeye.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\mob_spawners.dm"
+#include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\snark.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\mobs\vortigaunt.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\weapons\crowbar.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\weapons\hlguns.dm"
