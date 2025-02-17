@@ -10,6 +10,9 @@
 	mob_size = MOB_SIZE_TINY
 	pass_flags = PASSTABLE | PASSGRILLE | PASSMOB
 	speed = 1
+	ranged = 1
+	ranged_message = "leaps"
+	ranged_cooldown_time = 30
 	taunt_chance = 100
 	turns_per_move = 20
 	maxHealth = 50
