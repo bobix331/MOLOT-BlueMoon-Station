@@ -29,8 +29,6 @@
 	harm_intent_damage = 15
 	melee_damage_lower = 10
 	melee_damage_upper = 10
-	retreat_distance = 5
-	minimum_distance = 5
 	loot = list(/obj/effect/decal/cleanable/insectguts)
 	attack_sound = 'modular_bluemoon/olgachan/blackmesafromnova/sound/mobs/snark/snark4.ogg'
 	alert_sounds = list('modular_bluemoon/olgachan/blackmesafromnova/sound/mobs/snark/snark1.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/mobs/snark/snark2.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/mobs/snark/snark3.ogg')
