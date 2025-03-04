@@ -72,8 +72,7 @@
 	},
 /area/awaymission/BMPship/Aft)
 "as" = (
-/obj/structure/bed/roller,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "at" = (
 /turf/open/floor/plating/airless,
@@ -82,41 +81,65 @@
 /obj/item/restraints/handcuffs,
 /obj/item/restraints/handcuffs,
 /obj/structure/closet/crate,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "av" = (
 /obj/item/scalpel,
 /obj/structure/closet/crate,
 /obj/item/tank/internals/anesthetic,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "aw" = (
 /obj/item/bodybag,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "ax" = (
 /obj/item/storage/box/syringes,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "ay" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/open/floor/plating/airless,
+/obj/structure/bed/roller,
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "az" = (
 /obj/structure/table/optable,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/splatter/xeno,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "aA" = (
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /obj/machinery/computer/operating,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "aB" = (
 /obj/effect/turf_decal/stripes/line{
@@ -179,7 +202,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "aM" = (
 /obj/effect/turf_decal/stripes/line{
@@ -265,8 +288,7 @@
 /area/awaymission/BMPship/Midship)
 "bb" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/gibspawner/human,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "bc" = (
 /obj/structure/cable{
@@ -275,7 +297,7 @@
 /obj/item/clothing/glasses/regular/hipster,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "be" = (
 /obj/machinery/door/unpowered/shuttle,
@@ -396,30 +418,39 @@
 /area/awaymission/BMPship/Fore)
 "by" = (
 /obj/machinery/light,
-/obj/effect/decal/cleanable/blood/gibs/old,
-/turf/open/floor/plating/airless,
+/obj/machinery/shower/directional/north,
+/turf/open/floor/plasteel/showroomfloor/shower,
 /area/awaymission/BMPship/Midship)
 "bz" = (
 /obj/machinery/button/door{
 	id = "packerMed";
 	pixel_y = -24
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/awaymission/BMPship/Midship)
 "bA" = (
-/obj/machinery/sleeper{
-	dir = 1
-	},
-/turf/open/floor/plating/airless,
+/obj/effect/spawner/lootdrop/salvage,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "bB" = (
 /obj/machinery/sleep_console,
-/turf/open/floor/plating/airless,
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "bC" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "bD" = (
 /obj/structure/cable{
@@ -455,7 +486,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "packerMed"
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "bL" = (
 /obj/structure/closet/crate/large,
@@ -2163,7 +2194,9 @@
 /area/awaymission/BMPship/Midship)
 "gf" = (
 /obj/structure/fans/tiny,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/awaymission/BMPship/Midship)
 "gg" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2395,7 +2428,8 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "gW" = (
 /obj/structure/cable{
@@ -2422,8 +2456,8 @@
 /turf/template_noop,
 /area/template_noop)
 "ha" = (
-/turf/open/floor/plating/airless{
-	icon_state = "panelscorched"
+/turf/open/floor/plasteel{
+	icon_state = "damaged5"
 	},
 /area/awaymission/BMPship/Midship)
 "hb" = (
@@ -2458,7 +2492,7 @@
 	},
 /area/awaymission/BMPship/Aft)
 "hg" = (
-/turf/open/floor/plating/airless{
+/turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
 /area/awaymission/BMPship/Midship)
@@ -2550,6 +2584,20 @@
 /obj/effect/decal/cleanable/glass,
 /mob/living/simple_animal/hostile/alien,
 /turf/open/floor/plasteel,
+/area/awaymission/BMPship/Midship)
+"hW" = (
+/obj/machinery/sleeper{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
+/area/awaymission/BMPship/Midship)
+"hY" = (
+/obj/effect/spawner/lootdrop/salvage,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "hZ" = (
 /obj/structure/dresser,
@@ -2700,11 +2748,16 @@
 /obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/plating/airless,
 /area/awaymission/BMPship)
-"nz" = (
-/obj/structure/fans/tiny,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg2"
+"nu" = (
+/turf/open/floor/plasteel{
+	icon_state = "damaged4"
 	},
+/area/awaymission/BMPship/Midship)
+"nz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "nA" = (
 /obj/effect/decal/cleanable/glass,
@@ -2740,6 +2793,11 @@
 	},
 /turf/open/floor/wood,
 /area/awaymission/BMPship/Fore)
+"oZ" = (
+/turf/open/floor/plasteel{
+	icon_state = "damaged2"
+	},
+/area/awaymission/BMPship/Midship)
 "pu" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2777,8 +2835,11 @@
 /area/awaymission/BMPship/Fore)
 "ql" = (
 /obj/effect/spawner/lootdrop/salvage,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	icon_state = "damaged5"
 	},
 /area/awaymission/BMPship/Midship)
 "qq" = (
@@ -2841,7 +2902,8 @@
 /obj/machinery/sleep_console,
 /obj/effect/spawner/lootdrop/salvage,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "rR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2892,6 +2954,14 @@
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel,
+/area/awaymission/BMPship/Midship)
+"sY" = (
+/obj/structure/bed/roller,
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "tl" = (
 /obj/machinery/light/small,
@@ -3027,6 +3097,15 @@
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plating/airless,
 /area/awaymission/BMPship)
+"xO" = (
+/obj/effect/spawner/lootdrop/salvage,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/plasteel{
+	icon_state = "damaged2"
+	},
+/area/awaymission/BMPship/Midship)
 "xX" = (
 /obj/structure/window/reinforced,
 /obj/structure/table,
@@ -3136,8 +3215,8 @@
 /area/awaymission/BMPship/Aft)
 "BD" = (
 /obj/structure/fans/tiny,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg3"
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
 	},
 /area/awaymission/BMPship/Midship)
 "BO" = (
@@ -3330,6 +3409,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
 /area/awaymission/BMPship/Fore)
+"Fb" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/awaymission/BMPship/Midship)
 "Fx" = (
 /obj/structure/sink/kitchen/directional/east,
 /turf/open/floor/plasteel/showroomfloor,
@@ -3360,11 +3444,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
 /area/awaymission/BMPship/Fore)
+"GH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/plasteel/white,
+/area/awaymission/BMPship/Midship)
 "GW" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/table,
 /turf/open/floor/wood,
 /area/awaymission/BMPship/Fore)
+"Hi" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel{
+	icon_state = "damaged4"
+	},
+/area/awaymission/BMPship/Midship)
 "Hs" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3450,6 +3545,10 @@
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel,
 /area/awaymission/BMPship/Midship)
+"KA" = (
+/obj/effect/decal/cleanable/blood/splatter/xeno,
+/turf/open/floor/plasteel/white,
+/area/awaymission/BMPship/Midship)
 "KI" = (
 /obj/structure/mirror{
 	pixel_y = 28
@@ -3461,9 +3560,7 @@
 /area/awaymission/BMPship/Aft)
 "KU" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless{
-	icon_state = "panelscorched"
-	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "KV" = (
 /obj/item/ammo_box/magazine/ak47,
@@ -3533,6 +3630,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/awaymission/BMPship/Fore)
+"LY" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
+	},
+/area/awaymission/BMPship/Midship)
 "Mk" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
@@ -3570,10 +3672,8 @@
 /turf/open/floor/plasteel,
 /area/awaymission/BMPship/Midship)
 "MI" = (
-/obj/effect/decal/cleanable/blood/gibs/old,
-/turf/open/floor/plating/airless{
-	icon_state = "panelscorched"
-	},
+/obj/machinery/shower/directional/north,
+/turf/open/floor/plasteel/showroomfloor/shower,
 /area/awaymission/BMPship/Midship)
 "ML" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3632,6 +3732,16 @@
 /obj/structure/table,
 /turf/open/floor/wood,
 /area/awaymission/BMPship/Fore)
+"ON" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/awaymission/BMPship/Midship)
 "OW" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3646,7 +3756,10 @@
 /area/awaymission/BMPship/Midship)
 "Pi" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
-/turf/open/floor/plating/airless,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
 /area/awaymission/BMPship/Midship)
 "Ps" = (
 /obj/structure/cable{
@@ -3675,6 +3788,12 @@
 /obj/machinery/door/unpowered/shuttle,
 /turf/open/floor/plating/airless,
 /area/awaymission/BMPship)
+"QX" = (
+/obj/effect/decal/cleanable/blood/splatter/xeno,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/awaymission/BMPship/Midship)
 "Rg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -3936,6 +4055,10 @@
 /obj/machinery/door/airlock/silver,
 /turf/open/floor/plasteel,
 /area/awaymission/BMPship/Aft)
+"Wt" = (
+/obj/effect/gibspawner/human,
+/turf/open/floor/plasteel/white,
+/area/awaymission/BMPship/Midship)
 "WG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3980,8 +4103,8 @@
 /area/awaymission/BMPship/Aft)
 "Yv" = (
 /obj/structure/fans/tiny,
-/turf/open/floor/plating/airless{
-	icon_state = "platingdmg1"
+/turf/open/floor/plating{
+	icon_state = "platingdmg2"
 	},
 /area/awaymission/BMPship/Midship)
 "YI" = (
@@ -5510,10 +5633,10 @@ aa
 aa
 am
 EQ
-nz
+BD
 hg
-ha
-at
+as
+Fb
 ap
 ch
 cs
@@ -5562,8 +5685,8 @@ aa
 ap
 aq
 BD
-Pi
-hg
+bb
+as
 by
 ap
 pD
@@ -5611,10 +5734,10 @@ aa
 aa
 aa
 aq
-as
-at
+sY
+LY
 ha
-at
+KA
 bz
 ap
 ci
@@ -5662,11 +5785,11 @@ aa
 aa
 aa
 aq
-vU
-at
+xO
+as
 bb
 KU
-gP
+GH
 bK
 DM
 ce
@@ -5714,10 +5837,10 @@ aa
 aa
 aq
 au
-at
-at
-gP
-gP
+oZ
+hg
+KU
+GH
 bK
 mw
 ce
@@ -5765,10 +5888,10 @@ aa
 aa
 aq
 av
-at
-at
-gP
-gP
+as
+Wt
+Hi
+nz
 bK
 ce
 Ow
@@ -5816,10 +5939,10 @@ aa
 aa
 aq
 aw
-Pi
+bb
 as
-gP
-bA
+KU
+hW
 ap
 hU
 iC
@@ -5867,9 +5990,9 @@ aa
 aa
 aq
 ax
-at
-gP
-gP
+QX
+KU
+KU
 rI
 ap
 cm
@@ -5920,7 +6043,7 @@ aq
 ay
 aL
 bc
-gP
+KU
 bC
 ap
 cl
@@ -5969,9 +6092,9 @@ aa
 aa
 aq
 az
-at
+nu
 gV
-at
+ha
 bA
 ap
 cj
@@ -6020,8 +6143,8 @@ aa
 aa
 aq
 aA
-at
-gV
+hY
+ON
 Pi
 bB
 ap
