@@ -31,6 +31,11 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
+"cj" = (
+/obj/effect/spawner/lootdrop/salvage,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/space/has_grav/whiteship/box)
 "cW" = (
 /obj/structure/rack,
 /obj/item/melee/classic_baton,
@@ -106,14 +111,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/whiteship/box)
-"kC" = (
-/obj/item/shard{
-	icon_state = "medium"
-	},
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/ruin/space/has_grav/whiteship/box)
 "lc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/emcloset/anchored,
@@ -124,6 +121,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/whiteship/box)
+"ng" = (
+/turf/open/floor/plating{
+	heat_capacity = 1e+006;
+	icon_state = "platingdmg2"
+	},
 /area/ruin/space/has_grav/whiteship/box)
 "op" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -249,6 +252,13 @@
 	dir = 1
 	},
 /obj/item/screwdriver/power,
+/turf/open/floor/mineral/titanium/white,
+/area/ruin/space/has_grav/whiteship/box)
+"rJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/shard{
+	icon_state = "medium"
+	},
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
 "sW" = (
@@ -431,12 +441,6 @@
 /obj/machinery/sleeper,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
-"zf" = (
-/turf/open/floor/plating{
-	heat_capacity = 1e+006;
-	icon_state = "platingdmg2"
-	},
-/area/ruin/space/has_grav/whiteship/box)
 "zA" = (
 /obj/effect/spawner/lootdrop/salvage,
 /turf/open/floor/plating,
@@ -467,6 +471,11 @@
 /obj/structure/rack,
 /obj/item/paicard,
 /turf/open/floor/mineral/titanium/white,
+/area/ruin/space/has_grav/whiteship/box)
+"By" = (
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/ruin/space/has_grav/whiteship/box)
 "BC" = (
 /obj/structure/light_construct{
@@ -540,10 +549,9 @@
 /obj/machinery/computer/operating,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
-"Fb" = (
-/obj/effect/spawner/lootdrop/salvage,
+"ES" = (
 /obj/structure/fans/tiny,
-/turf/open/floor/mineral/titanium/white,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/whiteship/box)
 "Fv" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -554,13 +562,6 @@
 	pixel_x = 32
 	},
 /obj/effect/spawner/lootdrop/grille_or_trash,
-/turf/open/floor/mineral/titanium/white,
-/area/ruin/space/has_grav/whiteship/box)
-"Gl" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/shard{
-	icon_state = "medium"
-	},
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
 "GC" = (
@@ -597,12 +598,6 @@
 /obj/effect/spawner/lootdrop/salvage,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/mineral/titanium/white,
-/area/ruin/space/has_grav/whiteship/box)
-"Jx" = (
-/obj/effect/spawner/lootdrop/grille_or_trash,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
 /area/ruin/space/has_grav/whiteship/box)
 "JC" = (
 /obj/structure/light_construct,
@@ -710,11 +705,6 @@
 /obj/item/reagent_containers/glass/bottle/charcoal,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
-"Nc" = (
-/turf/open/floor/plating{
-	icon_state = "platingdmg1"
-	},
-/area/ruin/space/has_grav/whiteship/box)
 "Nj" = (
 /obj/structure/light_construct{
 	dir = 1
@@ -746,10 +736,6 @@
 	zombiejob = "Assistant"
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/ruin/space/has_grav/whiteship/box)
-"OK" = (
-/obj/structure/fans/tiny,
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/whiteship/box)
 "Pa" = (
 /obj/machinery/computer{
@@ -856,14 +842,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
-"Ud" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/mineral/titanium/white,
-/area/ruin/space/has_grav/whiteship/box)
 "Ul" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/whiteship/box)
+"UW" = (
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
 	},
 /area/ruin/space/has_grav/whiteship/box)
 "Wq" = (
@@ -895,6 +884,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/whiteship/box)
+"Xt" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ruin/space/has_grav/whiteship/box)
 "XE" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/plating,
@@ -911,6 +906,11 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
+/area/ruin/space/has_grav/whiteship/box)
+"YW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
 "Zh" = (
 /turf/open/floor/plating,
@@ -1495,10 +1495,10 @@ ei
 "}
 (25,1,1) = {"
 Xp
-OK
+ES
 Os
 fa
-Gl
+rJ
 qF
 qS
 Os
@@ -1520,9 +1520,9 @@ ei
 ei
 vM
 LU
-Nc
+By
 Be
-Jx
+Xt
 qS
 sW
 Os
@@ -1588,7 +1588,7 @@ ei
 (29,1,1) = {"
 Xp
 Zy
-zf
+ng
 Os
 vD
 vD
@@ -1610,9 +1610,9 @@ Xp
 "}
 (30,1,1) = {"
 ei
-Fb
-Ud
-kC
+cj
+YW
+UW
 qS
 qS
 qS
