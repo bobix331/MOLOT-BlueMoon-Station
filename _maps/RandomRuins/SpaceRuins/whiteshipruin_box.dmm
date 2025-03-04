@@ -56,6 +56,14 @@
 	},
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
+"gE" = (
+/obj/item/shard{
+	icon_state = "medium"
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
+/area/ruin/space/has_grav/whiteship/box)
 "gN" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/spawner/lootdrop/grille_or_trash,
@@ -628,9 +636,11 @@
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
 "KJ" = (
-/obj/structure/table,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/mineral/titanium/white,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
 /area/ruin/space/has_grav/whiteship/box)
 "Lf" = (
 /obj/structure/shuttle/engine/heater{
@@ -737,6 +747,12 @@
 "PF" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/whiteship/box)
+"PT" = (
+/turf/open/floor/plating{
+	heat_capacity = 1e+006;
+	icon_state = "platingdmg2"
+	},
 /area/ruin/space/has_grav/whiteship/box)
 "Qs" = (
 /obj/effect/decal/cleanable/dirt{
@@ -876,9 +892,10 @@
 /turf/open/floor/mineral/titanium/white,
 /area/ruin/space/has_grav/whiteship/box)
 "Zy" = (
-/obj/effect/spawner/lootdrop/salvage,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/mineral/titanium/white,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating{
+	icon_state = "platingdmg1"
+	},
 /area/ruin/space/has_grav/whiteship/box)
 "Zz" = (
 /obj/structure/light_construct,
@@ -1509,7 +1526,7 @@ Zz
 ei
 "}
 (28,1,1) = {"
-ei
+Xp
 KJ
 Os
 Be
@@ -1532,9 +1549,9 @@ qS
 ei
 "}
 (29,1,1) = {"
-Db
+Xp
 Zy
-Os
+PT
 Os
 vD
 vD
@@ -1556,9 +1573,9 @@ Xp
 "}
 (30,1,1) = {"
 ei
-Os
-Os
-RD
+sW
+Be
+gE
 qS
 qS
 qS
