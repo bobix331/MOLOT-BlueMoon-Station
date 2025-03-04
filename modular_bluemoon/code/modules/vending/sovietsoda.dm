@@ -26,9 +26,13 @@
 	name = "\improper ВОДА БЛЯТЬ"
 	desc = "Высокотехнологичный торговый автомат ВОДА БЛЯТЬ всегда даст понять покупателю свой ассортимент"
 	icon_state = "voda"
-	light_mask = "soviet-light-mask"
+	light_mask = "engivend-light-mask"
 	product_slogans = "ВОДА БЛЯТЬ продаёт чистейшую воду в галактике.."
 	products = list(
 		/obj/item/reagent_containers/glass/beaker/waterbottle/wataur = 40,
 	)
 	light_color = COLOR_NAVY
+
+/obj/item/vending_refill/sovietsoda/waterfuck
+	machine_name = "VODA BLYAT"
+	icon_state = "refill_cola"
