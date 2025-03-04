@@ -3632,10 +3632,6 @@
 /obj/structure/table,
 /turf/open/floor/wood,
 /area/awaymission/BMPship/Fore)
-"ON" = (
-/mob/living/simple_animal/hostile/syndicate/ranged/shotgun/space/stormtrooper,
-/turf/closed/mineral/random,
-/area/awaymission/BMPship)
 "OW" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -5035,7 +5031,7 @@ gb
 gb
 Sy
 gb
-ON
+gb
 gb
 gb
 hw
