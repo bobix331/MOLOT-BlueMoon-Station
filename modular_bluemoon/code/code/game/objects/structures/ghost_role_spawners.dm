@@ -32,3 +32,6 @@
 
 /datum/antagonist/ghost_role/hecu
 	name  = "HECU squad"
+
+/datum/antagonist/ghost_role/losthecu
+	name  = "HECU lost grunt"

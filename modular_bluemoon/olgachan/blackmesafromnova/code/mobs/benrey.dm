@@ -26,15 +26,16 @@
 	faction = list("hostile","xen")
 	del_on_death = TRUE
 	ranged = 1
+	rapid = 3
 	environment_smash = ENVIRONMENT_SMASH_NONE
 	minimum_distance = 2
 	retreat_distance = 2
-	obj_damage = 0
-	melee_damage_lower = 10
-	melee_damage_upper = 20
-	health = 7000
-	maxHealth = 7000
-	loot = list(/obj/effect/temp_visual/hierophant/blast)
+	obj_damage = 60
+	melee_damage_lower = 30
+	melee_damage_upper = 40
+	health = 9000
+	maxHealth = 9000
+	loot = list(/obj/effect/temp_visual/benrey_death,/obj/item/stack/spacecash/c100000,/obj/item/uber_teleporter,/obj/item/reagent_containers/hypospray/medipen/tuberculosiscure )
 	projectiletype = /obj/item/projectile/bullet/shotgun_meteorslug/benrey
 	projectilesound = 'sound/weapons/flashbang.ogg'
 	attack_sound = 'sound/magic/blink.ogg'
@@ -143,6 +144,7 @@
 	color = "#2531db"
 	ranged = 1
 	harm_intent_damage = 3
+	loot = list(/obj/item/organ/regenerative_core/legion)
 	melee_damage_lower = 8
 	melee_damage_upper = 15
 	attack_verb_continuous = "SWEET VOICES"
@@ -173,6 +175,6 @@
 
 
 /obj/item/projectile/magic/teleport/benrey
-	outer_tele_radius = 3
+	outer_tele_radius = 1
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "impact_laser_blue"
