@@ -341,7 +341,6 @@
 	death = FALSE
 	density = TRUE
 	category = "offstation"
-	antagonist_type = /datum/antagonist/ghost_role/losthecu
 /obj/effect/mob_spawn/human/black_mesa/hecu/lost/special(mob/living/carbon/human/spawned_human)
 	. = ..()
 	spawned_human.grant_language(/datum/language/modular_sand/solcommon, TRUE, TRUE, LANGUAGE_MIND)
