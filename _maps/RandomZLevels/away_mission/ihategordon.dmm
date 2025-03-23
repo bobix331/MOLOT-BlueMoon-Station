@@ -595,7 +595,6 @@
 "ayB" = (
 /obj/machinery/light/red,
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -20
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel,
@@ -1406,12 +1405,6 @@
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/kitchen,
 /area/awaymission/ihategordon/dining_room)
-"biW" = (
-/obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20
-	},
-/turf/open/floor/plating,
-/area/awaymission/ihategordon/science_tunnel)
 "biX" = (
 /turf/closed/indestructible/rock{
 	icon_state = "rockyash";
@@ -16792,7 +16785,6 @@
 /area/awaymission/ihategordon/sectorhsecoffices)
 "mJu" = (
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -20
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel,
@@ -20326,7 +20318,6 @@
 "pzH" = (
 /obj/structure/lattice,
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -20
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel,
@@ -22044,11 +22035,9 @@
 	dir = 2
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -20
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -2;
 	pixel_y = 0
 	},
@@ -31182,7 +31171,6 @@
 "xWJ" = (
 /obj/effect/festive/street/streetlinenorth,
 /obj/structure/reagent_dispensers/urbanismbarrel{
-	pixel_w = 20;
 	pixel_x = -20
 	},
 /obj/structure/reagent_dispensers/urbanismbarrel,
@@ -52806,7 +52794,7 @@ bWZ
 bWZ
 bWZ
 flv
-biW
+vCF
 oCO
 fGs
 jPP
