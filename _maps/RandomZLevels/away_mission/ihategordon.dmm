@@ -978,6 +978,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
+"aOp" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "aOF" = (
 /obj/machinery/light/floor,
 /obj/structure/window/reinforced/spawner/north,
@@ -1166,7 +1170,6 @@
 	},
 /area/awaymission/ihategordon/big_offices)
 "aWb" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
 /turf/closed/indestructible/rock{
 	icon_state = "rockyash";
 	color = "#f79668"
@@ -1182,9 +1185,9 @@
 	},
 /area/awaymission/ihategordon/sectorhnorthoffices)
 "aWZ" = (
-/obj/structure/rack/shelf,
-/turf/open/floor/festive/sidewalk/mesawalk,
-/area/awaymission/ihategordon/opposing/comlpex)
+/obj/machinery/door/keycard/mesa,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "aXd" = (
 /obj/structure/reagent_dispensers/urbanismbarrel/red,
 /turf/open/floor/plating,
@@ -1706,16 +1709,6 @@
 /obj/item/ammo_box/magazine/fal/r10,
 /turf/open/floor/plasteel/dark,
 /area/awaymission/ihategordon/facility_hallway)
-"bpy" = (
-/obj/machinery/button/door{
-	name = "gate button";
-	id = "opposing";
-	pixel_x = -26;
-	pixel_y = 0
-	},
-/obj/structure/closet/crate/urbanismcrate,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "bql" = (
 /obj/machinery/computer{
 	dir = 1
@@ -1727,6 +1720,11 @@
 	icon_state = "damaged4"
 	},
 /area/awaymission/ihategordon/dorm_offices)
+"bqI" = (
+/obj/effect/turf_decal/trimline/dark_red/line,
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/opposing/comlpex)
 "bqO" = (
 /obj/machinery/light{
 	dir = 4
@@ -2196,6 +2194,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/dorm_offices)
+"bLc" = (
+/obj/machinery/modular_computer/console/preset{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "bLk" = (
 /obj/structure/flora/rock/pile,
 /obj/machinery/light{
@@ -3177,10 +3181,6 @@
 /mob/living/simple_animal/hostile/blackmesa/xen/houndeye,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"cxk" = (
-/obj/structure/closet/crate/urbanismcrate,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "cxn" = (
 /obj/machinery/photocopier,
 /obj/structure/window/reinforced/spawner/north,
@@ -3330,12 +3330,9 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "cFw" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/big_offices)
+/obj/effect/mob_spawn/human/hlguard,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/opposing/comlpex)
 "cFz" = (
 /obj/machinery/light/red,
 /turf/open/floor/plating{
@@ -3792,6 +3789,12 @@
 /obj/structure/flora/rock/pile,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
+"dag" = (
+/obj/machinery/modular_computer/console/preset{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "daq" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/drinks/mug/tea,
@@ -4365,12 +4368,9 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
 "dyF" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/sectorhnorthoffices)
+/obj/machinery/door/keycard/mesa,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/sectorhsecoffices)
 "dzh" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/closet/crate/large,
@@ -5609,14 +5609,6 @@
 	},
 /turf/open/indestructible/mesasand,
 /area/awaymission/outsideofmesa)
-"eyZ" = (
-/obj/structure/xen_pylon,
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "ezi" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/closet/crate/large,
@@ -6744,12 +6736,13 @@
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
 "foE" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/mob/living/simple_animal/hostile/blackmesa/xen/gonome,
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
 	},
-/area/awaymission/ihategordon/hecu_camp_medbay)
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "foK" = (
 /obj/structure/alien/weeds{
 	color = "#ac3b06";
@@ -6872,10 +6865,6 @@
 /obj/machinery/door/poddoor,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"fsv" = (
-/obj/machinery/door/keycard/mesa,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/sectorhsecoffices)
 "fsB" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/artistic,
@@ -7034,15 +7023,6 @@
 "fzw" = (
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/emitter_chambers)
-"fzM" = (
-/obj/machinery/button/door{
-	name = "gate button";
-	id = "opposing";
-	pixel_x = -26;
-	pixel_y = 0
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "fAe" = (
 /obj/structure/fluff/paper/stack{
 	dir = 4
@@ -7361,15 +7341,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/hyperlaser_chamber)
-"fMj" = (
-/obj/structure/window/reinforced/spawner/north{
-	dir = 2
-	},
-/obj/machinery/modular_computer/console/preset{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "fMq" = (
 /obj/structure/closet/crate,
 /obj/item/ammo_box/magazine/pistolm9mm,
@@ -7558,10 +7529,6 @@
 	color = "#f79668"
 	},
 /area/awaymission/ihategordon/big_offices)
-"fTq" = (
-/obj/structure/closet/crate/urbanismcrate,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "fTz" = (
 /obj/machinery/light{
 	dir = 8
@@ -8035,12 +8002,6 @@
 /obj/structure/lattice,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"glm" = (
-/obj/machinery/modular_computer/console/preset{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "glt" = (
 /obj/structure/salvage/computer{
 	dir = 8
@@ -8382,13 +8343,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/sectorhsecoffices)
-"gBS" = (
-/obj/effect/festive/street/streetlinenorth,
-/obj/machinery/door/poddoor{
-	id = "opposing"
-	},
-/turf/open/indestructible/newmesacobble,
-/area/awaymission/outsideofmesa)
 "gCn" = (
 /obj/structure/closet/crate/large/urbanismcratelarge/mil,
 /obj/item/storage/box/monkeycubes,
@@ -8557,12 +8511,9 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/facility_hallway)
 "gIe" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/tram_tunnel)
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "gIj" = (
 /obj/machinery/light/red{
 	dir = 8
@@ -8651,7 +8602,6 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/science_tunnel)
 "gKL" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
 /turf/closed/indestructible/rock{
 	icon_state = "rockyash";
 	color = "#f79668"
@@ -8818,6 +8768,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/hecu_camp_hall)
+"gPV" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/opposing/comlpex)
 "gQq" = (
 /obj/machinery/door/airlock/research,
 /turf/open/floor/plasteel,
@@ -9079,6 +9033,16 @@
 	},
 /turf/open/floor/catwalk_floor,
 /area/awaymission/ihategordon/sectorhnorthoffices)
+"gZM" = (
+/obj/machinery/button/door{
+	name = "gate button";
+	id = "opposing";
+	pixel_x = -26;
+	pixel_y = 0
+	},
+/obj/structure/closet/crate/urbanismcrate,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "hae" = (
 /obj/structure/table/reinforced,
 /obj/item/ammo_box/magazine/mp5,
@@ -9643,13 +9607,6 @@
 /obj/structure/table/reinforced,
 /turf/open/indestructible/mesasand,
 /area/awaymission/outsideofmesa)
-"hwD" = (
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "hxf" = (
 /obj/machinery/light/cold,
 /turf/open/floor/plating/ironsand{
@@ -10189,12 +10146,6 @@
 	icon_state = "damaged4"
 	},
 /area/awaymission/ihategordon/server_rooms)
-"hTF" = (
-/obj/machinery/modular_computer/console/preset{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "hTH" = (
 /obj/effect/festive/street/streetlineinnerne,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
@@ -11429,6 +11380,10 @@
 /obj/structure/barricade/urbanism,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
+"iTM" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "iUZ" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/ihategordon/underground_tunnels)
@@ -11716,10 +11671,6 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"jhj" = (
-/obj/machinery/pipedispenser,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "jhq" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating,
@@ -12764,12 +12715,12 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
 "jUY" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/structure/window/reinforced/spawner/north{
+	dir = 2
 	},
-/area/awaymission/ihategordon/hecu_camp_hall)
+/obj/machinery/paystand,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "jVb" = (
 /turf/open/floor/plasteel{
 	icon_state = "damaged4"
@@ -14453,12 +14404,9 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
 "lmo" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/entrance)
+/obj/structure/closet/crate/urbanismcrate,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/comlpex)
 "lmM" = (
 /turf/open/floor/plasteel{
 	icon_state = "wasteland7"
@@ -14992,12 +14940,6 @@
 	icon_state = "bus"
 	},
 /area/awaymission/outsideofmesa/hecu_camp)
-"lIf" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "lIz" = (
 /obj/effect/festive/street/streetlinesouth,
 /obj/structure/barricade/sandbags,
@@ -15012,13 +14954,6 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
-"lII" = (
-/obj/effect/festive/street/streetlinesouth,
-/obj/machinery/door/poddoor{
-	id = "opposing"
-	},
-/turf/open/indestructible/newmesacobble,
-/area/awaymission/outsideofmesa)
 "lIL" = (
 /obj/machinery/pdapainter,
 /obj/machinery/light/red{
@@ -16211,12 +16146,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/awaymission/ihategordon/sectorhnorthoffices)
-"mAX" = (
-/obj/structure/chair/sofa/corp{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "mBd" = (
 /obj/effect/festive/street/streetlinewest,
 /obj/structure/barricade/sandbags,
@@ -16266,12 +16195,11 @@
 	},
 /area/awaymission/ihategordon/dining_room)
 "mDM" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/machinery/door/poddoor{
+	id = "opposing"
 	},
-/area/awaymission/outsideofmesa/hecu_camp)
+/turf/open/indestructible/newmesacobble,
+/area/awaymission/outsideofmesa)
 "mDV" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/toolbox/mechanical,
@@ -16590,12 +16518,12 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/sci_medbay)
 "mNN" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
 	},
-/area/awaymission/ihategordon/opposing/comlpex)
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "mOm" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/structure/urbanismbigcrate,
@@ -16764,6 +16692,13 @@
 /obj/effect/mob_spawn/human/hlscientist,
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/big_offices)
+"mWT" = (
+/obj/structure/window/reinforced/spawner/north{
+	dir = 2
+	},
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "mXt" = (
 /obj/structure/fence{
 	dir = 4
@@ -16837,12 +16772,12 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/opposing/comlpex)
 "mZS" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/effect/festive/street/streetlinenorth,
+/obj/machinery/door/poddoor{
+	id = "opposing"
 	},
-/area/awaymission/ihategordon/science_tunnel)
+/turf/open/indestructible/newmesacobble,
+/area/awaymission/outsideofmesa)
 "nai" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/sepia,
@@ -17675,10 +17610,6 @@
 /obj/structure/flora/rock/pile,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"nIJ" = (
-/obj/structure/barricade/sandbags,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "nIK" = (
 /obj/structure/table/reinforced,
 /obj/item/sharpener{
@@ -17720,10 +17651,6 @@
 	icon_state = "ironsand1"
 	},
 /area/awaymission/outsideofmesa)
-"nKU" = (
-/obj/machinery/door/keycard/mesa,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "nKV" = (
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 8
@@ -18256,20 +18183,10 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/underground_tunnels)
-"ocn" = (
-/obj/structure/window/reinforced/spawner/north{
-	dir = 2
-	},
-/obj/machinery/paystand,
+"ocq" = (
+/obj/structure/closet/crate/urbanismcrate,
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/gonome)
-"ocq" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/sec_armory)
 "ocN" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/turf_decal/trimline/dark_red/line{
@@ -19014,12 +18931,12 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/emitter_chambers)
 "oEL" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/effect/festive/street/streetlinesouth,
+/obj/machinery/door/poddoor{
+	id = "opposing"
 	},
-/area/awaymission/ihategordon/rocks)
+/turf/open/indestructible/newmesacobble,
+/area/awaymission/outsideofmesa)
 "oEW" = (
 /obj/machinery/light{
 	dir = 1
@@ -19383,6 +19300,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/server_rooms)
+"oTH" = (
+/obj/structure/chair/sofa/corp{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "oTW" = (
 /obj/structure/flora/junglebush,
 /obj/machinery/power/floodlight/urbanismlight/mesaoutside,
@@ -20381,9 +20304,13 @@
 /turf/open/floor/plasteel/white,
 /area/awaymission/ihategordon/sci_medbay)
 "pIb" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/wall/mineral/iron,
-/area/awaymission/ihategordon/underground_tunnels)
+/obj/structure/xen_pylon,
+/obj/structure/alien/weeds{
+	color = "#ac3b06";
+	name = "xen floor"
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "pIg" = (
 /obj/machinery/light{
 	dir = 4
@@ -21183,10 +21110,6 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/outsideofmesa)
-"qqq" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "qqI" = (
 /obj/effect/festive/street/streetlineeast,
 /obj/item/storage/firstaid/regular{
@@ -22268,10 +22191,6 @@
 "rdc" = (
 /turf/open/floor/plasteel/rivets,
 /area/awaymission/ihategordon/sectorhnorthoffices)
-"rdi" = (
-/obj/machinery/photocopier,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/end)
 "rdl" = (
 /mob/living/simple_animal/hostile/headcrab/mesa,
 /obj/effect/mob_spawn/human/deadhecu,
@@ -22576,12 +22495,6 @@
 /obj/item/clothing/shoes/jackboots,
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
-"roF" = (
-/obj/machinery/door/poddoor{
-	id = "opposing"
-	},
-/turf/open/indestructible/newmesacobble,
-/area/awaymission/outsideofmesa)
 "roT" = (
 /obj/structure/flora/rock/pile,
 /turf/open/floor/plating,
@@ -22885,13 +22798,6 @@
 	},
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/entrance)
-"rDm" = (
-/obj/structure/window/reinforced/spawner/north{
-	dir = 2
-	},
-/obj/machinery/photocopier,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "rDN" = (
 /obj/machinery/light{
 	dir = 1
@@ -23262,12 +23168,9 @@
 	},
 /area/awaymission/outsideofmesa)
 "rXp" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/dorm_offices)
+/obj/effect/mob_spawn/human/hlguard,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/comlpex)
 "rXv" = (
 /obj/machinery/vending/snack/random,
 /obj/effect/turf_decal/trimline/purple/line,
@@ -23330,11 +23233,9 @@
 /turf/open/floor/plasteel/dark,
 /area/awaymission/ihategordon/science_tunnel)
 "rYR" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible{
-	icon_state = "iron3"
-	},
-/area/awaymission/ihategordon/underground_tunnels)
+/obj/effect/mob_spawn/human/hlscientist,
+/turf/open/floor/plasteel/white,
+/area/awaymission/ihategordon/opposing/comlpex)
 "rZn" = (
 /obj/structure/rack/shelf,
 /turf/open/floor/catwalk_floor,
@@ -23588,6 +23489,12 @@
 /obj/effect/mob_spawn/human/deadhecu,
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/emitter_chambers)
+"sjz" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "ska" = (
 /obj/structure/lattice,
 /obj/machinery/door/airlock/research,
@@ -23619,6 +23526,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/sepia,
 /area/awaymission/outsideofmesa)
+"slB" = (
+/obj/structure/closet/crate/urbanismcrate,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "slE" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/open/floor/plasteel,
@@ -23702,10 +23613,6 @@
 /obj/machinery/light/red,
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
-"snH" = (
-/obj/structure/closet/crate/urbanismcrate,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/opposing/comlpex)
 "snU" = (
 /obj/machinery/light{
 	dir = 8
@@ -24106,14 +24013,6 @@
 	icon_state = "bus"
 	},
 /area/awaymission/ihategordon/sectorhsecoffices)
-"sEc" = (
-/mob/living/simple_animal/hostile/blackmesa/xen/gonome,
-/obj/structure/alien/weeds{
-	color = "#ac3b06";
-	name = "xen floor"
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "sEi" = (
 /obj/effect/festive/street/streetlineeast,
 /obj/effect/mob_spawn/human/deadhecu,
@@ -24306,7 +24205,6 @@
 /turf/open/floor/plasteel/dark,
 /area/awaymission/ihategordon/sectorhnorthoffices)
 "sJW" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
 /turf/closed/indestructible/rock{
 	icon_state = "rockyash";
 	color = "#f79668"
@@ -25363,12 +25261,9 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/dorm_offices)
 "tAu" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/emitter_chambers)
+/obj/effect/mob_spawn/human/hlscientist,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/comlpex)
 "tBg" = (
 /obj/structure/fluff/paper/stack{
 	dir = 6
@@ -26263,10 +26158,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/facility_hallway)
-"umT" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "umV" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/grass,
@@ -26612,12 +26503,14 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
 "uzJ" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
+/obj/structure/window/reinforced/spawner/north{
+	dir = 2
 	},
-/area/awaymission/ihategordon/facility_hallway)
+/obj/machinery/modular_computer/console/preset{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "uzL" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
@@ -27731,12 +27624,9 @@
 /turf/open/floor/plasteel/dark,
 /area/awaymission/ihategordon/sec_armory)
 "vuX" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/opposing)
+/obj/machinery/pipedispenser,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/opposing/end)
 "vvj" = (
 /turf/open/floor/plasteel/dark,
 /area/awaymission/ihategordon/hecu_camp_hall)
@@ -28655,12 +28545,9 @@
 /turf/open/floor/plating,
 /area/awaymission/ihategordon/science_tunnel)
 "wcv" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/ihategordon/secret_rooms)
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "wcS" = (
 /mob/living/simple_animal/hostile/blackmesa/xen/snark,
 /turf/open/floor/plasteel,
@@ -29339,6 +29226,15 @@
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/white,
 /area/awaymission/outsideofmesa/hecu_camp)
+"wAs" = (
+/obj/machinery/button/door{
+	name = "gate button";
+	id = "opposing";
+	pixel_x = -26;
+	pixel_y = 0
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "wAF" = (
 /obj/structure/table/reinforced,
 /obj/item/ammo_box/magazine/pistolm9mm,
@@ -31217,12 +31113,6 @@
 	icon_state = "platingdmg2"
 	},
 /area/awaymission/ihategordon/science_tunnel)
-"xZY" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 1
-	},
-/turf/open/floor/plasteel,
-/area/awaymission/ihategordon/gonome)
 "yab" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -31272,6 +31162,12 @@
 /obj/machinery/light/broken,
 /turf/open/floor/plasteel/freezer,
 /area/awaymission/ihategordon/dining_room)
+"ybg" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/awaymission/ihategordon/gonome)
 "ybk" = (
 /obj/structure/reagent_dispensers/urbanismbarrel{
 	pixel_y = 2;
@@ -31366,12 +31262,9 @@
 /turf/open/floor/plasteel,
 /area/awaymission/ihategordon/big_offices)
 "yfH" = (
-/obj/effect/baseturf_helper/beach/black_mesa,
-/turf/closed/indestructible/rock{
-	icon_state = "rockyash";
-	color = "#f79668"
-	},
-/area/awaymission/outsideofmesa)
+/obj/structure/rack/shelf,
+/turf/open/floor/festive/sidewalk/mesawalk,
+/area/awaymission/ihategordon/opposing/comlpex)
 "yfI" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/machinery/modular_computer/console/preset{
@@ -31525,7 +31418,7 @@
 /area/awaymission/ihategordon/big_offices)
 
 (1,1,1) = {"
-oEL
+qQY
 qQY
 qQY
 qQY
@@ -31941,7 +31834,7 @@ qQY
 iiB
 qQY
 qQY
-mDM
+hei
 qQY
 qQY
 qQY
@@ -32041,7 +31934,7 @@ uVg
 (3,1,1) = {"
 qQY
 qQY
-pIb
+slQ
 slQ
 slQ
 slQ
@@ -40453,7 +40346,7 @@ qQY
 qQY
 qQY
 pqs
-rXp
+pqs
 pqs
 qQY
 qQY
@@ -44634,7 +44527,7 @@ qQY
 (52,1,1) = {"
 qQY
 qQY
-lmo
+wbr
 wbr
 wbr
 qVN
@@ -45023,7 +44916,7 @@ jXc
 jXc
 hSH
 inA
-rYR
+inA
 inA
 inA
 inA
@@ -45035,7 +44928,7 @@ mrh
 qQY
 qQY
 dNc
-ocq
+dNc
 dNc
 qQY
 qQY
@@ -45043,7 +44936,7 @@ qQY
 qQY
 qQY
 sCm
-jUY
+sCm
 sCm
 qQY
 qQY
@@ -45055,7 +44948,7 @@ qQY
 qQY
 qQY
 jTX
-foE
+jTX
 jTX
 qQY
 qQY
@@ -46526,7 +46419,7 @@ cQf
 cQf
 qQY
 qQY
-yfH
+jIF
 qQY
 qQY
 qQY
@@ -49289,7 +49182,7 @@ qQY
 qQY
 qQY
 mQL
-dyF
+mQL
 qQY
 qQY
 qQY
@@ -54568,7 +54461,7 @@ qQY
 qQY
 qQY
 pDq
-uzJ
+pDq
 pDq
 qQY
 qQY
@@ -58583,7 +58476,7 @@ oUJ
 kMj
 iUZ
 qUX
-gIe
+bMP
 fbW
 uah
 uah
@@ -71105,7 +70998,7 @@ mTX
 (155,1,1) = {"
 qQY
 qQY
-mZS
+agZ
 xtA
 xtA
 xtA
@@ -75721,7 +75614,7 @@ jXc
 qQY
 qQY
 qQY
-tAu
+fSD
 qQY
 qQY
 qQY
@@ -76753,7 +76646,7 @@ qQY
 qQY
 qQY
 qQY
-wcv
+sDb
 qQY
 "}
 (177,1,1) = {"
@@ -82281,7 +82174,7 @@ qQY
 qQY
 qQY
 qQY
-mNN
+dOj
 gPm
 gPm
 gPm
@@ -82636,7 +82529,7 @@ qQY
 qQY
 qQY
 qQY
-vuX
+aAg
 qQY
 qQY
 geU
@@ -83068,9 +82961,9 @@ xFe
 xFe
 spo
 spo
-aWZ
-aWZ
-aWZ
+yfH
+yfH
+yfH
 spo
 spo
 spo
@@ -83831,7 +83724,7 @@ nZV
 wsd
 wAO
 sQo
-spo
+xFe
 nZV
 wsd
 wAO
@@ -84088,7 +83981,7 @@ nZV
 wsd
 wAO
 vYZ
-spo
+xFe
 nZV
 wsd
 wAO
@@ -84304,19 +84197,19 @@ mHh
 mHh
 mHh
 mHh
-gBS
-roF
-roF
-roF
-roF
-roF
-gBS
-lII
-roF
-roF
-roF
-roF
-lII
+mZS
+mDM
+mDM
+mDM
+mDM
+mDM
+mZS
+oEL
+mDM
+mDM
+mDM
+mDM
+oEL
 mHh
 cfT
 aYO
@@ -84345,7 +84238,7 @@ nZV
 wsd
 wAO
 gfw
-spo
+xFe
 nZV
 wsd
 wAO
@@ -84561,19 +84454,19 @@ mHh
 mHh
 mHh
 mHh
-gBS
-roF
-roF
-roF
-roF
-roF
-gBS
-lII
-roF
-roF
-roF
-roF
-lII
+mZS
+mDM
+mDM
+mDM
+mDM
+mDM
+mZS
+oEL
+mDM
+mDM
+mDM
+mDM
+oEL
 mHh
 cfT
 aYO
@@ -84602,7 +84495,7 @@ nZV
 xrE
 wAO
 vYZ
-spo
+xFe
 nZV
 ldi
 wAO
@@ -84818,28 +84711,28 @@ mHh
 mHh
 mHh
 mHh
-gBS
-roF
-roF
-roF
-roF
-roF
-gBS
-lII
-roF
-roF
-roF
-roF
-lII
+mZS
+mDM
+mDM
+mDM
+mDM
+mDM
+mZS
+oEL
+mDM
+mDM
+mDM
+mDM
+oEL
 mHh
 cfT
 cfT
 cfT
-fsv
+dyF
 cfT
 cfT
 cfT
-fsv
+dyF
 cfT
 cfT
 cfT
@@ -84859,7 +84752,7 @@ nZV
 nal
 wAO
 vYZ
-spo
+xFe
 nZV
 nal
 wAO
@@ -85095,12 +84988,12 @@ ehA
 ehA
 ehA
 ehA
-nIJ
-nIJ
-nIJ
+wcv
+wcv
+wcv
 ehA
-fTq
-fTq
+ocq
+ocq
 xCS
 xCS
 sYb
@@ -85116,7 +85009,7 @@ nZV
 wsd
 wAO
 vYZ
-spo
+xFe
 nZV
 wsd
 wAO
@@ -85373,7 +85266,7 @@ nZV
 wsd
 wAO
 vYZ
-spo
+xFe
 nZV
 wsd
 wAO
@@ -85381,14 +85274,14 @@ vYZ
 spo
 spo
 spo
-aWZ
-aWZ
-aWZ
+yfH
+yfH
+yfH
 spo
 spo
 spo
-aWZ
-aWZ
+yfH
+yfH
 spo
 spo
 tCS
@@ -85606,9 +85499,9 @@ nul
 bdr
 ehA
 ehA
-nIJ
-nIJ
-nIJ
+wcv
+wcv
+wcv
 ehA
 ehA
 ehA
@@ -85625,12 +85518,12 @@ lwn
 xsH
 tCS
 tCS
-aWZ
+yfH
 nZV
 wsd
 wAO
 vYZ
-spo
+xFe
 nZV
 wsd
 wAO
@@ -85882,12 +85775,12 @@ lwn
 xsH
 tCS
 tCS
-aWZ
+yfH
 nZV
 vZG
 hwt
 fRU
-spo
+xFe
 nZV
 vZG
 hwt
@@ -86139,7 +86032,7 @@ lwn
 xsH
 tCS
 tCS
-aWZ
+yfH
 wEB
 pyu
 ewZ
@@ -86375,7 +86268,7 @@ ghV
 gUB
 nul
 oHA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -86631,8 +86524,8 @@ ghV
 ghV
 gUB
 nul
-nKU
-nIJ
+aWZ
+wcv
 ehA
 ehA
 ehA
@@ -86889,7 +86782,7 @@ ghV
 gUB
 nul
 oHA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -87147,7 +87040,7 @@ gUB
 nul
 oHA
 ehA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -87302,7 +87195,7 @@ qQY
 qQY
 qQY
 qQY
-cFw
+fSZ
 qUI
 qUI
 qUI
@@ -87402,9 +87295,9 @@ ghV
 ghV
 gUB
 nul
-nKU
+aWZ
 ehA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -87660,8 +87553,8 @@ ghV
 gUB
 nul
 oHA
-nIJ
-nIJ
+wcv
+wcv
 ehA
 ehA
 ehA
@@ -87995,7 +87888,7 @@ vKE
 lXy
 aCJ
 xNg
-xNg
+rYR
 xNg
 jyw
 gPm
@@ -88760,7 +88653,7 @@ kON
 qTU
 cRx
 xNg
-xNg
+rYR
 xNg
 xdw
 kON
@@ -88781,7 +88674,7 @@ ppO
 jgV
 wlQ
 tCS
-wlQ
+rXp
 cKm
 lXy
 sIZ
@@ -88956,7 +88849,7 @@ ehA
 ehA
 ehA
 sHj
-eyZ
+pIb
 sHj
 ehA
 ehA
@@ -89462,7 +89355,7 @@ oHA
 ehA
 ehA
 ehA
-fzM
+wAs
 xCS
 ehA
 ehA
@@ -89475,9 +89368,9 @@ sHj
 sHj
 sHj
 sHj
-hwD
-hwD
-hwD
+mNN
+mNN
+mNN
 lwn
 lwn
 gJp
@@ -89532,8 +89425,8 @@ ewP
 xNg
 mXX
 xNg
-xNg
-vKE
+gPV
+bqI
 gPm
 diT
 jre
@@ -89607,8 +89500,8 @@ qQY
 qQY
 "}
 (227,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -89720,7 +89613,7 @@ ehA
 ehA
 ehA
 ehA
-rDm
+mWT
 ehA
 ehA
 ehA
@@ -89732,7 +89625,7 @@ sHj
 sHj
 sHj
 sHj
-hwD
+mNN
 lwn
 lwn
 lwn
@@ -89864,8 +89757,8 @@ qQY
 qQY
 "}
 (228,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -89977,19 +89870,19 @@ ehA
 ehA
 ehA
 ehA
-fMj
+uzJ
 ehA
 ehA
 ehA
 sHj
 sHj
 sHj
-sEc
+foE
 sHj
 sHj
-eyZ
+pIb
 sHj
-hwD
+mNN
 lwn
 lwn
 lwn
@@ -89999,7 +89892,7 @@ lwn
 lwn
 lwn
 xsH
-snH
+lmo
 wlQ
 wlQ
 wlQ
@@ -90121,8 +90014,8 @@ qQY
 qQY
 "}
 (229,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -90234,7 +90127,7 @@ ehA
 ehA
 ehA
 ehA
-fMj
+uzJ
 ehA
 ehA
 sHj
@@ -90256,7 +90149,7 @@ lEe
 hUO
 lEe
 xsH
-snH
+lmo
 wlQ
 wlQ
 wlQ
@@ -90320,7 +90213,7 @@ cGl
 yab
 gPm
 vPB
-wlQ
+tAu
 wlQ
 tCS
 auU
@@ -90378,8 +90271,8 @@ qQY
 qQY
 "}
 (230,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -90491,7 +90384,7 @@ ehA
 ehA
 ehA
 ehA
-fMj
+uzJ
 ehA
 ehA
 sHj
@@ -90635,8 +90528,8 @@ qQY
 qQY
 "}
 (231,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -90892,8 +90785,8 @@ qQY
 qQY
 "}
 (232,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -91012,7 +90905,7 @@ ehA
 ehA
 ehA
 sHj
-eyZ
+pIb
 sHj
 ehA
 sHj
@@ -91149,8 +91042,8 @@ qQY
 qQY
 "}
 (233,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -91406,8 +91299,8 @@ qQY
 qQY
 "}
 (234,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -91535,7 +91428,7 @@ lwn
 lwn
 lwn
 lwn
-cxk
+slB
 sYb
 tPH
 tPH
@@ -91663,8 +91556,8 @@ qQY
 qQY
 "}
 (235,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -91791,8 +91684,8 @@ ehA
 lwn
 lwn
 lwn
-cxk
-cxk
+slB
+slB
 sYb
 tPH
 tPH
@@ -91920,8 +91813,8 @@ qQY
 qQY
 "}
 (236,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -92044,7 +91937,7 @@ ehA
 ehA
 ehA
 ehA
-umT
+aOp
 sYb
 sYb
 sYb
@@ -92177,8 +92070,8 @@ qQY
 qQY
 "}
 (237,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -92301,12 +92194,12 @@ ehA
 ehA
 ehA
 ehA
-xZY
+ybg
 sYb
-qqq
-qqq
-rdi
-jhj
+gIe
+gIe
+iTM
+vuX
 sYb
 tPH
 tPH
@@ -92434,8 +92327,8 @@ qQY
 qQY
 "}
 (238,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -92547,7 +92440,7 @@ ehA
 ehA
 ehA
 ehA
-ocn
+jUY
 ehA
 ehA
 ehA
@@ -92558,9 +92451,9 @@ ehA
 ehA
 ehA
 ehA
-mAX
+oTH
 sYb
-qqq
+gIe
 lwn
 lwn
 lwn
@@ -92609,12 +92502,12 @@ ewP
 xNg
 qRG
 xNg
-xNg
+rYR
 cRx
 gPm
 xNg
 xNg
-xNg
+cFw
 xNg
 xNg
 xNg
@@ -92691,8 +92584,8 @@ qQY
 qQY
 "}
 (239,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -92815,7 +92708,7 @@ ehA
 ehA
 ehA
 ehA
-lIf
+sjz
 sYb
 lwn
 lwn
@@ -92948,8 +92841,8 @@ qQY
 qQY
 "}
 (240,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -93205,8 +93098,8 @@ qQY
 qQY
 "}
 (241,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -93462,8 +93355,8 @@ qQY
 qQY
 "}
 (242,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -93571,7 +93464,7 @@ ghV
 gUB
 nul
 oHA
-bpy
+gZM
 ehA
 ehA
 ehA
@@ -93719,8 +93612,8 @@ qQY
 qQY
 "}
 (243,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -93976,8 +93869,8 @@ qQY
 qQY
 "}
 (244,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -94084,8 +93977,8 @@ ghV
 ghV
 gUB
 nul
-nKU
-nIJ
+aWZ
+wcv
 ehA
 ehA
 ehA
@@ -94233,8 +94126,8 @@ qQY
 qQY
 "}
 (245,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -94342,7 +94235,7 @@ ghV
 gUB
 nul
 oHA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -94490,8 +94383,8 @@ qQY
 qQY
 "}
 (246,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -94601,7 +94494,7 @@ nul
 oHA
 ehA
 ehA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -94747,8 +94640,8 @@ qQY
 qQY
 "}
 (247,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -94855,10 +94748,10 @@ ghV
 ghV
 gUB
 nul
-nKU
+aWZ
 ehA
 ehA
-nIJ
+wcv
 ehA
 ehA
 ehA
@@ -94958,7 +94851,7 @@ tCS
 tCS
 tCS
 tCS
-wlQ
+tAu
 wlQ
 mEO
 rgn
@@ -95004,8 +94897,8 @@ qQY
 qQY
 "}
 (248,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -95114,8 +95007,8 @@ gUB
 nul
 oHA
 ehA
-nIJ
-nIJ
+wcv
+wcv
 ehA
 ehA
 ehA
@@ -95126,9 +95019,9 @@ sYb
 sYb
 sYb
 sYb
-hTF
-hTF
-hTF
+bLc
+bLc
+bLc
 lwn
 lwn
 lwn
@@ -95261,8 +95154,8 @@ qQY
 qQY
 "}
 (249,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -95444,11 +95337,11 @@ gPm
 ewP
 xNg
 xNg
+rYR
 xNg
 xNg
 xNg
-xNg
-xNg
+cFw
 vKE
 gPm
 kqt
@@ -95518,8 +95411,8 @@ qQY
 qQY
 "}
 (250,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -95775,8 +95668,8 @@ qQY
 qQY
 "}
 (251,1,1) = {"
-hbw
-hbw
+qQY
+qQY
 hbw
 hbw
 hbw
@@ -96413,11 +96306,11 @@ lwn
 sYb
 lwn
 lwn
-rdi
-glm
-qqq
-qqq
-qqq
+iTM
+dag
+gIe
+gIe
+gIe
 lwn
 sYb
 tPH
