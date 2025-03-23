@@ -1,7 +1,7 @@
 /area/awaymission/ihategordon
 	name = "Main sector H complex"
-	shipambience ='modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/main_complex_ambient_ihategordon.ogg'
-	ambientsounds = list('modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/main_complex_ambient_ihategordon.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/sector_h_ihategordon.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/servers_ihategordon.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/BMAS1.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/BMAS2.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/BMAS3.ogg','modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/BMAS4.ogg')
+	shipambience ='modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/mesaxenlab.ogg'
+	ambientsounds = list('modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/mesainsideambience.ogg' , 'modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/mesaamb1.ogg' , 'modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/bmas1.ogg' , 'modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/bmas2.ogg' , 'modular_bluemoon/olgachan/blackmesafromnova/sound/ambience/bmas3.ogg' )
 
 /area/awaymission/ihategordon/entrance
 	name = "Facility entrance"
