@@ -90,8 +90,8 @@
 	INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, float), TRUE)
 	QDEL_IN(src, 100)
 
-/obj/structure/leaper_bubble/Destroy()
-	new /obj/effect/temp_visual/leaper_projectile_impact(get_turf(src))
+/obj/structure/bullsquidshot/Destroy()
+	new /obj/effect/temp_visual/impact_effect/neurotoxin(get_turf(src))
 	playsound(src,'modular_bluemoon/olgachan/blackmesafromnova/sound/mobs/bullsquid/splat1.ogg',50, 1, -1)
 	return ..()
 
