@@ -23361,7 +23361,6 @@
 "pUE" = (
 /obj/machinery/light/red,
 /obj/structure/closet/crate/urbanismcrate,
-/obj/item/ammo_box/magazine/m16,
 /turf/open/floor/festive/cobblestone/safe/mesafcobble,
 /area/awaymission/ihategordon/opposing)
 "pVh" = (
@@ -87987,7 +87986,7 @@ unn
 bFr
 krX
 krX
-pYp
+esZ
 ePC
 ePC
 krX
